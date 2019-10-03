@@ -29,6 +29,3 @@
     - install nodemon if needed, for hot reloading
     - npm install nodemon -g (add -g to install it globally)
 - nodemon index.js
-
-#Test
-
