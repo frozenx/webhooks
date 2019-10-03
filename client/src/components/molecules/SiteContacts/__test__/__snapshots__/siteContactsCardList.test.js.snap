@@ -1,0 +1,352 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SiteContacts should render the component 1`] = `
+Array [
+  <div
+    className="base-components__RootElement-sc-150tvch-1 sc-chPdSV kkjGzd"
+  >
+    <div
+      className="base-components__RootElement-sc-150tvch-1 sc-EHOje ebEHwY"
+    >
+      <h1>
+        TEST NAME site contacts
+      </h1>
+    </div>
+  </div>,
+  <div
+    className="base-components__RootElement-sc-150tvch-1 sc-kAzzGY bphYLh"
+  >
+    <div
+      className="sc-kgoBCf ffTmed"
+    />
+    <div
+      className="sc-kGXeez kScwyN"
+    >
+      <div
+        className="sc-kpOJdX dPFWje"
+      />
+      <div
+        className="sc-kpOJdX sc-dxgOiQ gHISXr"
+      />
+      <div
+        className="sc-eNQAEJ kECEEu"
+      >
+        <div
+          className="base-components__RootElement-sc-150tvch-1 cCmuza"
+        >
+          <select
+            className="base-components__BaseInput-sc-150tvch-2 beans-dropdown__select styled__Select-sc-10jppqs-1 GLMMI"
+            disabled={false}
+            onChange={[Function]}
+            role="listbox"
+            value="select"
+          >
+            <option
+              value="select"
+            >
+              Select contact
+            </option>
+            <option
+              id="600853397549052"
+              index={0}
+              value="600853397549052"
+            >
+              Skoda,Rapid
+            </option>
+          </select>
+          <svg
+            aria-hidden={true}
+            className="styled__AlignedIcon-sc-10jppqs-0 hHyXUl styled__StyledSVG-sc-1nulmu6-1 flhEYZ"
+            color="currentColor"
+            disabled={false}
+            height={12}
+            preserveAspectRatio="xMinYMax meet"
+            viewBox="0 -1 20 12"
+            width={20}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18.652 1.312L10 10.276 1.356 1.312"
+              fill="none"
+              stroke="#666666"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="base-components__RootElement-sc-150tvch-1 sc-kAzzGY bphYLh"
+  >
+    <div
+      className="sc-kgoBCf ffTmed"
+    />
+    <div
+      className="sc-kGXeez kScwyN"
+    >
+      <div
+        className="sc-kpOJdX dPFWje"
+      />
+      <div
+        className="sc-kpOJdX sc-dxgOiQ gHISXr"
+      />
+    </div>
+  </div>,
+  <div
+    className="base-components__RootElement-sc-150tvch-1 sc-kAzzGY bphYLh"
+  >
+    <div
+      className="sc-kgoBCf ffTmed"
+    />
+    <div
+      className="sc-kGXeez kScwyN"
+    >
+      <div
+        className="sc-eNQAEJ kECEEu"
+      >
+        <div
+          className="drop-down base-components__RootElement-sc-150tvch-1 cCmuza"
+        >
+          <select
+            className="base-components__BaseInput-sc-150tvch-2 beans-dropdown__select styled__Select-sc-10jppqs-1 GLMMI"
+            disabled={false}
+            id={1}
+            onChange={[Function]}
+            role="listbox"
+            value="select"
+          >
+            <option
+              value="select"
+            >
+              Select contact
+            </option>
+            <option
+              id="774477537246487"
+              index={0}
+              value="774477537246487"
+            >
+              Volkswagen,Zetta
+            </option>
+            <option
+              id="600853397549052"
+              index={1}
+              value="600853397549052"
+            >
+              Skoda,Rapid
+            </option>
+          </select>
+          <svg
+            aria-hidden={true}
+            className="styled__AlignedIcon-sc-10jppqs-0 hHyXUl styled__StyledSVG-sc-1nulmu6-1 flhEYZ"
+            color="currentColor"
+            disabled={false}
+            height={12}
+            preserveAspectRatio="xMinYMax meet"
+            viewBox="0 -1 20 12"
+            width={20}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18.652 1.312L10 10.276 1.356 1.312"
+              fill="none"
+              stroke="#666666"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="base-components__RootElement-sc-150tvch-1 sc-kAzzGY bphYLh"
+  >
+    <div
+      className="sc-kgoBCf ffTmed"
+    />
+    <div
+      className="sc-kGXeez kScwyN"
+    >
+      <div
+        className="sc-eNQAEJ kECEEu"
+      >
+        <div
+          className="drop-down base-components__RootElement-sc-150tvch-1 cCmuza"
+        >
+          <select
+            className="base-components__BaseInput-sc-150tvch-2 beans-dropdown__select styled__Select-sc-10jppqs-1 GLMMI"
+            disabled={false}
+            id={2}
+            onChange={[Function]}
+            role="listbox"
+            value="select"
+          >
+            <option
+              value="select"
+            >
+              Select contact
+            </option>
+            <option
+              id="774477537246487"
+              index={0}
+              value="774477537246487"
+            >
+              Volkswagen,Zetta
+            </option>
+            <option
+              id="600853397549052"
+              index={1}
+              value="600853397549052"
+            >
+              Skoda,Rapid
+            </option>
+          </select>
+          <svg
+            aria-hidden={true}
+            className="styled__AlignedIcon-sc-10jppqs-0 hHyXUl styled__StyledSVG-sc-1nulmu6-1 flhEYZ"
+            color="currentColor"
+            disabled={false}
+            height={12}
+            preserveAspectRatio="xMinYMax meet"
+            viewBox="0 -1 20 12"
+            width={20}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18.652 1.312L10 10.276 1.356 1.312"
+              fill="none"
+              stroke="#666666"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="base-components__RootElement-sc-150tvch-1 sc-kAzzGY bphYLh"
+  >
+    <div
+      className="sc-kgoBCf ffTmed"
+    />
+    <div
+      className="sc-kGXeez kScwyN"
+    >
+      <div
+        className="sc-eNQAEJ kECEEu"
+      >
+        <div
+          className="drop-down base-components__RootElement-sc-150tvch-1 cCmuza"
+        >
+          <select
+            className="base-components__BaseInput-sc-150tvch-2 beans-dropdown__select styled__Select-sc-10jppqs-1 GLMMI"
+            disabled={false}
+            id={3}
+            onChange={[Function]}
+            role="listbox"
+            value="select"
+          >
+            <option
+              value="select"
+            >
+              Select contact
+            </option>
+            <option
+              id="774477537246487"
+              index={0}
+              value="774477537246487"
+            >
+              Volkswagen,Zetta
+            </option>
+            <option
+              id="600853397549052"
+              index={1}
+              value="600853397549052"
+            >
+              Skoda,Rapid
+            </option>
+          </select>
+          <svg
+            aria-hidden={true}
+            className="styled__AlignedIcon-sc-10jppqs-0 hHyXUl styled__StyledSVG-sc-1nulmu6-1 flhEYZ"
+            color="currentColor"
+            disabled={false}
+            height={12}
+            preserveAspectRatio="xMinYMax meet"
+            viewBox="0 -1 20 12"
+            width={20}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18.652 1.312L10 10.276 1.356 1.312"
+              fill="none"
+              stroke="#666666"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="base-components__RootElement-sc-150tvch-1 sc-kAzzGY bphYLh"
+  >
+    <div
+      className="sc-kgoBCf ffTmed"
+    />
+    <div
+      className="sc-kGXeez kScwyN"
+    >
+      <div
+        className="sc-eNQAEJ kECEEu"
+      >
+        <div
+          className="drop-down base-components__RootElement-sc-150tvch-1 cCmuza"
+        >
+          <select
+            className="base-components__BaseInput-sc-150tvch-2 beans-dropdown__select styled__Select-sc-10jppqs-1 GLMMI"
+            disabled={false}
+            id={4}
+            onChange={[Function]}
+            role="listbox"
+            value="select"
+          >
+            <option
+              value="select"
+            >
+              Select contact
+            </option>
+            <option
+              id="774477537246487"
+              index={0}
+              value="774477537246487"
+            >
+              Volkswagen,Zetta
+            </option>
+            <option
+              id="600853397549052"
+              index={1}
+              value="600853397549052"
+            >
+              Skoda,Rapid
+            </option>
+          </select>
+          <svg
+            aria-hidden={true}
+            className="styled__AlignedIcon-sc-10jppqs-0 hHyXUl styled__StyledSVG-sc-1nulmu6-1 flhEYZ"
+            color="currentColor"
+            disabled={false}
+            height={12}
+            preserveAspectRatio="xMinYMax meet"
+            viewBox="0 -1 20 12"
+            width={20}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18.652 1.312L10 10.276 1.356 1.312"
+              fill="none"
+              stroke="#666666"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

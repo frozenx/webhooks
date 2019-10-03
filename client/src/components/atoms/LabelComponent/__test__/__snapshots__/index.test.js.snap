@@ -1,0 +1,608 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`atoms/LabelComponent Given the component is mounted then it should render the component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <LabelComponent
+    id={1}
+    name="name"
+    tooltip="sample tooltip"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <_default
+          dark={true}
+          emphasized={true}
+          id="1"
+          onClick={[Function]}
+        >
+          name
+        </_default>,
+        <ForwardRef>
+          <_default
+            aria-label="info"
+            domRef={
+              Object {
+                "current": null,
+              }
+            }
+            id="1"
+            variant="link"
+          >
+             
+            What’s this?
+          </_default>
+          <TooltipContainer
+            open={false}
+          >
+            <_default
+              id="1"
+              persist={false}
+              position="right"
+              supressTargetFocusOnClose={true}
+              triggerRefs={
+                Object {
+                  "current": null,
+                }
+              }
+              width={270}
+            >
+              <BodyText
+                emphasized={false}
+                margin={false}
+                tagName="p"
+              >
+                sample tooltip
+              </BodyText>
+            </_default>
+          </TooltipContainer>
+        </ForwardRef>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "name",
+          "dark": true,
+          "emphasized": true,
+          "id": "1",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "name",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <_default
+              aria-label="info"
+              domRef={
+                Object {
+                  "current": null,
+                }
+              }
+              id="1"
+              variant="link"
+            >
+               
+              What’s this?
+            </_default>,
+            <TooltipContainer
+              open={false}
+            >
+              <_default
+                id="1"
+                persist={false}
+                position="right"
+                supressTargetFocusOnClose={true}
+                triggerRefs={
+                  Object {
+                    "current": null,
+                  }
+                }
+                width={270}
+              >
+                <BodyText
+                  emphasized={false}
+                  margin={false}
+                  tagName="p"
+                >
+                  sample tooltip
+                </BodyText>
+              </_default>
+            </TooltipContainer>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "aria-label": "info",
+              "children": Array [
+                " ",
+                "What’s this?",
+              ],
+              "domRef": Object {
+                "current": null,
+              },
+              "id": "1",
+              "variant": "link",
+            },
+            "ref": null,
+            "rendered": Array [
+              " ",
+              "What’s this?",
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <_default
+                id="1"
+                persist={false}
+                position="right"
+                supressTargetFocusOnClose={true}
+                triggerRefs={
+                  Object {
+                    "current": null,
+                  }
+                }
+                width={270}
+              >
+                <BodyText
+                  emphasized={false}
+                  margin={false}
+                  tagName="p"
+                >
+                  sample tooltip
+                </BodyText>
+              </_default>,
+              "open": false,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <BodyText
+                  emphasized={false}
+                  margin={false}
+                  tagName="p"
+                >
+                  sample tooltip
+                </BodyText>,
+                "id": "1",
+                "persist": false,
+                "position": "right",
+                "supressTargetFocusOnClose": true,
+                "triggerRefs": Object {
+                  "current": null,
+                },
+                "width": 270,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": "sample tooltip",
+                  "className": undefined,
+                  "domRef": undefined,
+                  "emphasized": false,
+                  "margin": false,
+                  "tagName": "p",
+                },
+                "ref": null,
+                "rendered": "sample tooltip",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-jzJRlG",
+            "isStatic": false,
+            "rules": Array [
+              [Function],
+              ";",
+              "-webkit-tap-highlight-color:",
+              [Function],
+              ";border:0;box-sizing:border-box;margin:0;outline:",
+              [Function],
+              ";padding:0;position:relative;",
+              ";",
+              "
+    display: inline-block;
+    vertical-align: text-bottom;
+    > button{
+        font-weight: normal;
+    }
+",
+            ],
+          },
+          "displayName": "Styled(base-components__RootElement)",
+          "foldedComponentIds": Array [
+            "base-components__RootElement-sc-150tvch-1",
+          ],
+          "render": [Function],
+          "styledComponentId": "sc-jzJRlG",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-fjdhpX",
+        "isStatic": false,
+        "rules": Array [
+          [Function],
+          ";",
+          "-webkit-tap-highlight-color:",
+          [Function],
+          ";border:0;box-sizing:border-box;margin:0;outline:",
+          [Function],
+          ";padding:0;position:relative;",
+          ";",
+          "
+    margin-bottom: 8px;
+",
+        ],
+      },
+      "displayName": "Styled(base-components__RootElement)",
+      "foldedComponentIds": Array [
+        "base-components__RootElement-sc-150tvch-1",
+      ],
+      "render": [Function],
+      "styledComponentId": "sc-fjdhpX",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <_default
+            dark={true}
+            emphasized={true}
+            id="1"
+            onClick={[Function]}
+          >
+            name
+          </_default>,
+          <ForwardRef>
+            <_default
+              aria-label="info"
+              domRef={
+                Object {
+                  "current": null,
+                }
+              }
+              id="1"
+              variant="link"
+            >
+               
+              What’s this?
+            </_default>
+            <TooltipContainer
+              open={false}
+            >
+              <_default
+                id="1"
+                persist={false}
+                position="right"
+                supressTargetFocusOnClose={true}
+                triggerRefs={
+                  Object {
+                    "current": null,
+                  }
+                }
+                width={270}
+              >
+                <BodyText
+                  emphasized={false}
+                  margin={false}
+                  tagName="p"
+                >
+                  sample tooltip
+                </BodyText>
+              </_default>
+            </TooltipContainer>
+          </ForwardRef>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "name",
+            "dark": true,
+            "emphasized": true,
+            "id": "1",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "name",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <_default
+                aria-label="info"
+                domRef={
+                  Object {
+                    "current": null,
+                  }
+                }
+                id="1"
+                variant="link"
+              >
+                 
+                What’s this?
+              </_default>,
+              <TooltipContainer
+                open={false}
+              >
+                <_default
+                  id="1"
+                  persist={false}
+                  position="right"
+                  supressTargetFocusOnClose={true}
+                  triggerRefs={
+                    Object {
+                      "current": null,
+                    }
+                  }
+                  width={270}
+                >
+                  <BodyText
+                    emphasized={false}
+                    margin={false}
+                    tagName="p"
+                  >
+                    sample tooltip
+                  </BodyText>
+                </_default>
+              </TooltipContainer>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "aria-label": "info",
+                "children": Array [
+                  " ",
+                  "What’s this?",
+                ],
+                "domRef": Object {
+                  "current": null,
+                },
+                "id": "1",
+                "variant": "link",
+              },
+              "ref": null,
+              "rendered": Array [
+                " ",
+                "What’s this?",
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <_default
+                  id="1"
+                  persist={false}
+                  position="right"
+                  supressTargetFocusOnClose={true}
+                  triggerRefs={
+                    Object {
+                      "current": null,
+                    }
+                  }
+                  width={270}
+                >
+                  <BodyText
+                    emphasized={false}
+                    margin={false}
+                    tagName="p"
+                  >
+                    sample tooltip
+                  </BodyText>
+                </_default>,
+                "open": false,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <BodyText
+                    emphasized={false}
+                    margin={false}
+                    tagName="p"
+                  >
+                    sample tooltip
+                  </BodyText>,
+                  "id": "1",
+                  "persist": false,
+                  "position": "right",
+                  "supressTargetFocusOnClose": true,
+                  "triggerRefs": Object {
+                    "current": null,
+                  },
+                  "width": 270,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": "sample tooltip",
+                    "className": undefined,
+                    "domRef": undefined,
+                    "emphasized": false,
+                    "margin": false,
+                    "tagName": "p",
+                  },
+                  "ref": null,
+                  "rendered": "sample tooltip",
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-jzJRlG",
+              "isStatic": false,
+              "rules": Array [
+                [Function],
+                ";",
+                "-webkit-tap-highlight-color:",
+                [Function],
+                ";border:0;box-sizing:border-box;margin:0;outline:",
+                [Function],
+                ";padding:0;position:relative;",
+                ";",
+                "
+    display: inline-block;
+    vertical-align: text-bottom;
+    > button{
+        font-weight: normal;
+    }
+",
+              ],
+            },
+            "displayName": "Styled(base-components__RootElement)",
+            "foldedComponentIds": Array [
+              "base-components__RootElement-sc-150tvch-1",
+            ],
+            "render": [Function],
+            "styledComponentId": "sc-jzJRlG",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-fjdhpX",
+          "isStatic": false,
+          "rules": Array [
+            [Function],
+            ";",
+            "-webkit-tap-highlight-color:",
+            [Function],
+            ";border:0;box-sizing:border-box;margin:0;outline:",
+            [Function],
+            ";padding:0;position:relative;",
+            ";",
+            "
+    margin-bottom: 8px;
+",
+          ],
+        },
+        "displayName": "Styled(base-components__RootElement)",
+        "foldedComponentIds": Array [
+          "base-components__RootElement-sc-150tvch-1",
+        ],
+        "render": [Function],
+        "styledComponentId": "sc-fjdhpX",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

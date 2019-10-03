@@ -1,0 +1,246 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`\`Header\` component should render without crashing.. 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <HeaderComponent
+    name="OAuthAccessToken"
+    signOutHandler={[MockFunction]}
+    userName="Tesco UserName"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": <_default
+        appbar={
+          <AppBar
+            menu={
+              Array [
+                Object {
+                  "className": "app-name",
+                  "id": "appbar-usename",
+                  "text": <dotLoader />,
+                },
+                Object {
+                  "className": "app-name",
+                  "hasPopup": true,
+                  "id": "appbar-signout",
+                  "onClick": [Function],
+                  "text": "Sign out",
+                },
+              ]
+            }
+          />
+        }
+        masthead={
+          <_default
+            branding={
+              Object {
+                "href": "/tesco.com",
+                "logo": Object {
+                  "height": Object {
+                    "desktop": "35px",
+                    "mobile": "26px",
+                  },
+                  "width": Object {
+                    "desktop": "121px",
+                    "mobile": "88px",
+                  },
+                },
+                "signpost": "Supplier",
+              }
+            }
+          />
+        }
+        primaryNavigation={<SecondaryNavigation />}
+        root={true}
+      />,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "appbar": <AppBar
+          menu={
+            Array [
+              Object {
+                "className": "app-name",
+                "id": "appbar-usename",
+                "text": <dotLoader />,
+              },
+              Object {
+                "className": "app-name",
+                "hasPopup": true,
+                "id": "appbar-signout",
+                "onClick": [Function],
+                "text": "Sign out",
+              },
+            ]
+          }
+        />,
+        "masthead": <_default
+          branding={
+            Object {
+              "href": "/tesco.com",
+              "logo": Object {
+                "height": Object {
+                  "desktop": "35px",
+                  "mobile": "26px",
+                },
+                "width": Object {
+                  "desktop": "121px",
+                  "mobile": "88px",
+                },
+              },
+              "signpost": "Supplier",
+            }
+          }
+        />,
+        "primaryNavigation": <SecondaryNavigation />,
+        "root": true,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <_default
+          appbar={
+            <AppBar
+              menu={
+                Array [
+                  Object {
+                    "className": "app-name",
+                    "id": "appbar-usename",
+                    "text": <dotLoader />,
+                  },
+                  Object {
+                    "className": "app-name",
+                    "hasPopup": true,
+                    "id": "appbar-signout",
+                    "onClick": [Function],
+                    "text": "Sign out",
+                  },
+                ]
+              }
+            />
+          }
+          masthead={
+            <_default
+              branding={
+                Object {
+                  "href": "/tesco.com",
+                  "logo": Object {
+                    "height": Object {
+                      "desktop": "35px",
+                      "mobile": "26px",
+                    },
+                    "width": Object {
+                      "desktop": "121px",
+                      "mobile": "88px",
+                    },
+                  },
+                  "signpost": "Supplier",
+                }
+              }
+            />
+          }
+          primaryNavigation={<SecondaryNavigation />}
+          root={true}
+        />,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "appbar": <AppBar
+            menu={
+              Array [
+                Object {
+                  "className": "app-name",
+                  "id": "appbar-usename",
+                  "text": <dotLoader />,
+                },
+                Object {
+                  "className": "app-name",
+                  "hasPopup": true,
+                  "id": "appbar-signout",
+                  "onClick": [Function],
+                  "text": "Sign out",
+                },
+              ]
+            }
+          />,
+          "masthead": <_default
+            branding={
+              Object {
+                "href": "/tesco.com",
+                "logo": Object {
+                  "height": Object {
+                    "desktop": "35px",
+                    "mobile": "26px",
+                  },
+                  "width": Object {
+                    "desktop": "121px",
+                    "mobile": "88px",
+                  },
+                },
+                "signpost": "Supplier",
+              }
+            }
+          />,
+          "primaryNavigation": <SecondaryNavigation />,
+          "root": true,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

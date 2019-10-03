@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`molecules/accordion-group Given the component is mounted it should render the markup 1`] = `
+Array [
+  <div
+    className="accordion-attr-grp"
+    icon="expand"
+    id="id1"
+    indicatorText="some value% Complete"
+    indicatorVariant="error"
+    label="id1"
+    onChange={[Function]}
+    open={true}
+    showIndicator={true}
+  >
+    <div
+      className="sc-VigVT hhjOoC"
+    />
+  </div>,
+  <div
+    className="accordion-attr-grp"
+    icon="expand"
+    id="id2"
+    indicatorText="0% Complete"
+    label="id2"
+    onChange={[Function]}
+    open={false}
+    showIndicator={true}
+  />,
+]
+`;

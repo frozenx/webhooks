@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`atoms/Card Given the card component is mounted it should render the markup 1`] = `
+<styleGrayWrapper>
+  <cardTopContainer />
+  <cardBottomContainer />
+</styleGrayWrapper>
+`;

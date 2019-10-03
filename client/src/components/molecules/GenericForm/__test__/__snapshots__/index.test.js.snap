@@ -1,0 +1,1263 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Generic Form renders the create supplier component 1`] = `
+<div
+  className="sc-eNQAEJ inZCbS"
+>
+  <div
+    className="sc-htoDjs iRgtBR"
+  >
+    <div
+      className="sc-dnqmqq jWfRzu"
+    >
+      <div>
+        <div
+          className="base-components__RootElement-sc-150tvch-1 sc-jzJRlG dXtfZf"
+        >
+          <div
+            className="base-components__RootElement-sc-150tvch-1 sc-cSHVUG dObPEI"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-VigVT FwJus"
+    >
+      <div
+        className="base-components__RootElement-sc-150tvch-1 styled__CheckboxContainer-zif85n-0 cuHvcr"
+      >
+        <input
+          aria-disabled={false}
+          className="base-components__BaseElement-sc-150tvch-0 styled__HiddenCheckbox-zif85n-2 iwVmNE"
+          defaultChecked={false}
+          disabled={false}
+          id="check"
+          name="STATUS"
+          required={false}
+          role="checkbox"
+          type="checkbox"
+          value="Yes"
+        />
+        <span
+          className="base-components__BaseInput-sc-150tvch-2 styled__CheckboxSpan-zif85n-1 cBqbqG"
+          disabled={false}
+        >
+          <svg
+            aria-hidden={true}
+            className="styled__CenterAlignedIcon-zif85n-3 HLzZY styled__StyledSVG-sc-1nulmu6-1 flhEYZ"
+            color="currentColor"
+            disabled={false}
+            height={16}
+            preserveAspectRatio="xMinYMax meet"
+            viewBox="0 0 20 16"
+            width={20}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19.79 2.25L17.75.21a.72.72 0 0 0-1.02.002l-9.944 9.943L3.27 6.64a.72.72 0 0 0-1.02 0L.21 8.68A.721.721 0 0
+            0 .212 9.7l5.805 5.804c.209.208.479.483.755.483s.575-.275.784-.483L19.789 3.27a.721.721 0 0 0 0-1.02"
+              fill="currentColor"
+              stroke="currentColor"
+            />
+          </svg>
+        </span>
+      </div>
+      <span>
+        Yes
+      </span>
+    </div>
+    <div
+      className="sc-VigVT FwJus"
+    >
+      <div
+        className="base-components__RootElement-sc-150tvch-1 styled__CheckboxContainer-zif85n-0 cuHvcr"
+      >
+        <input
+          aria-disabled={false}
+          className="base-components__BaseElement-sc-150tvch-0 styled__HiddenCheckbox-zif85n-2 iwVmNE"
+          defaultChecked={false}
+          disabled={false}
+          id="check"
+          name="STATUS"
+          required={false}
+          role="checkbox"
+          type="checkbox"
+          value="No"
+        />
+        <span
+          className="base-components__BaseInput-sc-150tvch-2 styled__CheckboxSpan-zif85n-1 cBqbqG"
+          disabled={false}
+        >
+          <svg
+            aria-hidden={true}
+            className="styled__CenterAlignedIcon-zif85n-3 HLzZY styled__StyledSVG-sc-1nulmu6-1 flhEYZ"
+            color="currentColor"
+            disabled={false}
+            height={16}
+            preserveAspectRatio="xMinYMax meet"
+            viewBox="0 0 20 16"
+            width={20}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19.79 2.25L17.75.21a.72.72 0 0 0-1.02.002l-9.944 9.943L3.27 6.64a.72.72 0 0 0-1.02 0L.21 8.68A.721.721 0 0
+            0 .212 9.7l5.805 5.804c.209.208.479.483.755.483s.575-.275.784-.483L19.789 3.27a.721.721 0 0 0 0-1.02"
+              fill="currentColor"
+              stroke="currentColor"
+            />
+          </svg>
+        </span>
+      </div>
+      <span>
+        No
+      </span>
+    </div>
+  </div>
+  <div
+    className="sc-htoDjs iRgtBR"
+  >
+    <div>
+      <div
+        className="base-components__RootElement-sc-150tvch-1 sc-jzJRlG dXtfZf"
+      >
+        <div
+          className="base-components__RootElement-sc-150tvch-1 sc-cSHVUG dObPEI"
+        />
+      </div>
+    </div>
+    <textarea
+      className="base-components__BaseInput-sc-150tvch-2 styled-sc-1gg4m8y-0 eibpho"
+      disabled={false}
+      id="text"
+      name="Name"
+      placeholder="Name"
+      required={false}
+      type="textarea"
+      value=""
+    />
+  </div>
+  <div
+    className="sc-htoDjs iRgtBR"
+  >
+    <div>
+      <div
+        className="base-components__RootElement-sc-150tvch-1 sc-jzJRlG dXtfZf"
+      >
+        <div
+          className="base-components__RootElement-sc-150tvch-1 sc-cSHVUG dObPEI"
+        />
+      </div>
+    </div>
+    <div
+      className="styled__Container-sc-1bf1p22-0 hTDNaU"
+      disabled={true}
+    >
+      <div
+        className="base-components__BaseElement-sc-150tvch-0 beans-form-group__children styled__FormGroupChildren-wt4ift-2 dfSJZf"
+      />
+    </div>
+  </div>
+  <div
+    className="sc-htoDjs iRgtBR"
+  >
+    <div>
+      <div
+        className="base-components__RootElement-sc-150tvch-1 sc-jzJRlG dXtfZf"
+      >
+        <div
+          className="base-components__RootElement-sc-150tvch-1 sc-cSHVUG dObPEI"
+        />
+      </div>
+    </div>
+    <div
+      className="styled__Container-sc-1bf1p22-0 hTDNaU"
+      disabled={false}
+    >
+      <div
+        className="base-components__BaseElement-sc-150tvch-0 beans-form-group__children styled__FormGroupChildren-wt4ift-2 dfSJZf"
+      />
+    </div>
+  </div>
+  <div
+    className="sc-htoDjs iRgtBR"
+  >
+    <div>
+      <div
+        className="base-components__RootElement-sc-150tvch-1 sc-jzJRlG dXtfZf"
+      >
+        <div
+          className="base-components__RootElement-sc-150tvch-1 sc-cSHVUG dObPEI"
+        />
+      </div>
+    </div>
+    <div
+      id="datepicker-custom"
+      onChange={[Function]}
+      value="--"
+    >
+      <div
+        className="date-picker-calendar sc-hMqMXs idaLeT styled__Container-sc-1bf1p22-0 fGXsaT"
+      >
+        <div
+          className="styled__Container-sc-1bf1p22-0 jUIgMI"
+          disabled={false}
+        >
+          <div
+            className="base-components__BaseElement-sc-150tvch-0 beans-form-group__children styled__FormGroupChildren-wt4ift-2 fjkTLw"
+          >
+            <div
+              aria-label="Date: "
+              className="styled__Container-sc-1bf1p22-0 dObdlA"
+              disabled={false}
+              onClick={[Function]}
+            >
+              <span
+                className="styled__DateSeparator-l4ybh6-0 vZSrd"
+                disabled={false}
+              >
+                /
+              </span>
+              <span
+                className="styled__DateSeparator-l4ybh6-0 vZSrd"
+                disabled={false}
+              >
+                /
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <input
+        className="inp-hidden-partnerEndDateActive"
+        id="inp-hidden-partnerEndDateActive"
+        onChange={[Function]}
+        style={
+          Object {
+            "display": "none",
+          }
+        }
+        type="text"
+        value="--"
+      />
+    </div>
+  </div>
+  <div
+    className="sc-htoDjs iRgtBR"
+  >
+    <div
+      className="sc-dnqmqq jWfRzu"
+    >
+      <div>
+        <div
+          className="base-components__RootElement-sc-150tvch-1 sc-jzJRlG dXtfZf"
+        >
+          <div
+            className="base-components__RootElement-sc-150tvch-1 sc-cSHVUG dObPEI"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-gqjmRU isAUwA"
+    >
+      <div
+        className="base-components__RootElement-sc-150tvch-1 styled__RadioButtonContainer-sc-1wiljcw-0 eNodzJ"
+      >
+        <input
+          aria-disabled={true}
+          className="base-components__BaseElement-sc-150tvch-0 styled__HiddenRadioButton-sc-1wiljcw-2 fffchU"
+          defaultChecked={false}
+          disabled={true}
+          id="partnerStatus"
+          name="Partner status"
+          required={false}
+          role="radio"
+          type="radio"
+          value="Active"
+        />
+        <span
+          className="base-components__BaseInput-sc-150tvch-2 styled__RadioButtonSpan-sc-1wiljcw-1 iJWHpt"
+          disabled={true}
+        >
+          <svg
+            aria-hidden={true}
+            className="styled__CenterAlignedIcon-sc-1wiljcw-3 dItmTc styled__StyledSVG-sc-1nulmu6-1 flhEYZ"
+            color="currentColor"
+            disabled={false}
+            height={8}
+            preserveAspectRatio="xMinYMax meet"
+            viewBox="0 0 8 8"
+            width={8}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M 4, 4 m -3, 0 a 3,3 0 1,0 6,0 a 3,3 0 1,0 -6,0"
+              fill="currentColor"
+              stroke="currentColor"
+            />
+          </svg>
+        </span>
+      </div>
+      <span>
+        Active
+      </span>
+    </div>
+    <div
+      className="sc-gqjmRU isAUwA"
+    >
+      <div
+        className="base-components__RootElement-sc-150tvch-1 styled__RadioButtonContainer-sc-1wiljcw-0 eNodzJ"
+      >
+        <input
+          aria-disabled={true}
+          className="base-components__BaseElement-sc-150tvch-0 styled__HiddenRadioButton-sc-1wiljcw-2 fffchU"
+          defaultChecked={false}
+          disabled={true}
+          id="partnerStatus"
+          name="Partner status"
+          required={false}
+          role="radio"
+          type="radio"
+          value="Inactive"
+        />
+        <span
+          className="base-components__BaseInput-sc-150tvch-2 styled__RadioButtonSpan-sc-1wiljcw-1 iJWHpt"
+          disabled={true}
+        >
+          <svg
+            aria-hidden={true}
+            className="styled__CenterAlignedIcon-sc-1wiljcw-3 dItmTc styled__StyledSVG-sc-1nulmu6-1 flhEYZ"
+            color="currentColor"
+            disabled={false}
+            height={8}
+            preserveAspectRatio="xMinYMax meet"
+            viewBox="0 0 8 8"
+            width={8}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M 4, 4 m -3, 0 a 3,3 0 1,0 6,0 a 3,3 0 1,0 -6,0"
+              fill="currentColor"
+              stroke="currentColor"
+            />
+          </svg>
+        </span>
+      </div>
+      <span>
+        Inactive
+      </span>
+    </div>
+  </div>
+  <div
+    className="sc-htoDjs iRgtBR"
+  >
+    <div>
+      <div
+        className="base-components__RootElement-sc-150tvch-1 sc-jzJRlG dXtfZf"
+      >
+        <div
+          className="base-components__RootElement-sc-150tvch-1 sc-cSHVUG dObPEI"
+        />
+      </div>
+    </div>
+    <div
+      className="styled__Container-sc-1bf1p22-0 hTDNaU"
+      disabled={false}
+    >
+      <div
+        className="base-components__BaseElement-sc-150tvch-0 beans-form-group__children styled__FormGroupChildren-wt4ift-2 dfSJZf"
+      />
+    </div>
+  </div>
+  <div
+    className="sc-htoDjs iRgtBR"
+  >
+    <div
+      className="sc-dnqmqq jWfRzu"
+    >
+      <div>
+        <div
+          className="base-components__RootElement-sc-150tvch-1 sc-jzJRlG dXtfZf"
+        >
+          <div
+            className="base-components__RootElement-sc-150tvch-1 sc-cSHVUG dObPEI"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-gqjmRU isAUwA"
+    >
+      <div
+        className="base-components__RootElement-sc-150tvch-1 styled__RadioButtonContainer-sc-1wiljcw-0 eNodzJ"
+      >
+        <input
+          aria-disabled={false}
+          className="base-components__BaseElement-sc-150tvch-0 styled__HiddenRadioButton-sc-1wiljcw-2 osyIc"
+          defaultChecked={true}
+          disabled={false}
+          id="isCustomer"
+          name="Is this a Tesco customer?"
+          required={true}
+          role="radio"
+          type="radio"
+          value="Yes"
+        />
+        <span
+          className="base-components__BaseInput-sc-150tvch-2 styled__RadioButtonSpan-sc-1wiljcw-1 laYHUM"
+          disabled={false}
+        >
+          <svg
+            aria-hidden={true}
+            className="styled__CenterAlignedIcon-sc-1wiljcw-3 dItmTc styled__StyledSVG-sc-1nulmu6-1 flhEYZ"
+            color="currentColor"
+            disabled={false}
+            height={8}
+            preserveAspectRatio="xMinYMax meet"
+            viewBox="0 0 8 8"
+            width={8}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M 4, 4 m -3, 0 a 3,3 0 1,0 6,0 a 3,3 0 1,0 -6,0"
+              fill="currentColor"
+              stroke="currentColor"
+            />
+          </svg>
+        </span>
+      </div>
+      <span>
+        Yes
+      </span>
+    </div>
+    <div
+      className="sc-gqjmRU isAUwA"
+    >
+      <div
+        className="base-components__RootElement-sc-150tvch-1 styled__RadioButtonContainer-sc-1wiljcw-0 eNodzJ"
+      >
+        <input
+          aria-disabled={false}
+          className="base-components__BaseElement-sc-150tvch-0 styled__HiddenRadioButton-sc-1wiljcw-2 osyIc"
+          defaultChecked={false}
+          disabled={false}
+          id="isCustomer"
+          name="Is this a Tesco customer?"
+          required={true}
+          role="radio"
+          type="radio"
+          value="No"
+        />
+        <span
+          className="base-components__BaseInput-sc-150tvch-2 styled__RadioButtonSpan-sc-1wiljcw-1 laYHUM"
+          disabled={false}
+        >
+          <svg
+            aria-hidden={true}
+            className="styled__CenterAlignedIcon-sc-1wiljcw-3 dItmTc styled__StyledSVG-sc-1nulmu6-1 flhEYZ"
+            color="currentColor"
+            disabled={false}
+            height={8}
+            preserveAspectRatio="xMinYMax meet"
+            viewBox="0 0 8 8"
+            width={8}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M 4, 4 m -3, 0 a 3,3 0 1,0 6,0 a 3,3 0 1,0 -6,0"
+              fill="currentColor"
+              stroke="currentColor"
+            />
+          </svg>
+        </span>
+      </div>
+      <span>
+        No
+      </span>
+    </div>
+  </div>
+  <div
+    className="sc-htoDjs iRgtBR"
+  >
+    <div>
+      <div
+        className="base-components__RootElement-sc-150tvch-1 sc-jzJRlG dXtfZf"
+      >
+        <div
+          className="base-components__RootElement-sc-150tvch-1 sc-cSHVUG dObPEI"
+        />
+      </div>
+    </div>
+    <div
+      id="multiselectdropdown"
+      onChange={[Function]}
+    >
+      <div
+        className="styled__Container-sc-1bf1p22-0 hTDNaU"
+        disabled={false}
+      >
+        <div
+          className="base-components__BaseElement-sc-150tvch-0 beans-form-group__children styled__FormGroupChildren-wt4ift-2 fjkTLw"
+        >
+          <div
+            className="styled__Container-sc-1bf1p22-0 fdsDKA"
+          >
+            <div
+              className="base-components__BaseElement-sc-150tvch-0 styled__DropdownContainer-hmmxku-1 lodSfe"
+              disabled={false}
+              onAnimationEnd={[Function]}
+              onClick={[Function]}
+              open={false}
+            >
+              <button
+                aria-expanded={false}
+                aria-haspopup="listbox"
+                className="base-components__BaseElement-sc-150tvch-0 styled__StyledButton-hmmxku-2 gwcpIp"
+                disabled={false}
+                id="taxOrganisationType"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                type="button"
+              >
+                <div
+                  className="base-components__BaseElement-sc-150tvch-0 styled__ButtonInnerContainer-hmmxku-3 ddKLra"
+                  disabled={false}
+                >
+                  <span
+                    className="base-components__BaseElement-sc-150tvch-0 edjZlZ"
+                  >
+                    Select
+                  </span>
+                  <svg
+                    aria-hidden={true}
+                    className="styled__AlignedIcon-hmmxku-0 ggGMot styled__Container-sc-1bf1p22-0 gJOjrx"
+                    color="currentColor"
+                    disabled={false}
+                    height={12}
+                    preserveAspectRatio="xMinYMax meet"
+                    viewBox="0 -1 20 12"
+                    width={20}
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M18.652 1.312L10 10.276 1.356 1.312"
+                      fill="none"
+                      stroke="#666666"
+                    />
+                  </svg>
+                </div>
+              </button>
+              <ul
+                aria-labelledby="taxOrganisationType"
+                aria-orientation="vertical"
+                className="base-components__BaseList-sc-150tvch-2 styled__UnorderedList-wyo7rg-0 enurEP"
+                direction="leftToRight"
+                onKeyDown={[Function]}
+                orientation="vertical"
+                role="menu"
+                tabIndex="-1"
+              >
+                <li
+                  className="styled__ListItem-sc-1pj7ufq-0 hkTysZ"
+                  orientation="vertical"
+                  role="menuitem"
+                  selected={false}
+                >
+                  <label
+                    className="styled__Container-sc-1bf1p22-0 ksAHiR"
+                    id="Charity"
+                    onKeyDown={[Function]}
+                  >
+                    <div
+                      className="base-components__RootElement-sc-150tvch-1 styled__CheckboxContainer-zif85n-0 fNnIHE"
+                    >
+                      <input
+                        aria-disabled={false}
+                        checked={false}
+                        className="base-components__BaseElement-sc-150tvch-0 styled__HiddenCheckbox-zif85n-2 hvEMDk"
+                        disabled={false}
+                        onChange={[Function]}
+                        role="checkbox"
+                        tabIndex={-1}
+                        type="checkbox"
+                      />
+                      <span
+                        className="styled__CheckboxSpan-zif85n-1 jAlkYg"
+                        disabled={false}
+                      >
+                        <svg
+                          aria-hidden={true}
+                          className="styled__CenterAlignedIcon-zif85n-3 HLzZY styled__Container-sc-1bf1p22-0 gJOjrx"
+                          color="currentColor"
+                          disabled={false}
+                          height={10.67}
+                          preserveAspectRatio="xMinYMax meet"
+                          viewBox="0 0 20 16"
+                          width={13.33}
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M19.79 2.25L17.75.21a.72.72 0 0 0-1.02.002l-9.944 9.943L3.27 6.64a.72.72 0 0 0-1.02 0L.21 8.68A.721.721 0 0
+            0 .212 9.7l5.805 5.804c.209.208.479.483.755.483s.575-.275.784-.483L19.789 3.27a.721.721 0 0 0 0-1.02"
+                            fill="currentColor"
+                            stroke="currentColor"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <div
+                      className="base-components__BaseElement-sc-150tvch-0 beans-checkbox-with-label__label-and-description styled__LabelWithDescContainer-sc-1rzyrz5-0 kkXsyM"
+                    />
+                  </label>
+                </li>
+                <li
+                  className="styled__ListItem-sc-1pj7ufq-0 hkTysZ"
+                  orientation="vertical"
+                  role="menuitem"
+                  selected={false}
+                >
+                  <label
+                    className="styled__Container-sc-1bf1p22-0 ksAHiR"
+                    id="Corporation"
+                    onKeyDown={[Function]}
+                  >
+                    <div
+                      className="base-components__RootElement-sc-150tvch-1 styled__CheckboxContainer-zif85n-0 fNnIHE"
+                    >
+                      <input
+                        aria-disabled={false}
+                        checked={true}
+                        className="base-components__BaseElement-sc-150tvch-0 styled__HiddenCheckbox-zif85n-2 hvEMDk"
+                        disabled={false}
+                        onChange={[Function]}
+                        role="checkbox"
+                        tabIndex={-1}
+                        type="checkbox"
+                      />
+                      <span
+                        className="styled__CheckboxSpan-zif85n-1 jAlkYg"
+                        disabled={false}
+                      >
+                        <svg
+                          aria-hidden={true}
+                          className="styled__CenterAlignedIcon-zif85n-3 HLzZY styled__Container-sc-1bf1p22-0 gJOjrx"
+                          color="currentColor"
+                          disabled={false}
+                          height={10.67}
+                          preserveAspectRatio="xMinYMax meet"
+                          viewBox="0 0 20 16"
+                          width={13.33}
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M19.79 2.25L17.75.21a.72.72 0 0 0-1.02.002l-9.944 9.943L3.27 6.64a.72.72 0 0 0-1.02 0L.21 8.68A.721.721 0 0
+            0 .212 9.7l5.805 5.804c.209.208.479.483.755.483s.575-.275.784-.483L19.789 3.27a.721.721 0 0 0 0-1.02"
+                            fill="currentColor"
+                            stroke="currentColor"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <div
+                      className="base-components__BaseElement-sc-150tvch-0 beans-checkbox-with-label__label-and-description styled__LabelWithDescContainer-sc-1rzyrz5-0 kkXsyM"
+                    />
+                  </label>
+                </li>
+                <li
+                  className="styled__ListItem-sc-1pj7ufq-0 hkTysZ"
+                  orientation="vertical"
+                  role="menuitem"
+                  selected={false}
+                >
+                  <label
+                    className="styled__Container-sc-1bf1p22-0 ksAHiR"
+                    id="Foreign Corporation"
+                    onKeyDown={[Function]}
+                  >
+                    <div
+                      className="base-components__RootElement-sc-150tvch-1 styled__CheckboxContainer-zif85n-0 fNnIHE"
+                    >
+                      <input
+                        aria-disabled={false}
+                        checked={false}
+                        className="base-components__BaseElement-sc-150tvch-0 styled__HiddenCheckbox-zif85n-2 hvEMDk"
+                        disabled={false}
+                        onChange={[Function]}
+                        role="checkbox"
+                        tabIndex={-1}
+                        type="checkbox"
+                      />
+                      <span
+                        className="styled__CheckboxSpan-zif85n-1 jAlkYg"
+                        disabled={false}
+                      >
+                        <svg
+                          aria-hidden={true}
+                          className="styled__CenterAlignedIcon-zif85n-3 HLzZY styled__Container-sc-1bf1p22-0 gJOjrx"
+                          color="currentColor"
+                          disabled={false}
+                          height={10.67}
+                          preserveAspectRatio="xMinYMax meet"
+                          viewBox="0 0 20 16"
+                          width={13.33}
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M19.79 2.25L17.75.21a.72.72 0 0 0-1.02.002l-9.944 9.943L3.27 6.64a.72.72 0 0 0-1.02 0L.21 8.68A.721.721 0 0
+            0 .212 9.7l5.805 5.804c.209.208.479.483.755.483s.575-.275.784-.483L19.789 3.27a.721.721 0 0 0 0-1.02"
+                            fill="currentColor"
+                            stroke="currentColor"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <div
+                      className="base-components__BaseElement-sc-150tvch-0 beans-checkbox-with-label__label-and-description styled__LabelWithDescContainer-sc-1rzyrz5-0 kkXsyM"
+                    />
+                  </label>
+                </li>
+                <li
+                  className="styled__ListItem-sc-1pj7ufq-0 hkTysZ"
+                  orientation="vertical"
+                  role="menuitem"
+                  selected={false}
+                >
+                  <label
+                    className="styled__Container-sc-1bf1p22-0 ksAHiR"
+                    id="Foreign Government Agency"
+                    onKeyDown={[Function]}
+                  >
+                    <div
+                      className="base-components__RootElement-sc-150tvch-1 styled__CheckboxContainer-zif85n-0 fNnIHE"
+                    >
+                      <input
+                        aria-disabled={false}
+                        checked={false}
+                        className="base-components__BaseElement-sc-150tvch-0 styled__HiddenCheckbox-zif85n-2 hvEMDk"
+                        disabled={false}
+                        onChange={[Function]}
+                        role="checkbox"
+                        tabIndex={-1}
+                        type="checkbox"
+                      />
+                      <span
+                        className="styled__CheckboxSpan-zif85n-1 jAlkYg"
+                        disabled={false}
+                      >
+                        <svg
+                          aria-hidden={true}
+                          className="styled__CenterAlignedIcon-zif85n-3 HLzZY styled__Container-sc-1bf1p22-0 gJOjrx"
+                          color="currentColor"
+                          disabled={false}
+                          height={10.67}
+                          preserveAspectRatio="xMinYMax meet"
+                          viewBox="0 0 20 16"
+                          width={13.33}
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M19.79 2.25L17.75.21a.72.72 0 0 0-1.02.002l-9.944 9.943L3.27 6.64a.72.72 0 0 0-1.02 0L.21 8.68A.721.721 0 0
+            0 .212 9.7l5.805 5.804c.209.208.479.483.755.483s.575-.275.784-.483L19.789 3.27a.721.721 0 0 0 0-1.02"
+                            fill="currentColor"
+                            stroke="currentColor"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <div
+                      className="base-components__BaseElement-sc-150tvch-0 beans-checkbox-with-label__label-and-description styled__LabelWithDescContainer-sc-1rzyrz5-0 kkXsyM"
+                    />
+                  </label>
+                </li>
+                <li
+                  className="styled__ListItem-sc-1pj7ufq-0 hkTysZ"
+                  orientation="vertical"
+                  role="menuitem"
+                  selected={false}
+                >
+                  <label
+                    className="styled__Container-sc-1bf1p22-0 ksAHiR"
+                    id="Foreign Individual"
+                    onKeyDown={[Function]}
+                  >
+                    <div
+                      className="base-components__RootElement-sc-150tvch-1 styled__CheckboxContainer-zif85n-0 fNnIHE"
+                    >
+                      <input
+                        aria-disabled={false}
+                        checked={false}
+                        className="base-components__BaseElement-sc-150tvch-0 styled__HiddenCheckbox-zif85n-2 hvEMDk"
+                        disabled={false}
+                        onChange={[Function]}
+                        role="checkbox"
+                        tabIndex={-1}
+                        type="checkbox"
+                      />
+                      <span
+                        className="styled__CheckboxSpan-zif85n-1 jAlkYg"
+                        disabled={false}
+                      >
+                        <svg
+                          aria-hidden={true}
+                          className="styled__CenterAlignedIcon-zif85n-3 HLzZY styled__Container-sc-1bf1p22-0 gJOjrx"
+                          color="currentColor"
+                          disabled={false}
+                          height={10.67}
+                          preserveAspectRatio="xMinYMax meet"
+                          viewBox="0 0 20 16"
+                          width={13.33}
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M19.79 2.25L17.75.21a.72.72 0 0 0-1.02.002l-9.944 9.943L3.27 6.64a.72.72 0 0 0-1.02 0L.21 8.68A.721.721 0 0
+            0 .212 9.7l5.805 5.804c.209.208.479.483.755.483s.575-.275.784-.483L19.789 3.27a.721.721 0 0 0 0-1.02"
+                            fill="currentColor"
+                            stroke="currentColor"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <div
+                      className="base-components__BaseElement-sc-150tvch-0 beans-checkbox-with-label__label-and-description styled__LabelWithDescContainer-sc-1rzyrz5-0 kkXsyM"
+                    />
+                  </label>
+                </li>
+                <li
+                  className="styled__ListItem-sc-1pj7ufq-0 hkTysZ"
+                  orientation="vertical"
+                  role="menuitem"
+                  selected={false}
+                >
+                  <label
+                    className="styled__Container-sc-1bf1p22-0 ksAHiR"
+                    id="Foreign Partnership"
+                    onKeyDown={[Function]}
+                  >
+                    <div
+                      className="base-components__RootElement-sc-150tvch-1 styled__CheckboxContainer-zif85n-0 fNnIHE"
+                    >
+                      <input
+                        aria-disabled={false}
+                        checked={false}
+                        className="base-components__BaseElement-sc-150tvch-0 styled__HiddenCheckbox-zif85n-2 hvEMDk"
+                        disabled={false}
+                        onChange={[Function]}
+                        role="checkbox"
+                        tabIndex={-1}
+                        type="checkbox"
+                      />
+                      <span
+                        className="styled__CheckboxSpan-zif85n-1 jAlkYg"
+                        disabled={false}
+                      >
+                        <svg
+                          aria-hidden={true}
+                          className="styled__CenterAlignedIcon-zif85n-3 HLzZY styled__Container-sc-1bf1p22-0 gJOjrx"
+                          color="currentColor"
+                          disabled={false}
+                          height={10.67}
+                          preserveAspectRatio="xMinYMax meet"
+                          viewBox="0 0 20 16"
+                          width={13.33}
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M19.79 2.25L17.75.21a.72.72 0 0 0-1.02.002l-9.944 9.943L3.27 6.64a.72.72 0 0 0-1.02 0L.21 8.68A.721.721 0 0
+            0 .212 9.7l5.805 5.804c.209.208.479.483.755.483s.575-.275.784-.483L19.789 3.27a.721.721 0 0 0 0-1.02"
+                            fill="currentColor"
+                            stroke="currentColor"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <div
+                      className="base-components__BaseElement-sc-150tvch-0 beans-checkbox-with-label__label-and-description styled__LabelWithDescContainer-sc-1rzyrz5-0 kkXsyM"
+                    />
+                  </label>
+                </li>
+                <li
+                  className="styled__ListItem-sc-1pj7ufq-0 hkTysZ"
+                  orientation="vertical"
+                  role="menuitem"
+                  selected={false}
+                >
+                  <label
+                    className="styled__Container-sc-1bf1p22-0 ksAHiR"
+                    id="Government Agency"
+                    onKeyDown={[Function]}
+                  >
+                    <div
+                      className="base-components__RootElement-sc-150tvch-1 styled__CheckboxContainer-zif85n-0 fNnIHE"
+                    >
+                      <input
+                        aria-disabled={false}
+                        checked={false}
+                        className="base-components__BaseElement-sc-150tvch-0 styled__HiddenCheckbox-zif85n-2 hvEMDk"
+                        disabled={false}
+                        onChange={[Function]}
+                        role="checkbox"
+                        tabIndex={-1}
+                        type="checkbox"
+                      />
+                      <span
+                        className="styled__CheckboxSpan-zif85n-1 jAlkYg"
+                        disabled={false}
+                      >
+                        <svg
+                          aria-hidden={true}
+                          className="styled__CenterAlignedIcon-zif85n-3 HLzZY styled__Container-sc-1bf1p22-0 gJOjrx"
+                          color="currentColor"
+                          disabled={false}
+                          height={10.67}
+                          preserveAspectRatio="xMinYMax meet"
+                          viewBox="0 0 20 16"
+                          width={13.33}
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M19.79 2.25L17.75.21a.72.72 0 0 0-1.02.002l-9.944 9.943L3.27 6.64a.72.72 0 0 0-1.02 0L.21 8.68A.721.721 0 0
+            0 .212 9.7l5.805 5.804c.209.208.479.483.755.483s.575-.275.784-.483L19.789 3.27a.721.721 0 0 0 0-1.02"
+                            fill="currentColor"
+                            stroke="currentColor"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <div
+                      className="base-components__BaseElement-sc-150tvch-0 beans-checkbox-with-label__label-and-description styled__LabelWithDescContainer-sc-1rzyrz5-0 kkXsyM"
+                    />
+                  </label>
+                </li>
+                <li
+                  className="styled__ListItem-sc-1pj7ufq-0 hkTysZ"
+                  orientation="vertical"
+                  role="menuitem"
+                  selected={false}
+                >
+                  <label
+                    className="styled__Container-sc-1bf1p22-0 ksAHiR"
+                    id="Individual"
+                    onKeyDown={[Function]}
+                  >
+                    <div
+                      className="base-components__RootElement-sc-150tvch-1 styled__CheckboxContainer-zif85n-0 fNnIHE"
+                    >
+                      <input
+                        aria-disabled={false}
+                        checked={false}
+                        className="base-components__BaseElement-sc-150tvch-0 styled__HiddenCheckbox-zif85n-2 hvEMDk"
+                        disabled={false}
+                        onChange={[Function]}
+                        role="checkbox"
+                        tabIndex={-1}
+                        type="checkbox"
+                      />
+                      <span
+                        className="styled__CheckboxSpan-zif85n-1 jAlkYg"
+                        disabled={false}
+                      >
+                        <svg
+                          aria-hidden={true}
+                          className="styled__CenterAlignedIcon-zif85n-3 HLzZY styled__Container-sc-1bf1p22-0 gJOjrx"
+                          color="currentColor"
+                          disabled={false}
+                          height={10.67}
+                          preserveAspectRatio="xMinYMax meet"
+                          viewBox="0 0 20 16"
+                          width={13.33}
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M19.79 2.25L17.75.21a.72.72 0 0 0-1.02.002l-9.944 9.943L3.27 6.64a.72.72 0 0 0-1.02 0L.21 8.68A.721.721 0 0
+            0 .212 9.7l5.805 5.804c.209.208.479.483.755.483s.575-.275.784-.483L19.789 3.27a.721.721 0 0 0 0-1.02"
+                            fill="currentColor"
+                            stroke="currentColor"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <div
+                      className="base-components__BaseElement-sc-150tvch-0 beans-checkbox-with-label__label-and-description styled__LabelWithDescContainer-sc-1rzyrz5-0 kkXsyM"
+                    />
+                  </label>
+                </li>
+                <li
+                  className="styled__ListItem-sc-1pj7ufq-0 hkTysZ"
+                  orientation="vertical"
+                  role="menuitem"
+                  selected={false}
+                >
+                  <label
+                    className="styled__Container-sc-1bf1p22-0 ksAHiR"
+                    id="Partnership"
+                    onKeyDown={[Function]}
+                  >
+                    <div
+                      className="base-components__RootElement-sc-150tvch-1 styled__CheckboxContainer-zif85n-0 fNnIHE"
+                    >
+                      <input
+                        aria-disabled={false}
+                        checked={false}
+                        className="base-components__BaseElement-sc-150tvch-0 styled__HiddenCheckbox-zif85n-2 hvEMDk"
+                        disabled={false}
+                        onChange={[Function]}
+                        role="checkbox"
+                        tabIndex={-1}
+                        type="checkbox"
+                      />
+                      <span
+                        className="styled__CheckboxSpan-zif85n-1 jAlkYg"
+                        disabled={false}
+                      >
+                        <svg
+                          aria-hidden={true}
+                          className="styled__CenterAlignedIcon-zif85n-3 HLzZY styled__Container-sc-1bf1p22-0 gJOjrx"
+                          color="currentColor"
+                          disabled={false}
+                          height={10.67}
+                          preserveAspectRatio="xMinYMax meet"
+                          viewBox="0 0 20 16"
+                          width={13.33}
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M19.79 2.25L17.75.21a.72.72 0 0 0-1.02.002l-9.944 9.943L3.27 6.64a.72.72 0 0 0-1.02 0L.21 8.68A.721.721 0 0
+            0 .212 9.7l5.805 5.804c.209.208.479.483.755.483s.575-.275.784-.483L19.789 3.27a.721.721 0 0 0 0-1.02"
+                            fill="currentColor"
+                            stroke="currentColor"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <div
+                      className="base-components__BaseElement-sc-150tvch-0 beans-checkbox-with-label__label-and-description styled__LabelWithDescContainer-sc-1rzyrz5-0 kkXsyM"
+                    />
+                  </label>
+                </li>
+              </ul>
+            </div>
+            <div
+              className="styled__Container-sc-1bf1p22-0 knCUuG"
+            >
+              <a
+                className="base-components__RootElement-sc-150tvch-1 beans-chipset__chip styled__RootContainer-r4rb8i-0 iQkYXq"
+                disabled={false}
+                href="#"
+                id="chip-Corporation"
+                onClick={[Function]}
+                role="button"
+                selected={true}
+              >
+                <span
+                  className="base-components__BaseElement-sc-150tvch-0 beans-chip__text styled__TextContainer-r4rb8i-1 kmFnCT"
+                >
+                  Corporation
+                </span>
+                <div
+                  className="beans-chip__icon styled__StyledIcon-r4rb8i-2 cuiEAc styled__Container-sc-1bf1p22-0 bddlFg"
+                >
+                  <svg
+                    aria-hidden={true}
+                    className="styled__StyledSVG-sc-1nulmu6-0 fnQPMZ"
+                    color="currentColor"
+                    disabled={false}
+                    height={10.67}
+                    preserveAspectRatio="xMinYMax meet"
+                    viewBox="0 0 16 16"
+                    width={10.67}
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 1l14 14M15 1L1 15"
+                      fill="none"
+                      stroke="#00539f"
+                    />
+                  </svg>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <input
+        className="inp-hidden-taxOrganisationType"
+        id="inp-hidden-taxOrganisationType"
+        onChange={[Function]}
+        style={
+          Object {
+            "display": "none",
+          }
+        }
+        type="text"
+      />
+    </div>
+  </div>
+  <div
+    className="sc-htoDjs iRgtBR"
+  >
+    <div>
+      <div
+        className="base-components__RootElement-sc-150tvch-1 sc-jzJRlG dXtfZf"
+      >
+        <div
+          className="base-components__RootElement-sc-150tvch-1 sc-cSHVUG dObPEI"
+        />
+      </div>
+    </div>
+    <div
+      className="base-components__RootElement-sc-150tvch-1 cCmuza"
+    >
+      <select
+        className="base-components__BaseInput-sc-150tvch-2 beans-dropdown__select styled__Select-sc-10jppqs-1 eZcKPG"
+        defaultValue="Not registered"
+        disabled={false}
+        id="taxRegistrationStatus"
+        name="Partner tax registration status"
+        onChange={[Function]}
+        required={true}
+        role="listbox"
+      >
+        <option
+          value="select"
+        >
+          Select
+        </option>
+        <option
+          value="Agent"
+        >
+          Agent
+        </option>
+        <option
+          value="Not registered"
+        >
+          Not registered
+        </option>
+        <option
+          value="Registered"
+        >
+          Registered
+        </option>
+        <option
+          value="Registered in EU, non UK"
+        >
+          Registered in EU, non UK
+        </option>
+        <option
+          value="Registered in EU, non UK 1"
+        >
+          Registered in EU, non UK 1
+        </option>
+      </select>
+      <svg
+        aria-hidden={true}
+        className="styled__AlignedIcon-sc-10jppqs-0 hHyXUl styled__StyledSVG-sc-1nulmu6-1 flhEYZ"
+        color="currentColor"
+        disabled={false}
+        height={12}
+        preserveAspectRatio="xMinYMax meet"
+        viewBox="0 -1 20 12"
+        width={20}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M18.652 1.312L10 10.276 1.356 1.312"
+          fill="none"
+          stroke="#666666"
+        />
+      </svg>
+    </div>
+  </div>
+  <div
+    className="sc-htoDjs iRgtBR"
+  >
+    <div>
+      <div
+        className="base-components__RootElement-sc-150tvch-1 sc-jzJRlG dXtfZf"
+      />
+    </div>
+    <div
+      className="base-components__RootElement-sc-150tvch-1 cCmuza"
+    >
+      <select
+        className="base-components__BaseInput-sc-150tvch-2 beans-dropdown__select styled__Select-sc-10jppqs-1 GLMMI"
+        defaultValue="select"
+        disabled={false}
+        id="linkContact"
+        name="Contact"
+        onChange={[Function]}
+        role="listbox"
+      >
+        <option
+          value="select"
+        >
+          Select
+        </option>
+      </select>
+      <svg
+        aria-hidden={true}
+        className="styled__AlignedIcon-sc-10jppqs-0 hHyXUl styled__StyledSVG-sc-1nulmu6-1 flhEYZ"
+        color="currentColor"
+        disabled={false}
+        height={12}
+        preserveAspectRatio="xMinYMax meet"
+        viewBox="0 -1 20 12"
+        width={20}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M18.652 1.312L10 10.276 1.356 1.312"
+          fill="none"
+          stroke="#666666"
+        />
+      </svg>
+    </div>
+  </div>
+  <div
+    className="sc-htoDjs iRgtBR"
+  >
+    <div>
+      <div
+        className="base-components__RootElement-sc-150tvch-1 sc-jzJRlG dXtfZf"
+      />
+    </div>
+    <div
+      className="base-components__RootElement-sc-150tvch-1 cCmuza"
+    >
+      <select
+        className="base-components__BaseInput-sc-150tvch-2 beans-dropdown__select styled__Select-sc-10jppqs-1 GLMMI"
+        defaultValue="select"
+        disabled={false}
+        id="linkAddress"
+        name="Address"
+        onChange={[Function]}
+        role="listbox"
+      >
+        <option
+          value="select"
+        >
+          Select
+        </option>
+      </select>
+      <svg
+        aria-hidden={true}
+        className="styled__AlignedIcon-sc-10jppqs-0 hHyXUl styled__StyledSVG-sc-1nulmu6-1 flhEYZ"
+        color="currentColor"
+        disabled={false}
+        height={12}
+        preserveAspectRatio="xMinYMax meet"
+        viewBox="0 -1 20 12"
+        width={20}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M18.652 1.312L10 10.276 1.356 1.312"
+          fill="none"
+          stroke="#666666"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddressBookContainer should render the component 1`] = `
+Array [
+  <div
+    className="sc-kGXeez iFUTiw"
+  >
+    <a
+      className="styled__IconButtonLinkWithText-sc-1r4nugl-0 gOAfJn"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <span
+        className="beans-link__text styled__TextSpan-sc-1r4nugl-3 fXsDiB"
+      >
+        Back to partner overview
+      </span>
+      <span
+        className="beans-link__icon styled__IconButtonSpan-sc-1r4nugl-4 dRdwqD"
+        disabled={false}
+      >
+        <span
+          className="styled__IconSpan-sc-1r4nugl-5 kuXyIv"
+        >
+          <svg
+            aria-hidden={true}
+            className="styled__Container-sc-1bf1p22-0 gJOjrx"
+            color="currentColor"
+            disabled={false}
+            height={20}
+            preserveAspectRatio="xMinYMax meet"
+            viewBox="1 0 12 20"
+            width={12}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.688 18.652L1.723 10l8.964-8.644"
+              fill="none"
+              stroke="currentColor"
+            />
+          </svg>
+        </span>
+      </span>
+    </a>
+  </div>,
+  <div
+    className="base-components__RootElement-sc-150tvch-1 sc-bxivhb jYPzOI"
+  >
+    <div
+      className="base-components__RootElement-sc-150tvch-1 sc-chPdSV fZPWUS"
+    >
+      <div
+        className="base-components__RootElement-sc-150tvch-1 sc-EHOje bPslPs"
+      >
+        <h1>
+          undefined addresses
+        </h1>
+      </div>
+    </div>
+    <div
+      className="sc-bdVaJa kybHWQ"
+    >
+      <span
+        className="sc-bwzfXH eDyLnt"
+      />
+    </div>
+  </div>,
+]
+`;

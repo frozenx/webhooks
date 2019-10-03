@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`atoms/LinkType should create a snapshot 1`] = `
+<div
+  className="sc-gzVnrw SKCKc"
+>
+  <div
+    className="base-components__RootElement-sc-150tvch-1 sc-fjdhpX gpWRWs"
+  />
+  <div
+    className="base-components__RootElement-sc-150tvch-1 cCmuza"
+  >
+    <select
+      className="base-components__BaseInput-sc-150tvch-2 beans-dropdown__select styled__Select-sc-10jppqs-1 GLMMI"
+      defaultValue="select"
+      disabled={false}
+      id={1}
+      onChange={[Function]}
+      role="listbox"
+    >
+      <option
+        value="select"
+      >
+        Select
+      </option>
+      <option
+        value="contact1"
+      >
+        contact1
+      </option>
+    </select>
+    <svg
+      aria-hidden={true}
+      className="styled__AlignedIcon-sc-10jppqs-0 hHyXUl styled__StyledSVG-sc-1nulmu6-1 flhEYZ"
+      color="currentColor"
+      disabled={false}
+      height={12}
+      preserveAspectRatio="xMinYMax meet"
+      viewBox="0 -1 20 12"
+      width={20}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M18.652 1.312L10 10.276 1.356 1.312"
+        fill="none"
+        stroke="#666666"
+      />
+    </svg>
+  </div>
+</div>
+`;

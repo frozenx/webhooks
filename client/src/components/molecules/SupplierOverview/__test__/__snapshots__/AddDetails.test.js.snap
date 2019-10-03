@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`add site & payment card component test cases render the component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AddDetails />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <_default
+          className="site-title"
+          dark={true}
+          emphasized={true}
+        >
+           Site details
+        </_default>,
+        <ForwardRef
+          buttonVariant="secondary"
+          disabled={true}
+          emphasized={true}
+          icon={
+            Object {
+              "graphic": "add",
+              "position": Object {
+                "global": "left",
+              },
+              "size": "xs",
+            }
+          }
+        >
+          Add Site Details
+        </ForwardRef>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": " Site details",
+          "className": "site-title",
+          "dark": true,
+          "emphasized": true,
+        },
+        "ref": null,
+        "rendered": " Site details",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "buttonVariant": "secondary",
+          "children": "Add Site Details",
+          "disabled": true,
+          "emphasized": true,
+          "icon": Object {
+            "graphic": "add",
+            "position": Object {
+              "global": "left",
+            },
+            "size": "xs",
+          },
+        },
+        "ref": null,
+        "rendered": "Add Site Details",
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "componentName": "IconButtonLinkWithText",
+          "displayName": "WithProps(IconButtonLinkWithText)",
+          "render": [Function],
+        },
+      },
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bZQynM",
+        "isStatic": true,
+        "rules": Array [
+          "
+    > a{
+        width:100%;
+    }
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-bZQynM",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <_default
+            className="site-title"
+            dark={true}
+            emphasized={true}
+          >
+             Site details
+          </_default>,
+          <ForwardRef
+            buttonVariant="secondary"
+            disabled={true}
+            emphasized={true}
+            icon={
+              Object {
+                "graphic": "add",
+                "position": Object {
+                  "global": "left",
+                },
+                "size": "xs",
+              }
+            }
+          >
+            Add Site Details
+          </ForwardRef>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": " Site details",
+            "className": "site-title",
+            "dark": true,
+            "emphasized": true,
+          },
+          "ref": null,
+          "rendered": " Site details",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "buttonVariant": "secondary",
+            "children": "Add Site Details",
+            "disabled": true,
+            "emphasized": true,
+            "icon": Object {
+              "graphic": "add",
+              "position": Object {
+                "global": "left",
+              },
+              "size": "xs",
+            },
+          },
+          "ref": null,
+          "rendered": "Add Site Details",
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "componentName": "IconButtonLinkWithText",
+            "displayName": "WithProps(IconButtonLinkWithText)",
+            "render": [Function],
+          },
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bZQynM",
+          "isStatic": true,
+          "rules": Array [
+            "
+    > a{
+        width:100%;
+    }
+",
+          ],
+        },
+        "displayName": "styled.div",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bZQynM",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

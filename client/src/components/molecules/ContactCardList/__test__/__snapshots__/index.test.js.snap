@@ -1,0 +1,258 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`molecules/CardList Given the CardList component is mounted it should render the markup 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CardList />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <HOC />,
+        <ForwardRef>
+          <h2>
+            Site addresses
+          </h2>
+        </ForwardRef>,
+        <Card />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <h2>
+            Site addresses
+          </h2>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Site addresses",
+          },
+          "ref": null,
+          "rendered": "Site addresses",
+          "type": "h2",
+        },
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-ifAKCX",
+            "isStatic": false,
+            "rules": Array [
+              [Function],
+              ";",
+              "-webkit-tap-highlight-color:",
+              [Function],
+              ";border:0;box-sizing:border-box;margin:0;outline:",
+              [Function],
+              ";padding:0;position:relative;",
+              ";",
+              "
+    .input-error {
+        color: #cc3333;
+    }
+    h1,h2 {
+        margin: 0 0 19px 0;
+        color: #333;
+    }
+    h1,h2 {
+        font-size: 32px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    h4 {
+        margin: 0 0 20px 0;
+        color: #666666;
+        font-size: 16px;
+        font-weight: normal;
+    }
+",
+            ],
+          },
+          "displayName": "Styled(base-components__RootElement)",
+          "foldedComponentIds": Array [
+            "base-components__RootElement-sc-150tvch-1",
+          ],
+          "render": [Function],
+          "styledComponentId": "sc-ifAKCX",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <HOC />,
+          <ForwardRef>
+            <h2>
+              Site addresses
+            </h2>
+          </ForwardRef>,
+          <Card />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <h2>
+              Site addresses
+            </h2>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Site addresses",
+            },
+            "ref": null,
+            "rendered": "Site addresses",
+            "type": "h2",
+          },
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-ifAKCX",
+              "isStatic": false,
+              "rules": Array [
+                [Function],
+                ";",
+                "-webkit-tap-highlight-color:",
+                [Function],
+                ";border:0;box-sizing:border-box;margin:0;outline:",
+                [Function],
+                ";padding:0;position:relative;",
+                ";",
+                "
+    .input-error {
+        color: #cc3333;
+    }
+    h1,h2 {
+        margin: 0 0 19px 0;
+        color: #333;
+    }
+    h1,h2 {
+        font-size: 32px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    h4 {
+        margin: 0 0 20px 0;
+        color: #666666;
+        font-size: 16px;
+        font-weight: normal;
+    }
+",
+              ],
+            },
+            "displayName": "Styled(base-components__RootElement)",
+            "foldedComponentIds": Array [
+              "base-components__RootElement-sc-150tvch-1",
+            ],
+            "render": [Function],
+            "styledComponentId": "sc-ifAKCX",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,447 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`atoms/DatePicker Given the component is mounted then it should render the markup 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <DateInput
+    attr={
+      Object {
+        "id": 1,
+        "rules": Array [
+          Object {
+            "messages": Array [
+              Object {
+                "message": "some message",
+              },
+            ],
+          },
+        ],
+      }
+    }
+    attributeToRulesMapping={Object {}}
+    errors={Object {}}
+    id={1}
+    isDisabled={false}
+    name="name"
+    rules="regex string"
+    type="text"
+    values="--"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <LabelComponent
+          id="datepciker"
+        />,
+        <div
+          id="datepicker-custom"
+          onChange={[Function]}
+          value="--"
+        >
+          <ForwardRef
+            data-preset="date"
+            date={
+              Object {
+                "dd": "",
+                "mm": "",
+                "yyyy": "",
+              }
+            }
+            defaultValue="--"
+            error={Object {}}
+            errorMessage="some message"
+            formFieldProps={
+              Object {
+                "data-preset": "data",
+                "errorMessage": "Invalid date",
+                "id": 1,
+                "labelText": "Enter date",
+              }
+            }
+            hideLabel={true}
+            id={1}
+            name={1}
+            onSelect={[Function]}
+            onToggleCalendar={[Function]}
+            open={false}
+            value="--"
+          />
+          <input
+            className="inp-hidden"
+            id="inp-hidden"
+            onChange={[Function]}
+            style={
+              Object {
+                "display": "none",
+              }
+            }
+            type="text"
+            value="--"
+          />
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "id": "datepciker",
+          "name": undefined,
+          "tooltip": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <ForwardRef
+              data-preset="date"
+              date={
+                Object {
+                  "dd": "",
+                  "mm": "",
+                  "yyyy": "",
+                }
+              }
+              defaultValue="--"
+              error={Object {}}
+              errorMessage="some message"
+              formFieldProps={
+                Object {
+                  "data-preset": "data",
+                  "errorMessage": "Invalid date",
+                  "id": 1,
+                  "labelText": "Enter date",
+                }
+              }
+              hideLabel={true}
+              id={1}
+              name={1}
+              onSelect={[Function]}
+              onToggleCalendar={[Function]}
+              open={false}
+              value="--"
+            />,
+            <input
+              className="inp-hidden"
+              id="inp-hidden"
+              onChange={[Function]}
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+              type="text"
+              value="--"
+            />,
+          ],
+          "id": "datepicker-custom",
+          "onChange": [Function],
+          "value": "--",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "data-preset": "date",
+              "date": Object {
+                "dd": "",
+                "mm": "",
+                "yyyy": "",
+              },
+              "defaultValue": "--",
+              "disabled": undefined,
+              "error": Object {},
+              "errorMessage": "some message",
+              "formFieldProps": Object {
+                "data-preset": "data",
+                "errorMessage": "Invalid date",
+                "id": 1,
+                "labelText": "Enter date",
+              },
+              "hideLabel": true,
+              "id": 1,
+              "name": 1,
+              "onSelect": [Function],
+              "onToggleCalendar": [Function],
+              "open": false,
+              "required": undefined,
+              "type": undefined,
+              "value": "--",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "componentName": "DatePicker",
+              "displayName": "WithProps(DatePicker)",
+              "render": [Function],
+            },
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "inp-hidden",
+              "id": "inp-hidden",
+              "onChange": [Function],
+              "style": Object {
+                "display": "none",
+              },
+              "type": "text",
+              "value": "--",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <LabelComponent
+            id="datepciker"
+          />,
+          <div
+            id="datepicker-custom"
+            onChange={[Function]}
+            value="--"
+          >
+            <ForwardRef
+              data-preset="date"
+              date={
+                Object {
+                  "dd": "",
+                  "mm": "",
+                  "yyyy": "",
+                }
+              }
+              defaultValue="--"
+              error={Object {}}
+              errorMessage="some message"
+              formFieldProps={
+                Object {
+                  "data-preset": "data",
+                  "errorMessage": "Invalid date",
+                  "id": 1,
+                  "labelText": "Enter date",
+                }
+              }
+              hideLabel={true}
+              id={1}
+              name={1}
+              onSelect={[Function]}
+              onToggleCalendar={[Function]}
+              open={false}
+              value="--"
+            />
+            <input
+              className="inp-hidden"
+              id="inp-hidden"
+              onChange={[Function]}
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+              type="text"
+              value="--"
+            />
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "id": "datepciker",
+            "name": undefined,
+            "tooltip": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <ForwardRef
+                data-preset="date"
+                date={
+                  Object {
+                    "dd": "",
+                    "mm": "",
+                    "yyyy": "",
+                  }
+                }
+                defaultValue="--"
+                error={Object {}}
+                errorMessage="some message"
+                formFieldProps={
+                  Object {
+                    "data-preset": "data",
+                    "errorMessage": "Invalid date",
+                    "id": 1,
+                    "labelText": "Enter date",
+                  }
+                }
+                hideLabel={true}
+                id={1}
+                name={1}
+                onSelect={[Function]}
+                onToggleCalendar={[Function]}
+                open={false}
+                value="--"
+              />,
+              <input
+                className="inp-hidden"
+                id="inp-hidden"
+                onChange={[Function]}
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+                type="text"
+                value="--"
+              />,
+            ],
+            "id": "datepicker-custom",
+            "onChange": [Function],
+            "value": "--",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "data-preset": "date",
+                "date": Object {
+                  "dd": "",
+                  "mm": "",
+                  "yyyy": "",
+                },
+                "defaultValue": "--",
+                "disabled": undefined,
+                "error": Object {},
+                "errorMessage": "some message",
+                "formFieldProps": Object {
+                  "data-preset": "data",
+                  "errorMessage": "Invalid date",
+                  "id": 1,
+                  "labelText": "Enter date",
+                },
+                "hideLabel": true,
+                "id": 1,
+                "name": 1,
+                "onSelect": [Function],
+                "onToggleCalendar": [Function],
+                "open": false,
+                "required": undefined,
+                "type": undefined,
+                "value": "--",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "componentName": "DatePicker",
+                "displayName": "WithProps(DatePicker)",
+                "render": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "inp-hidden",
+                "id": "inp-hidden",
+                "onChange": [Function],
+                "style": Object {
+                  "display": "none",
+                },
+                "type": "text",
+                "value": "--",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

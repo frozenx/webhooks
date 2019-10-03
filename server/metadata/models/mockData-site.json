@@ -1,0 +1,479 @@
+{
+    "name": "Site",
+    "id": 326,
+    "number": 50202200,
+    "uuid": "trn:tesco:hierarchynode:uuid:3d533490-d4e2-11e7-a3a2-d1a85e700bb2",
+    "type": {
+        "name": "Catalogue",
+        "id": 1
+    },
+    "level": {
+        "name": "Class",
+        "id": 4
+    },
+    "attributeGroups": [
+        {
+            "id": "trn:tesco:attrgroup:uuid:0c3386c0-d4fc-11e7-a862-7b6a0d76adb4",
+            "name": "Local Site business Details",
+            "behaviour": "Single Row",
+            "type": "Dynamic",
+            "attributes": [
+                {
+                    "name": "Site Name",
+                    "enabled": true,
+                    "required": true,
+                    "default": null,
+                    "dataType": "text",
+                    "manifest": "Editable",
+                    "flexValueSetId": null,
+                    "dbColumn": "string1",
+                    "isUniqueKey": false,
+                    "id": 1,
+                    "displayNames": [
+                        {
+                            "displayName": "Status",
+                            "lang": "en",
+                            "id": 16
+                        }
+                    ],
+                    "toolTips": [
+                        {
+                            "toolTip": "Enter the product status",
+                            "lang": "en",
+                            "id": 16
+                        }
+                    ],
+                    "rules": [
+                        {
+                            "type": "regex",
+                            "definition": "/^[a-zA-Z]*$/",
+                            "messages": [
+                                {
+                                    "message": "Description should follow the RegEx pattern",
+                                    "lang": "en"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Status",
+                    "enabled": true,
+                    "required": true,
+                    "default": null,
+                    "dataType": "number",
+                    "manifest": "Editable",
+                    "flexValueSetId": null,
+                    "dbColumn": "Number1",
+                    "isUniqueKey": false,
+                    "id": 2,
+                    "displayNames": [
+                        {
+                            "displayName": "Year established",
+                            "lang": "en",
+                            "id": 17
+                        }
+                    ],
+                    "toolTips": [
+                        {
+                            "toolTip": null,
+                            "lang": "en",
+                            "id": 17
+                        }
+                    ],
+                    "rules": [
+                        {
+                            "type": "regex",
+                            "definition": "/^[0-9]*$/",
+                            "messages": [
+                                {
+                                    "message": "Description should follow the RegEx pattern",
+                                    "lang": "en"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Site language",
+                    "enabled": true,
+                    "required": false,
+                    "default": null,
+                    "dataType": "select",
+                    "manifest": "Editable",
+                    "flexValueSetId": null,
+                    "dbColumn": "select1",
+                    "isUniqueKey": false,
+                    "id": 3,
+                    "options": [
+                        "English",
+                        "Thai"
+                    ],
+                    "displayNames": [
+                        {
+                            "displayName": "Primary Language",
+                            "lang": "en",
+                            "id": 17
+                        }
+                    ],
+                    "toolTips": [
+                        {
+                            "toolTip": null,
+                            "lang": "en",
+                            "id": 17
+                        }
+                    ],
+                    "rules": [
+                        {
+                            "type": "regex",
+                            "definition": "/^[a-zA-Z]*$/",
+                            "messages": [
+                                {
+                                    "message": "Description should follow the RegEx pattern",
+                                    "lang": "en"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "One time supplier?",
+                    "enabled": true,
+                    "required": false,
+                    "default": null,
+                    "dataType": "radio",
+                    "manifest": "Editable",
+                    "flexValueSetId": null,
+                    "dbColumn": "radio1",
+                    "isUniqueKey": false,
+                    "id": 5,
+                    "options": [
+                        "Yes",
+                        "No"
+                    ],
+                    "displayNames": [
+                        {
+                            "displayName": "One time supplier?",
+                            "lang": "en",
+                            "id": 17
+                        }
+                    ],
+                    "toolTips": [
+                        {
+                            "toolTip": null,
+                            "lang": "en",
+                            "id": 17
+                        }
+                    ],
+                    "rules": [
+                        {
+                            "type": "regex",
+                            "definition": "/^[a-zA-Z]*$/",
+                            "messages": [
+                                {
+                                    "message": "Description should follow the RegEx pattern",
+                                    "lang": "en"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "displayNames": [
+                {
+                    "displayName": "Product Lifecycle Info",
+                    "lang": "en",
+                    "id": 11
+                }
+            ],
+            "toolTips": [
+                {
+                    "toolTip": null,
+                    "lang": "en",
+                    "id": 11
+                }
+            ],
+            "inheritance": {
+                "base": "",
+                "tempVariant": "Edit",
+                "gtin": "Edit"
+            }
+        },
+        {
+            "id": "trn:tesco:attrgroup:uuid:0c33d4e0-d4fc-11e7-a862-7b6a0d76adb4",
+            "name": "Local Site Adress",
+            "behaviour": "Single Row",
+            "type": "Dynamic",
+            "attributes": [
+                {
+                    "name": "Country code",
+                    "enabled": true,
+                    "required": true,
+                    "default": null,
+                    "dataType": "select",
+                    "manifest": "Editable",
+                    "flexValueSetId": 1,
+                    "dbColumn": "select1",
+                    "isUniqueKey": false,
+                    "id": 6,
+                    "options": [
+                        "en",
+                        "th"
+                    ],
+                    "flexValueSets": {
+                        "flexValueSetId": 1,
+                        "name": "brand"
+                    },
+                    "displayNames": [
+                        {
+                            "displayName": "Country code",
+                            "lang": "en",
+                            "id": 18
+                        }
+                    ],
+                    "toolTips": [
+                        {
+                            "toolTip": "Select the Country code",
+                            "lang": "en",
+                            "id": 18
+                        }
+                    ],
+                    "rules": []
+                },
+                {
+                    "name": "Address 1",
+                    "enabled": true,
+                    "required": false,
+                    "default": null,
+                    "dataType": "text",
+                    "manifest": "Editable",
+                    "flexValueSetId": null,
+                    "dbColumn": "string1",
+                    "isUniqueKey": false,
+                    "id": 7,
+                    "displayNames": [
+                        {
+                            "displayName": "Address 1",
+                            "lang": "en",
+                            "id": 19
+                        }
+                    ],
+                    "toolTips": [
+                        {
+                            "toolTip": null,
+                            "lang": "en",
+                            "id": 19
+                        }
+                    ],
+                    "rules": []
+                },
+                {
+                    "name": "Address 2",
+                    "enabled": true,
+                    "required": false,
+                    "default": null,
+                    "dataType": "textarea",
+                    "manifest": "Editable",
+                    "flexValueSetId": null,
+                    "dbColumn": "string2",
+                    "isUniqueKey": false,
+                    "id": 8,
+                    "displayNames": [
+                        {
+                            "displayName": "Comments",
+                            "lang": "en",
+                            "id": 20
+                        }
+                    ],
+                    "toolTips": [
+                        {
+                            "toolTip": null,
+                            "lang": "en",
+                            "id": 20
+                        }
+                    ],
+                    "rules": []
+                }
+            ],
+            "displayNames": [
+                {
+                    "displayName": "Trade Item Information",
+                    "lang": "en",
+                    "id": 12
+                }
+            ],
+            "toolTips": [
+                {
+                    "toolTip": null,
+                    "lang": "en",
+                    "id": 12
+                }
+            ],
+            "inheritance": {
+                "base": "",
+                "tempVariant": "Inherit",
+                "gtin": "n/a"
+            }
+        },
+        {
+            "id": "trn:tesco:attrgroup:uuid:0c33fbf0-d4fc-11e7-a862-7b6a0d76adb4",
+            "name": "Local Site Contact",
+            "behaviour": "Single Row",
+            "type": "Dynamic",
+            "attributes": [
+                {
+                    "name": "Title",
+                    "value": "",
+                    "key": "",
+                    "enabled": true,
+                    "required": false,
+                    "default": null,
+                    "dataType": "select",
+                    "manifest": "Editable",
+                    "flexValueSetId": null,
+                    "dbColumn": "select1",
+                    "isUniqueKey": false,
+                    "id": 9,
+                    "options": [
+                        "Mr",
+                        "Mrs"
+                    ],
+                    "displayNames": [
+                        {
+                            "displayName": "Title",
+                            "lang": "en",
+                            "id": 24
+                        }
+                    ],
+                    "toolTips": [
+                        {
+                            "toolTip": null,
+                            "lang": "en",
+                            "id": 24
+                        }
+                    ],
+                    "rules": [
+                        {
+                            "type": "endpoint",
+                            "definition": "/v4/check-gtin/:gtin",
+                            "messages": [
+                                {
+                                    "message": "GTIN is associated with another product",
+                                    "lang": "en"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "First name",
+                    "value": "",
+                    "key": "",
+                    "enabled": true,
+                    "required": false,
+                    "default": null,
+                    "dataType": "String",
+                    "manifest": "Editable",
+                    "flexValueSetId": null,
+                    "dbColumn": "string2",
+                    "isUniqueKey": false,
+                    "id": 10,
+                    "displayNames": [
+                        {
+                            "displayName": "First name",
+                            "lang": "en",
+                            "id": 25
+                        }
+                    ],
+                    "toolTips": [
+                        {
+                            "toolTip": null,
+                            "lang": "en",
+                            "id": 25
+                        }
+                    ],
+                    "rules": []
+                },
+                {
+                    "name": "Middle name",
+                    "value": "",
+                    "key": "",
+                    "enabled": true,
+                    "required": false,
+                    "default": null,
+                    "dataType": "radio",
+                    "manifest": "Editable",
+                    "flexValueSetId": null,
+                    "dbColumn": "radio1",
+                    "isUniqueKey": false,
+                    "id": 11,
+                    "options": [
+                        "Active",
+                        "Inactive"
+                    ],
+                    "displayNames": [
+                        {
+                            "displayName": "Country code",
+                            "lang": "en",
+                            "id": 26
+                        }
+                    ],
+                    "toolTips": [
+                        {
+                            "toolTip": null,
+                            "lang": "en",
+                            "id": 26
+                        }
+                    ],
+                    "rules": []
+                },
+                {
+                    "name": "Job Title",
+                    "enabled": true,
+                    "required": false,
+                    "default": null,
+                    "dataType": "textarea",
+                    "manifest": "Editable",
+                    "flexValueSetId": null,
+                    "dbColumn": "textarea1",
+                    "isUniqueKey": false,
+                    "id": 12,
+                    "displayNames": [
+                        {
+                            "displayName": "Comments",
+                            "lang": "en",
+                            "id": 27
+                        }
+                    ],
+                    "toolTips": [
+                        {
+                            "toolTip": null,
+                            "lang": "en",
+                            "id": 27
+                        }
+                    ],
+                    "rules": []
+                }
+            ],
+            "displayNames": [
+                {
+                    "displayName": "GTIN Information",
+                    "lang": "en",
+                    "id": 1
+                }
+            ],
+            "toolTips": [
+                {
+                    "toolTip": null,
+                    "lang": "en",
+                    "id": 1
+                }
+            ],
+            "inheritance": {
+                "base": "",
+                "tempVariant": "n/a",
+                "gtin": "Edit"
+            }
+        }
+    ]
+}

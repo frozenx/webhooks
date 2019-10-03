@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/supplier Given the supplier page is mounted it should render the markup 1`] = `
+<div
+  className="sc-htpNat kHiKQM"
+  id="wrapper"
+>
+  <div
+    className="sc-EHOje zSSKL"
+    id="tab-wrapper"
+  >
+    <p>
+      Error 
+    </p>
+  </div>
+</div>
+`;

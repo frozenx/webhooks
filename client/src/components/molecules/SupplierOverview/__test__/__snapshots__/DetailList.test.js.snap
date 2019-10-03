@@ -1,0 +1,482 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`list component test cases render the component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <DetailList
+    attributeGroups={
+      Array [
+        Object {
+          "id": 1,
+          "name": "Group name",
+        },
+      ]
+    }
+    handleSupplierForm={[MockFunction]}
+    handleUUID={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            "12234",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    uuid="12234"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": <ul>
+        <li
+          className="formGroup"
+        >
+          <StandaloneLink
+            _altLink={false}
+            disabled={true}
+            emphasized={true}
+            inverse={false}
+            root={true}
+            variant="standalone"
+          >
+            Group name
+          </StandaloneLink>
+          <ForwardRef
+            className="add-icon"
+            emphasized={true}
+            icon={
+              Object {
+                "graphic": "forwardLink",
+                "position": Object {
+                  "global": "right",
+                },
+              }
+            }
+            onClick={[Function]}
+          >
+             Add
+          </ForwardRef>
+        </li>
+      </ul>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <li
+            className="formGroup"
+          >
+            <StandaloneLink
+              _altLink={false}
+              disabled={true}
+              emphasized={true}
+              inverse={false}
+              root={true}
+              variant="standalone"
+            >
+              Group name
+            </StandaloneLink>
+            <ForwardRef
+              className="add-icon"
+              emphasized={true}
+              icon={
+                Object {
+                  "graphic": "forwardLink",
+                  "position": Object {
+                    "global": "right",
+                  },
+                }
+              }
+              onClick={[Function]}
+            >
+               Add
+            </ForwardRef>
+          </li>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <StandaloneLink
+                _altLink={false}
+                disabled={true}
+                emphasized={true}
+                inverse={false}
+                root={true}
+                variant="standalone"
+              >
+                Group name
+              </StandaloneLink>,
+              <ForwardRef
+                className="add-icon"
+                emphasized={true}
+                icon={
+                  Object {
+                    "graphic": "forwardLink",
+                    "position": Object {
+                      "global": "right",
+                    },
+                  }
+                }
+                onClick={[Function]}
+              >
+                 Add
+              </ForwardRef>,
+            ],
+            "className": "formGroup",
+            "onClick": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "_altLink": false,
+                "children": "Group name",
+                "className": undefined,
+                "disabled": true,
+                "domRef": undefined,
+                "emphasized": true,
+                "href": undefined,
+                "inverse": false,
+                "root": true,
+                "styles": undefined,
+                "variant": "standalone",
+              },
+              "ref": null,
+              "rendered": "Group name",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": " Add",
+                "className": "add-icon",
+                "emphasized": true,
+                "icon": Object {
+                  "graphic": "forwardLink",
+                  "position": Object {
+                    "global": "right",
+                  },
+                },
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": " Add",
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "displayName": "WithTheme(StandaloneLinkWithIcon)",
+                "render": [Function],
+                Symbol(Symbol.hasInstance): [Function],
+              },
+            },
+          ],
+          "type": "li",
+        },
+      ],
+      "type": "ul",
+    },
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-htpNat",
+        "isStatic": true,
+        "rules": Array [
+          "
+    ul{
+        margin: 0
+        padding: 0;
+        border-top: 1px solid #cccccc;
+        > li{
+            width: 100%;
+            display: inline-block;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+            padding-top: 10px;
+            > a {
+                display:inline-block;
+                > span{
+                    vertical-align: top;
+                }
+                &:last-child{
+                    float: right;
+                }
+            }
+        }
+    }
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-htpNat",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <ul>
+          <li
+            className="formGroup"
+          >
+            <StandaloneLink
+              _altLink={false}
+              disabled={true}
+              emphasized={true}
+              inverse={false}
+              root={true}
+              variant="standalone"
+            >
+              Group name
+            </StandaloneLink>
+            <ForwardRef
+              className="add-icon"
+              emphasized={true}
+              icon={
+                Object {
+                  "graphic": "forwardLink",
+                  "position": Object {
+                    "global": "right",
+                  },
+                }
+              }
+              onClick={[Function]}
+            >
+               Add
+            </ForwardRef>
+          </li>
+        </ul>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li
+              className="formGroup"
+            >
+              <StandaloneLink
+                _altLink={false}
+                disabled={true}
+                emphasized={true}
+                inverse={false}
+                root={true}
+                variant="standalone"
+              >
+                Group name
+              </StandaloneLink>
+              <ForwardRef
+                className="add-icon"
+                emphasized={true}
+                icon={
+                  Object {
+                    "graphic": "forwardLink",
+                    "position": Object {
+                      "global": "right",
+                    },
+                  }
+                }
+                onClick={[Function]}
+              >
+                 Add
+              </ForwardRef>
+            </li>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <StandaloneLink
+                  _altLink={false}
+                  disabled={true}
+                  emphasized={true}
+                  inverse={false}
+                  root={true}
+                  variant="standalone"
+                >
+                  Group name
+                </StandaloneLink>,
+                <ForwardRef
+                  className="add-icon"
+                  emphasized={true}
+                  icon={
+                    Object {
+                      "graphic": "forwardLink",
+                      "position": Object {
+                        "global": "right",
+                      },
+                    }
+                  }
+                  onClick={[Function]}
+                >
+                   Add
+                </ForwardRef>,
+              ],
+              "className": "formGroup",
+              "onClick": undefined,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "_altLink": false,
+                  "children": "Group name",
+                  "className": undefined,
+                  "disabled": true,
+                  "domRef": undefined,
+                  "emphasized": true,
+                  "href": undefined,
+                  "inverse": false,
+                  "root": true,
+                  "styles": undefined,
+                  "variant": "standalone",
+                },
+                "ref": null,
+                "rendered": "Group name",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": " Add",
+                  "className": "add-icon",
+                  "emphasized": true,
+                  "icon": Object {
+                    "graphic": "forwardLink",
+                    "position": Object {
+                      "global": "right",
+                    },
+                  },
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": " Add",
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "displayName": "WithTheme(StandaloneLinkWithIcon)",
+                  "render": [Function],
+                  Symbol(Symbol.hasInstance): [Function],
+                },
+              },
+            ],
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-htpNat",
+          "isStatic": true,
+          "rules": Array [
+            "
+    ul{
+        margin: 0
+        padding: 0;
+        border-top: 1px solid #cccccc;
+        > li{
+            width: 100%;
+            display: inline-block;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+            padding-top: 10px;
+            > a {
+                display:inline-block;
+                > span{
+                    vertical-align: top;
+                }
+                &:last-child{
+                    float: right;
+                }
+            }
+        }
+    }
+",
+          ],
+        },
+        "displayName": "styled.div",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-htpNat",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

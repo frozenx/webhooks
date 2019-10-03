@@ -1,0 +1,342 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`form component test cases render the component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SupplierDetailForm />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <GenericFormContainer />,
+        <ForwardRef>
+          <_default
+            className="submit-btn"
+            id="save-as-draft"
+            onClick={[Function]}
+            type="submit"
+            variant="secondary"
+          >
+            Cancel
+          </_default>
+          <_default
+            className="submit - btn enabled"
+            id="save"
+            onClick={[Function]}
+            type="submit"
+            variant="primary"
+          >
+             Save
+          </_default>
+        </ForwardRef>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "genericFormData": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <_default
+              className="submit-btn"
+              id="save-as-draft"
+              onClick={[Function]}
+              type="submit"
+              variant="secondary"
+            >
+              Cancel
+            </_default>,
+            <_default
+              className="submit - btn enabled"
+              id="save"
+              onClick={[Function]}
+              type="submit"
+              variant="primary"
+            >
+               Save
+            </_default>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "Cancel",
+              "className": "submit-btn",
+              "id": "save-as-draft",
+              "onClick": [Function],
+              "type": "submit",
+              "variant": "secondary",
+            },
+            "ref": null,
+            "rendered": "Cancel",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": " Save",
+              "className": "submit - btn enabled",
+              "id": "save",
+              "onClick": [Function],
+              "type": "submit",
+              "variant": "primary",
+            },
+            "ref": null,
+            "rendered": " Save",
+            "type": [Function],
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-htoDjs",
+            "isStatic": true,
+            "rules": Array [
+              "
+    button{
+        margin-right: 20px;
+    }
+
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-htoDjs",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-jzJRlG",
+        "isStatic": true,
+        "rules": Array [
+          "
+    margin-bottom : 24px;
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-jzJRlG",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <GenericFormContainer />,
+          <ForwardRef>
+            <_default
+              className="submit-btn"
+              id="save-as-draft"
+              onClick={[Function]}
+              type="submit"
+              variant="secondary"
+            >
+              Cancel
+            </_default>
+            <_default
+              className="submit - btn enabled"
+              id="save"
+              onClick={[Function]}
+              type="submit"
+              variant="primary"
+            >
+               Save
+            </_default>
+          </ForwardRef>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "genericFormData": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <_default
+                className="submit-btn"
+                id="save-as-draft"
+                onClick={[Function]}
+                type="submit"
+                variant="secondary"
+              >
+                Cancel
+              </_default>,
+              <_default
+                className="submit - btn enabled"
+                id="save"
+                onClick={[Function]}
+                type="submit"
+                variant="primary"
+              >
+                 Save
+              </_default>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "Cancel",
+                "className": "submit-btn",
+                "id": "save-as-draft",
+                "onClick": [Function],
+                "type": "submit",
+                "variant": "secondary",
+              },
+              "ref": null,
+              "rendered": "Cancel",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": " Save",
+                "className": "submit - btn enabled",
+                "id": "save",
+                "onClick": [Function],
+                "type": "submit",
+                "variant": "primary",
+              },
+              "ref": null,
+              "rendered": " Save",
+              "type": [Function],
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-htoDjs",
+              "isStatic": true,
+              "rules": Array [
+                "
+    button{
+        margin-right: 20px;
+    }
+
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-htoDjs",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-jzJRlG",
+          "isStatic": true,
+          "rules": Array [
+            "
+    margin-bottom : 24px;
+",
+          ],
+        },
+        "displayName": "styled.div",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-jzJRlG",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

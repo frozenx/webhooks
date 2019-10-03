@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`editJourneyConnector should render the component along with its children 1`] = `
+<div
+  data={
+    Object {
+      "attributeGroups": Array [
+        Object {
+          "attributes": Array [],
+          "id": "id1",
+        },
+        Object {
+          "attributes": Array [],
+          "id": "id2",
+        },
+      ],
+      "attributeToRulesMapping": Object {},
+    }
+  }
+  tabId="tab1"
+/>
+`;

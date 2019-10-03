@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`languagePackConnector should render component taking language from navigator given cookie is not set 1`] = `null`;
+
+exports[`languagePackConnector should render the component along with its children given cookie is set 1`] = `null`;

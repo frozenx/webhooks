@@ -1,0 +1,13 @@
+export const COMPONENT_NAME = 'beans-accordion';
+export const CLOSE = 'close';
+export const CLOSED = 'closed';
+export const CLOSING = 'closing';
+export const ENTER = 13;
+export const EXPAND = 'expand';
+export const HEIGHT = 'height';
+export const OPEN = 'open';
+export const OPENING = 'opening';
+export const PRIMARY = 'primary';
+export const SECONDARY = 'secondary';
+export const SPACE = 32;
+export const ERROR = 'error';

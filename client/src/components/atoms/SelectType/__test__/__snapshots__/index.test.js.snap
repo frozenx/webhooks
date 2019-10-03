@@ -1,0 +1,413 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`atoms/SelectType should render the markup 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SelectType
+    attr={
+      Object {
+        "id": 1,
+        "options": Array [
+          "English",
+          "Thai",
+        ],
+        "rules": Array [
+          Object {
+            "messages": Array [
+              Object {
+                "message": "some message",
+              },
+            ],
+          },
+        ],
+      }
+    }
+    errors={Object {}}
+    isDisabled={false}
+    name="name"
+    rules="regex string"
+    type="text"
+    values={Object {}}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <_default
+          dark={true}
+          emphasized={true}
+          htmlFor="1"
+        />,
+        <ForwardRef
+          defaultValue="select"
+          id={1}
+          value="select"
+        >
+          <option
+            value="select"
+          >
+            Select
+          </option>
+          <React.Fragment>
+            <option />
+          </React.Fragment>
+          <React.Fragment>
+            <option />
+          </React.Fragment>
+        </ForwardRef>,
+        null,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": undefined,
+          "dark": true,
+          "emphasized": true,
+          "htmlFor": "1",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <option
+              value="select"
+            >
+              Select
+            </option>,
+            Array [
+              <React.Fragment>
+                <option />
+              </React.Fragment>,
+              <React.Fragment>
+                <option />
+              </React.Fragment>,
+            ],
+          ],
+          "defaultValue": "select",
+          "id": 1,
+          "name": undefined,
+          "value": "select",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Select",
+              "value": "select",
+            },
+            "ref": null,
+            "rendered": "Select",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "function",
+            "props": Object {
+              "children": <option />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "option",
+            },
+            "type": Symbol(react.fragment),
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "function",
+            "props": Object {
+              "children": <option />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "option",
+            },
+            "type": Symbol(react.fragment),
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "displayName": "WithTheme(Dropdown)",
+          "render": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        },
+      },
+      null,
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bZQynM",
+        "isStatic": true,
+        "rules": Array [
+          "
+    margin-bottom: 24px;
+        > label{
+            padding-bottom: 8px;
+        }
+    input:disabled,
+    textarea:disabled,
+    select:disabled{
+        border: 0;
+        padding: 0;
+    }
+    textarea{
+        resize: none;
+    }  
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-bZQynM",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <_default
+            dark={true}
+            emphasized={true}
+            htmlFor="1"
+          />,
+          <ForwardRef
+            defaultValue="select"
+            id={1}
+            value="select"
+          >
+            <option
+              value="select"
+            >
+              Select
+            </option>
+            <React.Fragment>
+              <option />
+            </React.Fragment>
+            <React.Fragment>
+              <option />
+            </React.Fragment>
+          </ForwardRef>,
+          null,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": undefined,
+            "dark": true,
+            "emphasized": true,
+            "htmlFor": "1",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <option
+                value="select"
+              >
+                Select
+              </option>,
+              Array [
+                <React.Fragment>
+                  <option />
+                </React.Fragment>,
+                <React.Fragment>
+                  <option />
+                </React.Fragment>,
+              ],
+            ],
+            "defaultValue": "select",
+            "id": 1,
+            "name": undefined,
+            "value": "select",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Select",
+                "value": "select",
+              },
+              "ref": null,
+              "rendered": "Select",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "function",
+              "props": Object {
+                "children": <option />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                  "value": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "option",
+              },
+              "type": Symbol(react.fragment),
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "function",
+              "props": Object {
+                "children": <option />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                  "value": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "option",
+              },
+              "type": Symbol(react.fragment),
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "displayName": "WithTheme(Dropdown)",
+            "render": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
+        },
+        null,
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bZQynM",
+          "isStatic": true,
+          "rules": Array [
+            "
+    margin-bottom: 24px;
+        > label{
+            padding-bottom: 8px;
+        }
+    input:disabled,
+    textarea:disabled,
+    select:disabled{
+        border: 0;
+        padding: 0;
+    }
+    textarea{
+        resize: none;
+    }  
+",
+          ],
+        },
+        "displayName": "styled.div",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bZQynM",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

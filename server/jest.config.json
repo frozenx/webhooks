@@ -1,0 +1,21 @@
+{
+    "collectCoverageFrom": [
+        "*.js"
+    ],
+    "coveragePathIgnorePatterns": [
+        "/node_modules/",
+        "prettify",
+        "coverage",
+        "sorter",
+        "index.js",
+        "client"
+    ],
+    "coverageThreshold": {
+        "global": {
+            "statements": 100,
+            "branches": 100,
+            "functions": 100,
+            "lines": 100
+        }
+    }
+}

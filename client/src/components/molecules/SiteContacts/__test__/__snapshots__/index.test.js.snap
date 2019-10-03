@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SiteContacts should render the component 1`] = `
+<div
+  className="sc-hMqMXs fTjBSR"
+>
+  <div
+    className="sc-kkGfuU crrKaw"
+  >
+    <a
+      className="styled__IconButtonLinkWithText-sc-1r4nugl-0 pnUgr"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <span
+        className="beans-link__text styled__TextSpan-sc-1r4nugl-3 jelKHq"
+      >
+        <span>
+          Back to Partner overview
+        </span>
+      </span>
+      <span
+        className="beans-link__icon styled__IconButtonSpan-sc-1r4nugl-4 blqHEm"
+        disabled={false}
+      >
+        <span
+          className="styled__IconSpan-sc-1r4nugl-5 kuXyIv"
+        >
+          <svg
+            aria-hidden={true}
+            className="styled__Container-sc-1bf1p22-0 gJOjrx"
+            color="currentColor"
+            disabled={false}
+            height={20}
+            preserveAspectRatio="xMinYMax meet"
+            viewBox="1 0 12 20"
+            width={12}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.688 18.652L1.723 10l8.964-8.644"
+              fill="none"
+              stroke="currentColor"
+            />
+          </svg>
+        </span>
+      </span>
+    </a>
+  </div>
+  <div
+    className="sc-htpNat cVNxct"
+  >
+    <div
+      className="base-components__RootElement-sc-150tvch-1 sc-bxivhb kUxGyj"
+    >
+      <div
+        className="sc-ifAKCX IcNji"
+      />
+      <div
+        className="sc-bdVaJa kybHWQ"
+      >
+        <span
+          className="sc-bwzfXH eDyLnt"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

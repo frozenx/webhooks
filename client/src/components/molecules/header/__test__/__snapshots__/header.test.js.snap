@@ -1,0 +1,2537 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`molecules/header Given the component is mounted it should display notification for error in form submission  1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Header
+    data={
+      Object {
+        "attributeGroups": Array [],
+        "attributeToRulesMapping": Object {},
+      }
+    }
+    isFormError={true}
+    submitHandler={[MockFunction]}
+    updateTabIndicator={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        undefined,
+        <Unknown
+          title="Form Invalid. Please fix invalid fields and submit again"
+          variant="error"
+        />,
+        false,
+        false,
+        <ForwardRef>
+          <form
+            id="accordion-form"
+            onChange={[Function]}
+          >
+            <ForwardRef>
+              <Unknown
+                attributeGroups={Array []}
+                attributeToRulesMapping={Object {}}
+                currentAccordion=""
+                indicators={
+                  Object {
+                    "averageIndicatorVariant": "error",
+                    "averageValue": 0,
+                    "tab1": Object {},
+                  }
+                }
+                setAccordion={[Function]}
+              />
+            </ForwardRef>
+            <ForwardRef>
+              <Unknown
+                className="submit - btn enabled"
+                id="save"
+                onClick={[Function]}
+                type="submit"
+                variant="primary"
+              >
+                Save
+              </Unknown>
+              <Unknown
+                className="submit-btn"
+                id="save-as-draft"
+                onClick={[Function]}
+                type="submit"
+                variant="secondary"
+              >
+                Save as draft
+              </Unknown>
+            </ForwardRef>
+          </form>
+        </ForwardRef>,
+      ],
+      "value": Object {
+        "currentAccordion": "",
+        "errors": Object {},
+        "values": Object {},
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      undefined,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "title": "Form Invalid. Please fix invalid fields and submit again",
+          "variant": "error",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      false,
+      false,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <form
+            id="accordion-form"
+            onChange={[Function]}
+          >
+            <ForwardRef>
+              <Unknown
+                attributeGroups={Array []}
+                attributeToRulesMapping={Object {}}
+                currentAccordion=""
+                indicators={
+                  Object {
+                    "averageIndicatorVariant": "error",
+                    "averageValue": 0,
+                    "tab1": Object {},
+                  }
+                }
+                setAccordion={[Function]}
+              />
+            </ForwardRef>
+            <ForwardRef>
+              <Unknown
+                className="submit - btn enabled"
+                id="save"
+                onClick={[Function]}
+                type="submit"
+                variant="primary"
+              >
+                Save
+              </Unknown>
+              <Unknown
+                className="submit-btn"
+                id="save-as-draft"
+                onClick={[Function]}
+                type="submit"
+                variant="secondary"
+              >
+                Save as draft
+              </Unknown>
+            </ForwardRef>
+          </form>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <ForwardRef>
+                <Unknown
+                  attributeGroups={Array []}
+                  attributeToRulesMapping={Object {}}
+                  currentAccordion=""
+                  indicators={
+                    Object {
+                      "averageIndicatorVariant": "error",
+                      "averageValue": 0,
+                      "tab1": Object {},
+                    }
+                  }
+                  setAccordion={[Function]}
+                />
+              </ForwardRef>,
+              <ForwardRef>
+                <Unknown
+                  className="submit - btn enabled"
+                  id="save"
+                  onClick={[Function]}
+                  type="submit"
+                  variant="primary"
+                >
+                  Save
+                </Unknown>
+                <Unknown
+                  className="submit-btn"
+                  id="save-as-draft"
+                  onClick={[Function]}
+                  type="submit"
+                  variant="secondary"
+                >
+                  Save as draft
+                </Unknown>
+              </ForwardRef>,
+            ],
+            "id": "accordion-form",
+            "onChange": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <Unknown
+                  attributeGroups={Array []}
+                  attributeToRulesMapping={Object {}}
+                  currentAccordion=""
+                  indicators={
+                    Object {
+                      "averageIndicatorVariant": "error",
+                      "averageValue": 0,
+                      "tab1": Object {},
+                    }
+                  }
+                  setAccordion={[Function]}
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "attributeGroups": Array [],
+                  "attributeToRulesMapping": Object {},
+                  "currentAccordion": "",
+                  "indicators": Object {
+                    "averageIndicatorVariant": "error",
+                    "averageValue": 0,
+                    "tab1": Object {},
+                  },
+                  "setAccordion": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-iwsKbI",
+                  "isStatic": true,
+                  "rules": Array [
+                    "
+    background-color: #f6f6f6;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+    margin-bottom: 24px;
+    margin-top: 30px;
+
+    .accordion-attr-grp{
+        border: 0px;    
+        border-bottom: 1px solid #ccc;
+        .beans-accordion__content{
+            padding: 0px;
+            border-top: 1px solid #cccccc;
+            border-bottom: 1px solid #cccccc;
+        }
+    }
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-iwsKbI",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <Unknown
+                    className="submit - btn enabled"
+                    id="save"
+                    onClick={[Function]}
+                    type="submit"
+                    variant="primary"
+                  >
+                    Save
+                  </Unknown>,
+                  <Unknown
+                    className="submit-btn"
+                    id="save-as-draft"
+                    onClick={[Function]}
+                    type="submit"
+                    variant="secondary"
+                  >
+                    Save as draft
+                  </Unknown>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": "Save",
+                    "className": "submit - btn enabled",
+                    "id": "save",
+                    "onClick": [Function],
+                    "type": "submit",
+                    "variant": "primary",
+                  },
+                  "ref": null,
+                  "rendered": "Save",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": "Save as draft",
+                    "className": "submit-btn",
+                    "id": "save-as-draft",
+                    "onClick": [Function],
+                    "type": "submit",
+                    "variant": "secondary",
+                  },
+                  "ref": null,
+                  "rendered": "Save as draft",
+                  "type": [Function],
+                },
+              ],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-gZMcBi",
+                  "isStatic": true,
+                  "rules": Array [
+                    "
+    button{
+        margin-right: 20px;
+    }
+
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-gZMcBi",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+          ],
+          "type": "form",
+        },
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bZQynM",
+            "isStatic": false,
+            "rules": Array [
+              [Function],
+              ";",
+              "-webkit-tap-highlight-color:",
+              [Function],
+              ";border:0;box-sizing:border-box;margin:0;outline:",
+              [Function],
+              ";padding:0;position:relative;",
+              ";",
+              "
+    width: 816px;
+    margin: 0 auto;
+    @media (max-width: 816px) {
+        width: 100%;
+    }
+    form{
+        padding-bottom: 24px;
+    }
+",
+            ],
+          },
+          "displayName": "Styled(base-components__RootElement)",
+          "foldedComponentIds": Array [
+            "base-components__RootElement-sc-150tvch-1",
+          ],
+          "render": [Function],
+          "styledComponentId": "sc-bZQynM",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.provider),
+      "_context": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": Object {
+          "$$typeof": Symbol(react.context),
+          "_calculateChangedBits": null,
+          "_context": [Circular],
+        },
+        "Provider": [Circular],
+        "_calculateChangedBits": null,
+        "_currentRenderer": null,
+        "_currentRenderer2": null,
+        "_currentValue": Object {
+          "errors": Object {},
+          "values": Object {},
+        },
+        "_currentValue2": Object {
+          "errors": Object {},
+          "values": Object {},
+        },
+        "_threadCount": 0,
+      },
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          undefined,
+          <Unknown
+            title="Form Invalid. Please fix invalid fields and submit again"
+            variant="error"
+          />,
+          false,
+          false,
+          <ForwardRef>
+            <form
+              id="accordion-form"
+              onChange={[Function]}
+            >
+              <ForwardRef>
+                <Unknown
+                  attributeGroups={Array []}
+                  attributeToRulesMapping={Object {}}
+                  currentAccordion=""
+                  indicators={
+                    Object {
+                      "averageIndicatorVariant": "error",
+                      "averageValue": 0,
+                      "tab1": Object {},
+                    }
+                  }
+                  setAccordion={[Function]}
+                />
+              </ForwardRef>
+              <ForwardRef>
+                <Unknown
+                  className="submit - btn enabled"
+                  id="save"
+                  onClick={[Function]}
+                  type="submit"
+                  variant="primary"
+                >
+                  Save
+                </Unknown>
+                <Unknown
+                  className="submit-btn"
+                  id="save-as-draft"
+                  onClick={[Function]}
+                  type="submit"
+                  variant="secondary"
+                >
+                  Save as draft
+                </Unknown>
+              </ForwardRef>
+            </form>
+          </ForwardRef>,
+        ],
+        "value": Object {
+          "currentAccordion": "",
+          "errors": Object {},
+          "values": Object {},
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        undefined,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "title": "Form Invalid. Please fix invalid fields and submit again",
+            "variant": "error",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        false,
+        false,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <form
+              id="accordion-form"
+              onChange={[Function]}
+            >
+              <ForwardRef>
+                <Unknown
+                  attributeGroups={Array []}
+                  attributeToRulesMapping={Object {}}
+                  currentAccordion=""
+                  indicators={
+                    Object {
+                      "averageIndicatorVariant": "error",
+                      "averageValue": 0,
+                      "tab1": Object {},
+                    }
+                  }
+                  setAccordion={[Function]}
+                />
+              </ForwardRef>
+              <ForwardRef>
+                <Unknown
+                  className="submit - btn enabled"
+                  id="save"
+                  onClick={[Function]}
+                  type="submit"
+                  variant="primary"
+                >
+                  Save
+                </Unknown>
+                <Unknown
+                  className="submit-btn"
+                  id="save-as-draft"
+                  onClick={[Function]}
+                  type="submit"
+                  variant="secondary"
+                >
+                  Save as draft
+                </Unknown>
+              </ForwardRef>
+            </form>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <ForwardRef>
+                  <Unknown
+                    attributeGroups={Array []}
+                    attributeToRulesMapping={Object {}}
+                    currentAccordion=""
+                    indicators={
+                      Object {
+                        "averageIndicatorVariant": "error",
+                        "averageValue": 0,
+                        "tab1": Object {},
+                      }
+                    }
+                    setAccordion={[Function]}
+                  />
+                </ForwardRef>,
+                <ForwardRef>
+                  <Unknown
+                    className="submit - btn enabled"
+                    id="save"
+                    onClick={[Function]}
+                    type="submit"
+                    variant="primary"
+                  >
+                    Save
+                  </Unknown>
+                  <Unknown
+                    className="submit-btn"
+                    id="save-as-draft"
+                    onClick={[Function]}
+                    type="submit"
+                    variant="secondary"
+                  >
+                    Save as draft
+                  </Unknown>
+                </ForwardRef>,
+              ],
+              "id": "accordion-form",
+              "onChange": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <Unknown
+                    attributeGroups={Array []}
+                    attributeToRulesMapping={Object {}}
+                    currentAccordion=""
+                    indicators={
+                      Object {
+                        "averageIndicatorVariant": "error",
+                        "averageValue": 0,
+                        "tab1": Object {},
+                      }
+                    }
+                    setAccordion={[Function]}
+                  />,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "attributeGroups": Array [],
+                    "attributeToRulesMapping": Object {},
+                    "currentAccordion": "",
+                    "indicators": Object {
+                      "averageIndicatorVariant": "error",
+                      "averageValue": 0,
+                      "tab1": Object {},
+                    },
+                    "setAccordion": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-iwsKbI",
+                    "isStatic": true,
+                    "rules": Array [
+                      "
+    background-color: #f6f6f6;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+    margin-bottom: 24px;
+    margin-top: 30px;
+
+    .accordion-attr-grp{
+        border: 0px;    
+        border-bottom: 1px solid #ccc;
+        .beans-accordion__content{
+            padding: 0px;
+            border-top: 1px solid #cccccc;
+            border-bottom: 1px solid #cccccc;
+        }
+    }
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-iwsKbI",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                },
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": Array [
+                    <Unknown
+                      className="submit - btn enabled"
+                      id="save"
+                      onClick={[Function]}
+                      type="submit"
+                      variant="primary"
+                    >
+                      Save
+                    </Unknown>,
+                    <Unknown
+                      className="submit-btn"
+                      id="save-as-draft"
+                      onClick={[Function]}
+                      type="submit"
+                      variant="secondary"
+                    >
+                      Save as draft
+                    </Unknown>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": "Save",
+                      "className": "submit - btn enabled",
+                      "id": "save",
+                      "onClick": [Function],
+                      "type": "submit",
+                      "variant": "primary",
+                    },
+                    "ref": null,
+                    "rendered": "Save",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": "Save as draft",
+                      "className": "submit-btn",
+                      "id": "save-as-draft",
+                      "onClick": [Function],
+                      "type": "submit",
+                      "variant": "secondary",
+                    },
+                    "ref": null,
+                    "rendered": "Save as draft",
+                    "type": [Function],
+                  },
+                ],
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-gZMcBi",
+                    "isStatic": true,
+                    "rules": Array [
+                      "
+    button{
+        margin-right: 20px;
+    }
+
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-gZMcBi",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                },
+              },
+            ],
+            "type": "form",
+          },
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bZQynM",
+              "isStatic": false,
+              "rules": Array [
+                [Function],
+                ";",
+                "-webkit-tap-highlight-color:",
+                [Function],
+                ";border:0;box-sizing:border-box;margin:0;outline:",
+                [Function],
+                ";padding:0;position:relative;",
+                ";",
+                "
+    width: 816px;
+    margin: 0 auto;
+    @media (max-width: 816px) {
+        width: 100%;
+    }
+    form{
+        padding-bottom: 24px;
+    }
+",
+              ],
+            },
+            "displayName": "Styled(base-components__RootElement)",
+            "foldedComponentIds": Array [
+              "base-components__RootElement-sc-150tvch-1",
+            ],
+            "render": [Function],
+            "styledComponentId": "sc-bZQynM",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.provider),
+        "_context": Object {
+          "$$typeof": Symbol(react.context),
+          "Consumer": Object {
+            "$$typeof": Symbol(react.context),
+            "_calculateChangedBits": null,
+            "_context": [Circular],
+          },
+          "Provider": [Circular],
+          "_calculateChangedBits": null,
+          "_currentRenderer": null,
+          "_currentRenderer2": null,
+          "_currentValue": Object {
+            "errors": Object {},
+            "values": Object {},
+          },
+          "_currentValue2": Object {
+            "errors": Object {},
+            "values": Object {},
+          },
+          "_threadCount": 0,
+        },
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`molecules/header Given the component is mounted it should display notification for successful form submission  1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Header
+    data={
+      Object {
+        "attributeGroups": Array [],
+        "attributeToRulesMapping": Object {},
+      }
+    }
+    isSubmitSuccessful={true}
+    submitHandler={[MockFunction]}
+    updateTabIndicator={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <Unknown
+          title="Header record successfully saved"
+          variant="success"
+        />,
+        undefined,
+        false,
+        false,
+        <ForwardRef>
+          <form
+            id="accordion-form"
+            onChange={[Function]}
+          >
+            <ForwardRef>
+              <Unknown
+                attributeGroups={Array []}
+                attributeToRulesMapping={Object {}}
+                currentAccordion=""
+                indicators={
+                  Object {
+                    "averageIndicatorVariant": "error",
+                    "averageValue": 0,
+                    "tab1": Object {},
+                  }
+                }
+                setAccordion={[Function]}
+              />
+            </ForwardRef>
+            <ForwardRef>
+              <Unknown
+                className="submit - btn enabled"
+                id="save"
+                onClick={[Function]}
+                type="submit"
+                variant="primary"
+              >
+                Save
+              </Unknown>
+              <Unknown
+                className="submit-btn"
+                id="save-as-draft"
+                onClick={[Function]}
+                type="submit"
+                variant="secondary"
+              >
+                Save as draft
+              </Unknown>
+            </ForwardRef>
+          </form>
+        </ForwardRef>,
+      ],
+      "value": Object {
+        "currentAccordion": "",
+        "errors": Object {},
+        "values": Object {},
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "title": "Header record successfully saved",
+          "variant": "success",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      undefined,
+      false,
+      false,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <form
+            id="accordion-form"
+            onChange={[Function]}
+          >
+            <ForwardRef>
+              <Unknown
+                attributeGroups={Array []}
+                attributeToRulesMapping={Object {}}
+                currentAccordion=""
+                indicators={
+                  Object {
+                    "averageIndicatorVariant": "error",
+                    "averageValue": 0,
+                    "tab1": Object {},
+                  }
+                }
+                setAccordion={[Function]}
+              />
+            </ForwardRef>
+            <ForwardRef>
+              <Unknown
+                className="submit - btn enabled"
+                id="save"
+                onClick={[Function]}
+                type="submit"
+                variant="primary"
+              >
+                Save
+              </Unknown>
+              <Unknown
+                className="submit-btn"
+                id="save-as-draft"
+                onClick={[Function]}
+                type="submit"
+                variant="secondary"
+              >
+                Save as draft
+              </Unknown>
+            </ForwardRef>
+          </form>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <ForwardRef>
+                <Unknown
+                  attributeGroups={Array []}
+                  attributeToRulesMapping={Object {}}
+                  currentAccordion=""
+                  indicators={
+                    Object {
+                      "averageIndicatorVariant": "error",
+                      "averageValue": 0,
+                      "tab1": Object {},
+                    }
+                  }
+                  setAccordion={[Function]}
+                />
+              </ForwardRef>,
+              <ForwardRef>
+                <Unknown
+                  className="submit - btn enabled"
+                  id="save"
+                  onClick={[Function]}
+                  type="submit"
+                  variant="primary"
+                >
+                  Save
+                </Unknown>
+                <Unknown
+                  className="submit-btn"
+                  id="save-as-draft"
+                  onClick={[Function]}
+                  type="submit"
+                  variant="secondary"
+                >
+                  Save as draft
+                </Unknown>
+              </ForwardRef>,
+            ],
+            "id": "accordion-form",
+            "onChange": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <Unknown
+                  attributeGroups={Array []}
+                  attributeToRulesMapping={Object {}}
+                  currentAccordion=""
+                  indicators={
+                    Object {
+                      "averageIndicatorVariant": "error",
+                      "averageValue": 0,
+                      "tab1": Object {},
+                    }
+                  }
+                  setAccordion={[Function]}
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "attributeGroups": Array [],
+                  "attributeToRulesMapping": Object {},
+                  "currentAccordion": "",
+                  "indicators": Object {
+                    "averageIndicatorVariant": "error",
+                    "averageValue": 0,
+                    "tab1": Object {},
+                  },
+                  "setAccordion": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-iwsKbI",
+                  "isStatic": true,
+                  "rules": Array [
+                    "
+    background-color: #f6f6f6;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+    margin-bottom: 24px;
+    margin-top: 30px;
+
+    .accordion-attr-grp{
+        border: 0px;    
+        border-bottom: 1px solid #ccc;
+        .beans-accordion__content{
+            padding: 0px;
+            border-top: 1px solid #cccccc;
+            border-bottom: 1px solid #cccccc;
+        }
+    }
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-iwsKbI",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <Unknown
+                    className="submit - btn enabled"
+                    id="save"
+                    onClick={[Function]}
+                    type="submit"
+                    variant="primary"
+                  >
+                    Save
+                  </Unknown>,
+                  <Unknown
+                    className="submit-btn"
+                    id="save-as-draft"
+                    onClick={[Function]}
+                    type="submit"
+                    variant="secondary"
+                  >
+                    Save as draft
+                  </Unknown>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": "Save",
+                    "className": "submit - btn enabled",
+                    "id": "save",
+                    "onClick": [Function],
+                    "type": "submit",
+                    "variant": "primary",
+                  },
+                  "ref": null,
+                  "rendered": "Save",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": "Save as draft",
+                    "className": "submit-btn",
+                    "id": "save-as-draft",
+                    "onClick": [Function],
+                    "type": "submit",
+                    "variant": "secondary",
+                  },
+                  "ref": null,
+                  "rendered": "Save as draft",
+                  "type": [Function],
+                },
+              ],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-gZMcBi",
+                  "isStatic": true,
+                  "rules": Array [
+                    "
+    button{
+        margin-right: 20px;
+    }
+
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-gZMcBi",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+          ],
+          "type": "form",
+        },
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bZQynM",
+            "isStatic": false,
+            "rules": Array [
+              [Function],
+              ";",
+              "-webkit-tap-highlight-color:",
+              [Function],
+              ";border:0;box-sizing:border-box;margin:0;outline:",
+              [Function],
+              ";padding:0;position:relative;",
+              ";",
+              "
+    width: 816px;
+    margin: 0 auto;
+    @media (max-width: 816px) {
+        width: 100%;
+    }
+    form{
+        padding-bottom: 24px;
+    }
+",
+            ],
+          },
+          "displayName": "Styled(base-components__RootElement)",
+          "foldedComponentIds": Array [
+            "base-components__RootElement-sc-150tvch-1",
+          ],
+          "render": [Function],
+          "styledComponentId": "sc-bZQynM",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.provider),
+      "_context": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": Object {
+          "$$typeof": Symbol(react.context),
+          "_calculateChangedBits": null,
+          "_context": [Circular],
+        },
+        "Provider": [Circular],
+        "_calculateChangedBits": null,
+        "_currentRenderer": null,
+        "_currentRenderer2": null,
+        "_currentValue": Object {
+          "errors": Object {},
+          "values": Object {},
+        },
+        "_currentValue2": Object {
+          "errors": Object {},
+          "values": Object {},
+        },
+        "_threadCount": 0,
+      },
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <Unknown
+            title="Header record successfully saved"
+            variant="success"
+          />,
+          undefined,
+          false,
+          false,
+          <ForwardRef>
+            <form
+              id="accordion-form"
+              onChange={[Function]}
+            >
+              <ForwardRef>
+                <Unknown
+                  attributeGroups={Array []}
+                  attributeToRulesMapping={Object {}}
+                  currentAccordion=""
+                  indicators={
+                    Object {
+                      "averageIndicatorVariant": "error",
+                      "averageValue": 0,
+                      "tab1": Object {},
+                    }
+                  }
+                  setAccordion={[Function]}
+                />
+              </ForwardRef>
+              <ForwardRef>
+                <Unknown
+                  className="submit - btn enabled"
+                  id="save"
+                  onClick={[Function]}
+                  type="submit"
+                  variant="primary"
+                >
+                  Save
+                </Unknown>
+                <Unknown
+                  className="submit-btn"
+                  id="save-as-draft"
+                  onClick={[Function]}
+                  type="submit"
+                  variant="secondary"
+                >
+                  Save as draft
+                </Unknown>
+              </ForwardRef>
+            </form>
+          </ForwardRef>,
+        ],
+        "value": Object {
+          "currentAccordion": "",
+          "errors": Object {},
+          "values": Object {},
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "title": "Header record successfully saved",
+            "variant": "success",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        undefined,
+        false,
+        false,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <form
+              id="accordion-form"
+              onChange={[Function]}
+            >
+              <ForwardRef>
+                <Unknown
+                  attributeGroups={Array []}
+                  attributeToRulesMapping={Object {}}
+                  currentAccordion=""
+                  indicators={
+                    Object {
+                      "averageIndicatorVariant": "error",
+                      "averageValue": 0,
+                      "tab1": Object {},
+                    }
+                  }
+                  setAccordion={[Function]}
+                />
+              </ForwardRef>
+              <ForwardRef>
+                <Unknown
+                  className="submit - btn enabled"
+                  id="save"
+                  onClick={[Function]}
+                  type="submit"
+                  variant="primary"
+                >
+                  Save
+                </Unknown>
+                <Unknown
+                  className="submit-btn"
+                  id="save-as-draft"
+                  onClick={[Function]}
+                  type="submit"
+                  variant="secondary"
+                >
+                  Save as draft
+                </Unknown>
+              </ForwardRef>
+            </form>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <ForwardRef>
+                  <Unknown
+                    attributeGroups={Array []}
+                    attributeToRulesMapping={Object {}}
+                    currentAccordion=""
+                    indicators={
+                      Object {
+                        "averageIndicatorVariant": "error",
+                        "averageValue": 0,
+                        "tab1": Object {},
+                      }
+                    }
+                    setAccordion={[Function]}
+                  />
+                </ForwardRef>,
+                <ForwardRef>
+                  <Unknown
+                    className="submit - btn enabled"
+                    id="save"
+                    onClick={[Function]}
+                    type="submit"
+                    variant="primary"
+                  >
+                    Save
+                  </Unknown>
+                  <Unknown
+                    className="submit-btn"
+                    id="save-as-draft"
+                    onClick={[Function]}
+                    type="submit"
+                    variant="secondary"
+                  >
+                    Save as draft
+                  </Unknown>
+                </ForwardRef>,
+              ],
+              "id": "accordion-form",
+              "onChange": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <Unknown
+                    attributeGroups={Array []}
+                    attributeToRulesMapping={Object {}}
+                    currentAccordion=""
+                    indicators={
+                      Object {
+                        "averageIndicatorVariant": "error",
+                        "averageValue": 0,
+                        "tab1": Object {},
+                      }
+                    }
+                    setAccordion={[Function]}
+                  />,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "attributeGroups": Array [],
+                    "attributeToRulesMapping": Object {},
+                    "currentAccordion": "",
+                    "indicators": Object {
+                      "averageIndicatorVariant": "error",
+                      "averageValue": 0,
+                      "tab1": Object {},
+                    },
+                    "setAccordion": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-iwsKbI",
+                    "isStatic": true,
+                    "rules": Array [
+                      "
+    background-color: #f6f6f6;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+    margin-bottom: 24px;
+    margin-top: 30px;
+
+    .accordion-attr-grp{
+        border: 0px;    
+        border-bottom: 1px solid #ccc;
+        .beans-accordion__content{
+            padding: 0px;
+            border-top: 1px solid #cccccc;
+            border-bottom: 1px solid #cccccc;
+        }
+    }
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-iwsKbI",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                },
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": Array [
+                    <Unknown
+                      className="submit - btn enabled"
+                      id="save"
+                      onClick={[Function]}
+                      type="submit"
+                      variant="primary"
+                    >
+                      Save
+                    </Unknown>,
+                    <Unknown
+                      className="submit-btn"
+                      id="save-as-draft"
+                      onClick={[Function]}
+                      type="submit"
+                      variant="secondary"
+                    >
+                      Save as draft
+                    </Unknown>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": "Save",
+                      "className": "submit - btn enabled",
+                      "id": "save",
+                      "onClick": [Function],
+                      "type": "submit",
+                      "variant": "primary",
+                    },
+                    "ref": null,
+                    "rendered": "Save",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": "Save as draft",
+                      "className": "submit-btn",
+                      "id": "save-as-draft",
+                      "onClick": [Function],
+                      "type": "submit",
+                      "variant": "secondary",
+                    },
+                    "ref": null,
+                    "rendered": "Save as draft",
+                    "type": [Function],
+                  },
+                ],
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-gZMcBi",
+                    "isStatic": true,
+                    "rules": Array [
+                      "
+    button{
+        margin-right: 20px;
+    }
+
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-gZMcBi",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                },
+              },
+            ],
+            "type": "form",
+          },
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bZQynM",
+              "isStatic": false,
+              "rules": Array [
+                [Function],
+                ";",
+                "-webkit-tap-highlight-color:",
+                [Function],
+                ";border:0;box-sizing:border-box;margin:0;outline:",
+                [Function],
+                ";padding:0;position:relative;",
+                ";",
+                "
+    width: 816px;
+    margin: 0 auto;
+    @media (max-width: 816px) {
+        width: 100%;
+    }
+    form{
+        padding-bottom: 24px;
+    }
+",
+              ],
+            },
+            "displayName": "Styled(base-components__RootElement)",
+            "foldedComponentIds": Array [
+              "base-components__RootElement-sc-150tvch-1",
+            ],
+            "render": [Function],
+            "styledComponentId": "sc-bZQynM",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.provider),
+        "_context": Object {
+          "$$typeof": Symbol(react.context),
+          "Consumer": Object {
+            "$$typeof": Symbol(react.context),
+            "_calculateChangedBits": null,
+            "_context": [Circular],
+          },
+          "Provider": [Circular],
+          "_calculateChangedBits": null,
+          "_currentRenderer": null,
+          "_currentRenderer2": null,
+          "_currentValue": Object {
+            "errors": Object {},
+            "values": Object {},
+          },
+          "_currentValue2": Object {
+            "errors": Object {},
+            "values": Object {},
+          },
+          "_threadCount": 0,
+        },
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`molecules/header Given the component is mounted it should render the component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Header
+    data={
+      Object {
+        "attributeGroups": Array [],
+        "attributeToRulesMapping": Object {},
+      }
+    }
+    submitHandler={[MockFunction]}
+    updateTabIndicator={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        undefined,
+        undefined,
+        false,
+        false,
+        <ForwardRef>
+          <form
+            id="accordion-form"
+            onChange={[Function]}
+          >
+            <ForwardRef>
+              <Unknown
+                attributeGroups={Array []}
+                attributeToRulesMapping={Object {}}
+                currentAccordion=""
+                indicators={
+                  Object {
+                    "averageIndicatorVariant": "error",
+                    "averageValue": 0,
+                    "tab1": Object {},
+                  }
+                }
+                setAccordion={[Function]}
+              />
+            </ForwardRef>
+            <ForwardRef>
+              <Unknown
+                className="submit - btn enabled"
+                id="save"
+                onClick={[Function]}
+                type="submit"
+                variant="primary"
+              >
+                Save
+              </Unknown>
+              <Unknown
+                className="submit-btn"
+                id="save-as-draft"
+                onClick={[Function]}
+                type="submit"
+                variant="secondary"
+              >
+                Save as draft
+              </Unknown>
+            </ForwardRef>
+          </form>
+        </ForwardRef>,
+      ],
+      "value": Object {
+        "currentAccordion": "",
+        "errors": Object {},
+        "values": Object {},
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      undefined,
+      undefined,
+      false,
+      false,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <form
+            id="accordion-form"
+            onChange={[Function]}
+          >
+            <ForwardRef>
+              <Unknown
+                attributeGroups={Array []}
+                attributeToRulesMapping={Object {}}
+                currentAccordion=""
+                indicators={
+                  Object {
+                    "averageIndicatorVariant": "error",
+                    "averageValue": 0,
+                    "tab1": Object {},
+                  }
+                }
+                setAccordion={[Function]}
+              />
+            </ForwardRef>
+            <ForwardRef>
+              <Unknown
+                className="submit - btn enabled"
+                id="save"
+                onClick={[Function]}
+                type="submit"
+                variant="primary"
+              >
+                Save
+              </Unknown>
+              <Unknown
+                className="submit-btn"
+                id="save-as-draft"
+                onClick={[Function]}
+                type="submit"
+                variant="secondary"
+              >
+                Save as draft
+              </Unknown>
+            </ForwardRef>
+          </form>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <ForwardRef>
+                <Unknown
+                  attributeGroups={Array []}
+                  attributeToRulesMapping={Object {}}
+                  currentAccordion=""
+                  indicators={
+                    Object {
+                      "averageIndicatorVariant": "error",
+                      "averageValue": 0,
+                      "tab1": Object {},
+                    }
+                  }
+                  setAccordion={[Function]}
+                />
+              </ForwardRef>,
+              <ForwardRef>
+                <Unknown
+                  className="submit - btn enabled"
+                  id="save"
+                  onClick={[Function]}
+                  type="submit"
+                  variant="primary"
+                >
+                  Save
+                </Unknown>
+                <Unknown
+                  className="submit-btn"
+                  id="save-as-draft"
+                  onClick={[Function]}
+                  type="submit"
+                  variant="secondary"
+                >
+                  Save as draft
+                </Unknown>
+              </ForwardRef>,
+            ],
+            "id": "accordion-form",
+            "onChange": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <Unknown
+                  attributeGroups={Array []}
+                  attributeToRulesMapping={Object {}}
+                  currentAccordion=""
+                  indicators={
+                    Object {
+                      "averageIndicatorVariant": "error",
+                      "averageValue": 0,
+                      "tab1": Object {},
+                    }
+                  }
+                  setAccordion={[Function]}
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "attributeGroups": Array [],
+                  "attributeToRulesMapping": Object {},
+                  "currentAccordion": "",
+                  "indicators": Object {
+                    "averageIndicatorVariant": "error",
+                    "averageValue": 0,
+                    "tab1": Object {},
+                  },
+                  "setAccordion": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-iwsKbI",
+                  "isStatic": true,
+                  "rules": Array [
+                    "
+    background-color: #f6f6f6;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+    margin-bottom: 24px;
+    margin-top: 30px;
+
+    .accordion-attr-grp{
+        border: 0px;    
+        border-bottom: 1px solid #ccc;
+        .beans-accordion__content{
+            padding: 0px;
+            border-top: 1px solid #cccccc;
+            border-bottom: 1px solid #cccccc;
+        }
+    }
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-iwsKbI",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <Unknown
+                    className="submit - btn enabled"
+                    id="save"
+                    onClick={[Function]}
+                    type="submit"
+                    variant="primary"
+                  >
+                    Save
+                  </Unknown>,
+                  <Unknown
+                    className="submit-btn"
+                    id="save-as-draft"
+                    onClick={[Function]}
+                    type="submit"
+                    variant="secondary"
+                  >
+                    Save as draft
+                  </Unknown>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": "Save",
+                    "className": "submit - btn enabled",
+                    "id": "save",
+                    "onClick": [Function],
+                    "type": "submit",
+                    "variant": "primary",
+                  },
+                  "ref": null,
+                  "rendered": "Save",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": "Save as draft",
+                    "className": "submit-btn",
+                    "id": "save-as-draft",
+                    "onClick": [Function],
+                    "type": "submit",
+                    "variant": "secondary",
+                  },
+                  "ref": null,
+                  "rendered": "Save as draft",
+                  "type": [Function],
+                },
+              ],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-gZMcBi",
+                  "isStatic": true,
+                  "rules": Array [
+                    "
+    button{
+        margin-right: 20px;
+    }
+
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-gZMcBi",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+          ],
+          "type": "form",
+        },
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bZQynM",
+            "isStatic": false,
+            "rules": Array [
+              [Function],
+              ";",
+              "-webkit-tap-highlight-color:",
+              [Function],
+              ";border:0;box-sizing:border-box;margin:0;outline:",
+              [Function],
+              ";padding:0;position:relative;",
+              ";",
+              "
+    width: 816px;
+    margin: 0 auto;
+    @media (max-width: 816px) {
+        width: 100%;
+    }
+    form{
+        padding-bottom: 24px;
+    }
+",
+            ],
+          },
+          "displayName": "Styled(base-components__RootElement)",
+          "foldedComponentIds": Array [
+            "base-components__RootElement-sc-150tvch-1",
+          ],
+          "render": [Function],
+          "styledComponentId": "sc-bZQynM",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.provider),
+      "_context": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": Object {
+          "$$typeof": Symbol(react.context),
+          "_calculateChangedBits": null,
+          "_context": [Circular],
+        },
+        "Provider": [Circular],
+        "_calculateChangedBits": null,
+        "_currentRenderer": null,
+        "_currentRenderer2": null,
+        "_currentValue": Object {
+          "errors": Object {},
+          "values": Object {},
+        },
+        "_currentValue2": Object {
+          "errors": Object {},
+          "values": Object {},
+        },
+        "_threadCount": 0,
+      },
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          undefined,
+          undefined,
+          false,
+          false,
+          <ForwardRef>
+            <form
+              id="accordion-form"
+              onChange={[Function]}
+            >
+              <ForwardRef>
+                <Unknown
+                  attributeGroups={Array []}
+                  attributeToRulesMapping={Object {}}
+                  currentAccordion=""
+                  indicators={
+                    Object {
+                      "averageIndicatorVariant": "error",
+                      "averageValue": 0,
+                      "tab1": Object {},
+                    }
+                  }
+                  setAccordion={[Function]}
+                />
+              </ForwardRef>
+              <ForwardRef>
+                <Unknown
+                  className="submit - btn enabled"
+                  id="save"
+                  onClick={[Function]}
+                  type="submit"
+                  variant="primary"
+                >
+                  Save
+                </Unknown>
+                <Unknown
+                  className="submit-btn"
+                  id="save-as-draft"
+                  onClick={[Function]}
+                  type="submit"
+                  variant="secondary"
+                >
+                  Save as draft
+                </Unknown>
+              </ForwardRef>
+            </form>
+          </ForwardRef>,
+        ],
+        "value": Object {
+          "currentAccordion": "",
+          "errors": Object {},
+          "values": Object {},
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        undefined,
+        undefined,
+        false,
+        false,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <form
+              id="accordion-form"
+              onChange={[Function]}
+            >
+              <ForwardRef>
+                <Unknown
+                  attributeGroups={Array []}
+                  attributeToRulesMapping={Object {}}
+                  currentAccordion=""
+                  indicators={
+                    Object {
+                      "averageIndicatorVariant": "error",
+                      "averageValue": 0,
+                      "tab1": Object {},
+                    }
+                  }
+                  setAccordion={[Function]}
+                />
+              </ForwardRef>
+              <ForwardRef>
+                <Unknown
+                  className="submit - btn enabled"
+                  id="save"
+                  onClick={[Function]}
+                  type="submit"
+                  variant="primary"
+                >
+                  Save
+                </Unknown>
+                <Unknown
+                  className="submit-btn"
+                  id="save-as-draft"
+                  onClick={[Function]}
+                  type="submit"
+                  variant="secondary"
+                >
+                  Save as draft
+                </Unknown>
+              </ForwardRef>
+            </form>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <ForwardRef>
+                  <Unknown
+                    attributeGroups={Array []}
+                    attributeToRulesMapping={Object {}}
+                    currentAccordion=""
+                    indicators={
+                      Object {
+                        "averageIndicatorVariant": "error",
+                        "averageValue": 0,
+                        "tab1": Object {},
+                      }
+                    }
+                    setAccordion={[Function]}
+                  />
+                </ForwardRef>,
+                <ForwardRef>
+                  <Unknown
+                    className="submit - btn enabled"
+                    id="save"
+                    onClick={[Function]}
+                    type="submit"
+                    variant="primary"
+                  >
+                    Save
+                  </Unknown>
+                  <Unknown
+                    className="submit-btn"
+                    id="save-as-draft"
+                    onClick={[Function]}
+                    type="submit"
+                    variant="secondary"
+                  >
+                    Save as draft
+                  </Unknown>
+                </ForwardRef>,
+              ],
+              "id": "accordion-form",
+              "onChange": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <Unknown
+                    attributeGroups={Array []}
+                    attributeToRulesMapping={Object {}}
+                    currentAccordion=""
+                    indicators={
+                      Object {
+                        "averageIndicatorVariant": "error",
+                        "averageValue": 0,
+                        "tab1": Object {},
+                      }
+                    }
+                    setAccordion={[Function]}
+                  />,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "attributeGroups": Array [],
+                    "attributeToRulesMapping": Object {},
+                    "currentAccordion": "",
+                    "indicators": Object {
+                      "averageIndicatorVariant": "error",
+                      "averageValue": 0,
+                      "tab1": Object {},
+                    },
+                    "setAccordion": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-iwsKbI",
+                    "isStatic": true,
+                    "rules": Array [
+                      "
+    background-color: #f6f6f6;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+    margin-bottom: 24px;
+    margin-top: 30px;
+
+    .accordion-attr-grp{
+        border: 0px;    
+        border-bottom: 1px solid #ccc;
+        .beans-accordion__content{
+            padding: 0px;
+            border-top: 1px solid #cccccc;
+            border-bottom: 1px solid #cccccc;
+        }
+    }
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-iwsKbI",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                },
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": Array [
+                    <Unknown
+                      className="submit - btn enabled"
+                      id="save"
+                      onClick={[Function]}
+                      type="submit"
+                      variant="primary"
+                    >
+                      Save
+                    </Unknown>,
+                    <Unknown
+                      className="submit-btn"
+                      id="save-as-draft"
+                      onClick={[Function]}
+                      type="submit"
+                      variant="secondary"
+                    >
+                      Save as draft
+                    </Unknown>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": "Save",
+                      "className": "submit - btn enabled",
+                      "id": "save",
+                      "onClick": [Function],
+                      "type": "submit",
+                      "variant": "primary",
+                    },
+                    "ref": null,
+                    "rendered": "Save",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": "Save as draft",
+                      "className": "submit-btn",
+                      "id": "save-as-draft",
+                      "onClick": [Function],
+                      "type": "submit",
+                      "variant": "secondary",
+                    },
+                    "ref": null,
+                    "rendered": "Save as draft",
+                    "type": [Function],
+                  },
+                ],
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-gZMcBi",
+                    "isStatic": true,
+                    "rules": Array [
+                      "
+    button{
+        margin-right: 20px;
+    }
+
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-gZMcBi",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                },
+              },
+            ],
+            "type": "form",
+          },
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bZQynM",
+              "isStatic": false,
+              "rules": Array [
+                [Function],
+                ";",
+                "-webkit-tap-highlight-color:",
+                [Function],
+                ";border:0;box-sizing:border-box;margin:0;outline:",
+                [Function],
+                ";padding:0;position:relative;",
+                ";",
+                "
+    width: 816px;
+    margin: 0 auto;
+    @media (max-width: 816px) {
+        width: 100%;
+    }
+    form{
+        padding-bottom: 24px;
+    }
+",
+              ],
+            },
+            "displayName": "Styled(base-components__RootElement)",
+            "foldedComponentIds": Array [
+              "base-components__RootElement-sc-150tvch-1",
+            ],
+            "render": [Function],
+            "styledComponentId": "sc-bZQynM",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.provider),
+        "_context": Object {
+          "$$typeof": Symbol(react.context),
+          "Consumer": Object {
+            "$$typeof": Symbol(react.context),
+            "_calculateChangedBits": null,
+            "_context": [Circular],
+          },
+          "Provider": [Circular],
+          "_calculateChangedBits": null,
+          "_currentRenderer": null,
+          "_currentRenderer2": null,
+          "_currentValue": Object {
+            "errors": Object {},
+            "values": Object {},
+          },
+          "_currentValue2": Object {
+            "errors": Object {},
+            "values": Object {},
+          },
+          "_threadCount": 0,
+        },
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

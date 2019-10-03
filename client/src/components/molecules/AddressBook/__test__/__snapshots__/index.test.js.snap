@@ -1,0 +1,591 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`molecules/AddressBook Given the AddressBook component is mounted it should render the markup 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AddressBook />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <BackComponent />,
+        <ForwardRef(Styled(base-components__RootElement))>
+          <ForwardRef(Styled(base-components__RootElement))>
+            <ForwardRef(Styled(base-components__RootElement))>
+              <h1>
+                undefined addresses
+              </h1>
+            </ForwardRef(Styled(base-components__RootElement))>
+            <_default
+              variant="secondary"
+            >
+              Add new address 
+            </_default>
+          </ForwardRef(Styled(base-components__RootElement))>
+          <CardList
+            supplierAddressData="supplierAddressData"
+          />
+        </ForwardRef(Styled(base-components__RootElement))>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "handleBackComponent": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <ForwardRef(Styled(base-components__RootElement))>
+              <ForwardRef(Styled(base-components__RootElement))>
+                <h1>
+                  undefined addresses
+                </h1>
+              </ForwardRef(Styled(base-components__RootElement))>
+              <_default
+                variant="secondary"
+              >
+                Add new address 
+              </_default>
+            </ForwardRef(Styled(base-components__RootElement))>,
+            <CardList
+              supplierAddressData="supplierAddressData"
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <ForwardRef(Styled(base-components__RootElement))>
+                  <h1>
+                    undefined addresses
+                  </h1>
+                </ForwardRef(Styled(base-components__RootElement))>,
+                <_default
+                  variant="secondary"
+                >
+                  Add new address 
+                </_default>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <h1>
+                    undefined addresses
+                  </h1>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "undefined addresses",
+                  },
+                  "ref": null,
+                  "rendered": "undefined addresses",
+                  "type": "h1",
+                },
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-EHOje",
+                    "isStatic": false,
+                    "rules": Array [
+                      [Function],
+                      ";",
+                      "-webkit-tap-highlight-color:",
+                      [Function],
+                      ";border:0;box-sizing:border-box;margin:0;outline:",
+                      [Function],
+                      ";padding:0;position:relative;",
+                      ";",
+                      "
+    .input-error {
+        color: #cc3333;
+    }
+    h1,h2 {
+        margin: 0 0 19px 0;
+        color: #333;
+    }
+    h1,h2 {
+        font-size: 32px;
+    }
+    h1{
+        margin-top: 24px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    h4 {
+        margin: 0 0 20px 0;
+        color: #666666;
+        font-size: 16px;
+        font-weight: normal;
+    }
+",
+                    ],
+                  },
+                  "displayName": "Styled(base-components__RootElement)",
+                  "foldedComponentIds": Array [
+                    "base-components__RootElement-sc-150tvch-1",
+                  ],
+                  "render": [Function],
+                  "styledComponentId": "sc-EHOje",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                },
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": "Add new address ",
+                  "onClick": undefined,
+                  "variant": "secondary",
+                },
+                "ref": null,
+                "rendered": "Add new address ",
+                "type": [Function],
+              },
+            ],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-chPdSV",
+                "isStatic": false,
+                "rules": Array [
+                  [Function],
+                  ";",
+                  "-webkit-tap-highlight-color:",
+                  [Function],
+                  ";border:0;box-sizing:border-box;margin:0;outline:",
+                  [Function],
+                  ";padding:0;position:relative;",
+                  ";",
+                  "
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+   margin-bottom: 10px
+
+    & button {
+        align-self: center;
+    }
+}
+",
+                ],
+              },
+              "displayName": "Styled(base-components__RootElement)",
+              "foldedComponentIds": Array [
+                "base-components__RootElement-sc-150tvch-1",
+              ],
+              "render": [Function],
+              "styledComponentId": "sc-chPdSV",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "addressList": undefined,
+              "getNewPage": undefined,
+              "navigateToForm": undefined,
+              "showLoader": undefined,
+              "supplierAddressData": "supplierAddressData",
+              "totalCount": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bxivhb",
+            "isStatic": false,
+            "rules": Array [
+              [Function],
+              ";",
+              "-webkit-tap-highlight-color:",
+              [Function],
+              ";border:0;box-sizing:border-box;margin:0;outline:",
+              [Function],
+              ";padding:0;position:relative;",
+              ";",
+              "
+    width: 816px;
+    margin: 0 auto;
+    padding: 0px 12px;
+    box-sizing: border-box;
+    @media (max-width: 816px) {
+        width: 100%;
+    }
+    form{
+        padding-bottom: 24px;
+    }
+",
+            ],
+          },
+          "displayName": "Styled(base-components__RootElement)",
+          "foldedComponentIds": Array [
+            "base-components__RootElement-sc-150tvch-1",
+          ],
+          "render": [Function],
+          "styledComponentId": "sc-bxivhb",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <BackComponent />,
+          <ForwardRef(Styled(base-components__RootElement))>
+            <ForwardRef(Styled(base-components__RootElement))>
+              <ForwardRef(Styled(base-components__RootElement))>
+                <h1>
+                  undefined addresses
+                </h1>
+              </ForwardRef(Styled(base-components__RootElement))>
+              <_default
+                variant="secondary"
+              >
+                Add new address 
+              </_default>
+            </ForwardRef(Styled(base-components__RootElement))>
+            <CardList
+              supplierAddressData="supplierAddressData"
+            />
+          </ForwardRef(Styled(base-components__RootElement))>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "handleBackComponent": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <ForwardRef(Styled(base-components__RootElement))>
+                <ForwardRef(Styled(base-components__RootElement))>
+                  <h1>
+                    undefined addresses
+                  </h1>
+                </ForwardRef(Styled(base-components__RootElement))>
+                <_default
+                  variant="secondary"
+                >
+                  Add new address 
+                </_default>
+              </ForwardRef(Styled(base-components__RootElement))>,
+              <CardList
+                supplierAddressData="supplierAddressData"
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <ForwardRef(Styled(base-components__RootElement))>
+                    <h1>
+                      undefined addresses
+                    </h1>
+                  </ForwardRef(Styled(base-components__RootElement))>,
+                  <_default
+                    variant="secondary"
+                  >
+                    Add new address 
+                  </_default>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <h1>
+                      undefined addresses
+                    </h1>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "undefined addresses",
+                    },
+                    "ref": null,
+                    "rendered": "undefined addresses",
+                    "type": "h1",
+                  },
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-EHOje",
+                      "isStatic": false,
+                      "rules": Array [
+                        [Function],
+                        ";",
+                        "-webkit-tap-highlight-color:",
+                        [Function],
+                        ";border:0;box-sizing:border-box;margin:0;outline:",
+                        [Function],
+                        ";padding:0;position:relative;",
+                        ";",
+                        "
+    .input-error {
+        color: #cc3333;
+    }
+    h1,h2 {
+        margin: 0 0 19px 0;
+        color: #333;
+    }
+    h1,h2 {
+        font-size: 32px;
+    }
+    h1{
+        margin-top: 24px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    h4 {
+        margin: 0 0 20px 0;
+        color: #666666;
+        font-size: 16px;
+        font-weight: normal;
+    }
+",
+                      ],
+                    },
+                    "displayName": "Styled(base-components__RootElement)",
+                    "foldedComponentIds": Array [
+                      "base-components__RootElement-sc-150tvch-1",
+                    ],
+                    "render": [Function],
+                    "styledComponentId": "sc-EHOje",
+                    "target": "div",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  },
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": "Add new address ",
+                    "onClick": undefined,
+                    "variant": "secondary",
+                  },
+                  "ref": null,
+                  "rendered": "Add new address ",
+                  "type": [Function],
+                },
+              ],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-chPdSV",
+                  "isStatic": false,
+                  "rules": Array [
+                    [Function],
+                    ";",
+                    "-webkit-tap-highlight-color:",
+                    [Function],
+                    ";border:0;box-sizing:border-box;margin:0;outline:",
+                    [Function],
+                    ";padding:0;position:relative;",
+                    ";",
+                    "
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+   margin-bottom: 10px
+
+    & button {
+        align-self: center;
+    }
+}
+",
+                  ],
+                },
+                "displayName": "Styled(base-components__RootElement)",
+                "foldedComponentIds": Array [
+                  "base-components__RootElement-sc-150tvch-1",
+                ],
+                "render": [Function],
+                "styledComponentId": "sc-chPdSV",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "addressList": undefined,
+                "getNewPage": undefined,
+                "navigateToForm": undefined,
+                "showLoader": undefined,
+                "supplierAddressData": "supplierAddressData",
+                "totalCount": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bxivhb",
+              "isStatic": false,
+              "rules": Array [
+                [Function],
+                ";",
+                "-webkit-tap-highlight-color:",
+                [Function],
+                ";border:0;box-sizing:border-box;margin:0;outline:",
+                [Function],
+                ";padding:0;position:relative;",
+                ";",
+                "
+    width: 816px;
+    margin: 0 auto;
+    padding: 0px 12px;
+    box-sizing: border-box;
+    @media (max-width: 816px) {
+        width: 100%;
+    }
+    form{
+        padding-bottom: 24px;
+    }
+",
+              ],
+            },
+            "displayName": "Styled(base-components__RootElement)",
+            "foldedComponentIds": Array [
+              "base-components__RootElement-sc-150tvch-1",
+            ],
+            "render": [Function],
+            "styledComponentId": "sc-bxivhb",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

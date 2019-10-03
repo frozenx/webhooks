@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Manage Supplier renders the manage supplier component 1`] = `
+<div
+  className="base-components__RootElement-sc-150tvch-1 sc-gzVnrw gwVVlU"
+>
+  <div
+    className="base-components__RootElement-sc-150tvch-1 sc-dnqmqq fzsTzb"
+  >
+    <h1>
+      Find a Partner
+    </h1>
+    <h4
+      className={false}
+    >
+      Enter one or more terms
+    </h4>
+  </div>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="base-components__RootElement-sc-150tvch-1 sc-bdVaJa dePZzZ"
+    >
+      <div
+        className="base-components__RootElement-sc-150tvch-1 sc-bwzfXH dmfcSO"
+      >
+        <div
+          className="base-components__RootElement-sc-150tvch-1 search-label styled__FormGroupContainer-wt4ift-1 hVjJdM"
+          disabled={false}
+        >
+          <div
+            className="base-components__BaseElement-sc-150tvch-0 styled__LinkContainer-wt4ift-3 iYRfeQ"
+          />
+          <div
+            className="beans-form-group__children"
+          />
+        </div>
+        <div
+          className="base-components__RootElement-sc-150tvch-1 sc-bxivhb brAxYN"
+        />
+      </div>
+    </div>
+    <div
+      className="base-components__RootElement-sc-150tvch-1 sc-bdVaJa dePZzZ"
+    >
+      <div
+        className="base-components__RootElement-sc-150tvch-1 sc-htpNat ckasYZ"
+      >
+        <div
+          className="base-components__RootElement-sc-150tvch-1 search-label styled__FormGroupContainer-wt4ift-1 hVjJdM"
+          disabled={false}
+        >
+          <div
+            className="base-components__BaseElement-sc-150tvch-0 styled__LinkContainer-wt4ift-3 iYRfeQ"
+          />
+          <div
+            className="beans-form-group__children"
+          />
+        </div>
+        <div
+          className="base-components__RootElement-sc-150tvch-1 search-number sc-bxivhb brAxYN"
+        >
+          <div
+            className="sc-gqjmRU jlBkwE"
+          />
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;

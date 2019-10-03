@@ -1,0 +1,7 @@
+node_modules/
+logs/
+coverage/
+package.json
+package-lock.json
+jest.config.json
+*__snapshots__/

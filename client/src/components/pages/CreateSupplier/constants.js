@@ -1,0 +1,3 @@
+module.exports = {
+  partnerNumber : 'partnerNumber'
+}

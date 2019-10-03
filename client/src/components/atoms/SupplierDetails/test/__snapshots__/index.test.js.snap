@@ -1,0 +1,1203 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render SupplierDetails component inside index file renders the SupplierDetails component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SupplierDetails
+    editSupplierData={
+      Object {
+        "companiesHouseName": "Test Companies House Name",
+        "companyRegistrationNumber": "Test 123456",
+        "supplierName": "Test Supplier Name",
+        "vatNumber": "Test 09876",
+      }
+    }
+    supplierData={
+      Array [
+        "supplierName",
+        "companiesHouseName",
+        "companyRegistrationNumber",
+        "vatNumber",
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <ForwardRef>
+          <h2>
+            Supplier Details
+          </h2>
+          <div
+            className="edit-supplier"
+          >
+            Edit
+          </div>
+        </ForwardRef>,
+        <div>
+          <ForwardRef>
+            <_default>
+               
+              Supplier Name
+            </_default>
+            <span>
+              Test Supplier Name
+            </span>
+          </ForwardRef>
+          <ForwardRef>
+            <_default>
+               
+              Companies House Name
+            </_default>
+            <span>
+              Test Companies House Name
+            </span>
+          </ForwardRef>
+          <ForwardRef>
+            <_default>
+               
+              Company Registration Number
+            </_default>
+            <span>
+              Test 123456
+            </span>
+          </ForwardRef>
+          <ForwardRef>
+            <_default>
+               
+              Vat Number
+            </_default>
+            <span>
+              Test 09876
+            </span>
+          </ForwardRef>
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <h2>
+              Supplier Details
+            </h2>,
+            <div
+              className="edit-supplier"
+            >
+              Edit
+            </div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Supplier Details",
+            },
+            "ref": null,
+            "rendered": "Supplier Details",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Edit",
+              "className": "edit-supplier",
+              "onClick": undefined,
+            },
+            "ref": null,
+            "rendered": "Edit",
+            "type": "div",
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bwzfXH",
+            "isStatic": true,
+            "rules": Array [
+              "
+    margin-bottom: 20px;
+    > h2{
+        display:inline;
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    button{
+        margin-right: 10px;
+    }
+    > div{
+        color: #007eb3;
+        display: inline;
+        margin-left: 10px;
+        font-size: 16px;
+        font-weight: 600;       
+    }
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bwzfXH",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <ForwardRef>
+              <_default>
+                 
+                Supplier Name
+              </_default>
+              <span>
+                Test Supplier Name
+              </span>
+            </ForwardRef>,
+            <ForwardRef>
+              <_default>
+                 
+                Companies House Name
+              </_default>
+              <span>
+                Test Companies House Name
+              </span>
+            </ForwardRef>,
+            <ForwardRef>
+              <_default>
+                 
+                Company Registration Number
+              </_default>
+              <span>
+                Test 123456
+              </span>
+            </ForwardRef>,
+            <ForwardRef>
+              <_default>
+                 
+                Vat Number
+              </_default>
+              <span>
+                Test 09876
+              </span>
+            </ForwardRef>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <_default>
+                   
+                  Supplier Name
+                </_default>,
+                <span>
+                  Test Supplier Name
+                </span>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": Array [
+                    " ",
+                    "Supplier Name",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  " ",
+                  "Supplier Name",
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Test Supplier Name",
+                },
+                "ref": null,
+                "rendered": "Test Supplier Name",
+                "type": "span",
+              },
+            ],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-htpNat",
+                "isStatic": true,
+                "rules": Array [
+                  "
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 50%;
+    font-size: 16px;
+    > label{
+        width: 48%;
+        color: #282c34;
+        font-weight: bold;
+        vertical-align: top;
+    }
+    > span{
+        color: #999;
+        text-overflow: ellipsis;
+        width: 200px;
+        overflow: hidden;
+        white-space: nowrap;
+        cursor: pointer;
+    }
+    > div{
+        cursor: pointer;
+        width: 40%;
+        display: inline-block;
+    }
+",
+                ],
+              },
+              "displayName": "styled.div",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "sc-htpNat",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <_default>
+                   
+                  Companies House Name
+                </_default>,
+                <span>
+                  Test Companies House Name
+                </span>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": Array [
+                    " ",
+                    "Companies House Name",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  " ",
+                  "Companies House Name",
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Test Companies House Name",
+                },
+                "ref": null,
+                "rendered": "Test Companies House Name",
+                "type": "span",
+              },
+            ],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-htpNat",
+                "isStatic": true,
+                "rules": Array [
+                  "
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 50%;
+    font-size: 16px;
+    > label{
+        width: 48%;
+        color: #282c34;
+        font-weight: bold;
+        vertical-align: top;
+    }
+    > span{
+        color: #999;
+        text-overflow: ellipsis;
+        width: 200px;
+        overflow: hidden;
+        white-space: nowrap;
+        cursor: pointer;
+    }
+    > div{
+        cursor: pointer;
+        width: 40%;
+        display: inline-block;
+    }
+",
+                ],
+              },
+              "displayName": "styled.div",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "sc-htpNat",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <_default>
+                   
+                  Company Registration Number
+                </_default>,
+                <span>
+                  Test 123456
+                </span>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": Array [
+                    " ",
+                    "Company Registration Number",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  " ",
+                  "Company Registration Number",
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Test 123456",
+                },
+                "ref": null,
+                "rendered": "Test 123456",
+                "type": "span",
+              },
+            ],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-htpNat",
+                "isStatic": true,
+                "rules": Array [
+                  "
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 50%;
+    font-size: 16px;
+    > label{
+        width: 48%;
+        color: #282c34;
+        font-weight: bold;
+        vertical-align: top;
+    }
+    > span{
+        color: #999;
+        text-overflow: ellipsis;
+        width: 200px;
+        overflow: hidden;
+        white-space: nowrap;
+        cursor: pointer;
+    }
+    > div{
+        cursor: pointer;
+        width: 40%;
+        display: inline-block;
+    }
+",
+                ],
+              },
+              "displayName": "styled.div",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "sc-htpNat",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
+          },
+          Object {
+            "instance": null,
+            "key": "3",
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <_default>
+                   
+                  Vat Number
+                </_default>,
+                <span>
+                  Test 09876
+                </span>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": Array [
+                    " ",
+                    "Vat Number",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  " ",
+                  "Vat Number",
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Test 09876",
+                },
+                "ref": null,
+                "rendered": "Test 09876",
+                "type": "span",
+              },
+            ],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-htpNat",
+                "isStatic": true,
+                "rules": Array [
+                  "
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 50%;
+    font-size: 16px;
+    > label{
+        width: 48%;
+        color: #282c34;
+        font-weight: bold;
+        vertical-align: top;
+    }
+    > span{
+        color: #999;
+        text-overflow: ellipsis;
+        width: 200px;
+        overflow: hidden;
+        white-space: nowrap;
+        cursor: pointer;
+    }
+    > div{
+        cursor: pointer;
+        width: 40%;
+        display: inline-block;
+    }
+",
+                ],
+              },
+              "displayName": "styled.div",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "sc-htpNat",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": true,
+        "rules": Array [
+          "
+    background-color: #f6f6f6;
+    border:1px solid #ccc;
+    margin-top:30px;
+    padding: 30px 20px 20px 20px;
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <ForwardRef>
+            <h2>
+              Supplier Details
+            </h2>
+            <div
+              className="edit-supplier"
+            >
+              Edit
+            </div>
+          </ForwardRef>,
+          <div>
+            <ForwardRef>
+              <_default>
+                 
+                Supplier Name
+              </_default>
+              <span>
+                Test Supplier Name
+              </span>
+            </ForwardRef>
+            <ForwardRef>
+              <_default>
+                 
+                Companies House Name
+              </_default>
+              <span>
+                Test Companies House Name
+              </span>
+            </ForwardRef>
+            <ForwardRef>
+              <_default>
+                 
+                Company Registration Number
+              </_default>
+              <span>
+                Test 123456
+              </span>
+            </ForwardRef>
+            <ForwardRef>
+              <_default>
+                 
+                Vat Number
+              </_default>
+              <span>
+                Test 09876
+              </span>
+            </ForwardRef>
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <h2>
+                Supplier Details
+              </h2>,
+              <div
+                className="edit-supplier"
+              >
+                Edit
+              </div>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Supplier Details",
+              },
+              "ref": null,
+              "rendered": "Supplier Details",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Edit",
+                "className": "edit-supplier",
+                "onClick": undefined,
+              },
+              "ref": null,
+              "rendered": "Edit",
+              "type": "div",
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bwzfXH",
+              "isStatic": true,
+              "rules": Array [
+                "
+    margin-bottom: 20px;
+    > h2{
+        display:inline;
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    button{
+        margin-right: 10px;
+    }
+    > div{
+        color: #007eb3;
+        display: inline;
+        margin-left: 10px;
+        font-size: 16px;
+        font-weight: 600;       
+    }
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bwzfXH",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <ForwardRef>
+                <_default>
+                   
+                  Supplier Name
+                </_default>
+                <span>
+                  Test Supplier Name
+                </span>
+              </ForwardRef>,
+              <ForwardRef>
+                <_default>
+                   
+                  Companies House Name
+                </_default>
+                <span>
+                  Test Companies House Name
+                </span>
+              </ForwardRef>,
+              <ForwardRef>
+                <_default>
+                   
+                  Company Registration Number
+                </_default>
+                <span>
+                  Test 123456
+                </span>
+              </ForwardRef>,
+              <ForwardRef>
+                <_default>
+                   
+                  Vat Number
+                </_default>
+                <span>
+                  Test 09876
+                </span>
+              </ForwardRef>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <_default>
+                     
+                    Supplier Name
+                  </_default>,
+                  <span>
+                    Test Supplier Name
+                  </span>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": Array [
+                      " ",
+                      "Supplier Name",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " ",
+                    "Supplier Name",
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Test Supplier Name",
+                  },
+                  "ref": null,
+                  "rendered": "Test Supplier Name",
+                  "type": "span",
+                },
+              ],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-htpNat",
+                  "isStatic": true,
+                  "rules": Array [
+                    "
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 50%;
+    font-size: 16px;
+    > label{
+        width: 48%;
+        color: #282c34;
+        font-weight: bold;
+        vertical-align: top;
+    }
+    > span{
+        color: #999;
+        text-overflow: ellipsis;
+        width: 200px;
+        overflow: hidden;
+        white-space: nowrap;
+        cursor: pointer;
+    }
+    > div{
+        cursor: pointer;
+        width: 40%;
+        display: inline-block;
+    }
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-htpNat",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <_default>
+                     
+                    Companies House Name
+                  </_default>,
+                  <span>
+                    Test Companies House Name
+                  </span>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": Array [
+                      " ",
+                      "Companies House Name",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " ",
+                    "Companies House Name",
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Test Companies House Name",
+                  },
+                  "ref": null,
+                  "rendered": "Test Companies House Name",
+                  "type": "span",
+                },
+              ],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-htpNat",
+                  "isStatic": true,
+                  "rules": Array [
+                    "
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 50%;
+    font-size: 16px;
+    > label{
+        width: 48%;
+        color: #282c34;
+        font-weight: bold;
+        vertical-align: top;
+    }
+    > span{
+        color: #999;
+        text-overflow: ellipsis;
+        width: 200px;
+        overflow: hidden;
+        white-space: nowrap;
+        cursor: pointer;
+    }
+    > div{
+        cursor: pointer;
+        width: 40%;
+        display: inline-block;
+    }
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-htpNat",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <_default>
+                     
+                    Company Registration Number
+                  </_default>,
+                  <span>
+                    Test 123456
+                  </span>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": Array [
+                      " ",
+                      "Company Registration Number",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " ",
+                    "Company Registration Number",
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Test 123456",
+                  },
+                  "ref": null,
+                  "rendered": "Test 123456",
+                  "type": "span",
+                },
+              ],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-htpNat",
+                  "isStatic": true,
+                  "rules": Array [
+                    "
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 50%;
+    font-size: 16px;
+    > label{
+        width: 48%;
+        color: #282c34;
+        font-weight: bold;
+        vertical-align: top;
+    }
+    > span{
+        color: #999;
+        text-overflow: ellipsis;
+        width: 200px;
+        overflow: hidden;
+        white-space: nowrap;
+        cursor: pointer;
+    }
+    > div{
+        cursor: pointer;
+        width: 40%;
+        display: inline-block;
+    }
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-htpNat",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": "3",
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <_default>
+                     
+                    Vat Number
+                  </_default>,
+                  <span>
+                    Test 09876
+                  </span>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": Array [
+                      " ",
+                      "Vat Number",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " ",
+                    "Vat Number",
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Test 09876",
+                  },
+                  "ref": null,
+                  "rendered": "Test 09876",
+                  "type": "span",
+                },
+              ],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-htpNat",
+                  "isStatic": true,
+                  "rules": Array [
+                    "
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 50%;
+    font-size: 16px;
+    > label{
+        width: 48%;
+        color: #282c34;
+        font-weight: bold;
+        vertical-align: top;
+    }
+    > span{
+        color: #999;
+        text-overflow: ellipsis;
+        width: 200px;
+        overflow: hidden;
+        white-space: nowrap;
+        cursor: pointer;
+    }
+    > div{
+        cursor: pointer;
+        width: 40%;
+        display: inline-block;
+    }
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-htpNat",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bdVaJa",
+          "isStatic": true,
+          "rules": Array [
+            "
+    background-color: #f6f6f6;
+    border:1px solid #ccc;
+    margin-top:30px;
+    padding: 30px 20px 20px 20px;
+",
+          ],
+        },
+        "displayName": "styled.div",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bdVaJa",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,563 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`atoms/RadioType GIven the component is mounted then it should render the markup 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RadioType
+    attr={
+      Object {
+        "id": 1,
+        "name": "One time supplier?",
+        "options": Array [
+          "Mr",
+          "Mrs",
+        ],
+      }
+    }
+    disabled={false}
+    errors={Object {}}
+    isDisabled={true}
+    values={Object {}}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <_default
+          dark={true}
+          emphasized={true}
+          htmlFor="1"
+        >
+          One time supplier?
+        </_default>,
+        Array [
+          <ForwardRef>
+            <ForwardRef
+              checked={false}
+              defaultChecked={false}
+              id={1}
+              name="One time supplier?"
+              value="Mr"
+            />
+            <span>
+              Mr
+            </span>
+          </ForwardRef>,
+          <ForwardRef>
+            <ForwardRef
+              checked={false}
+              defaultChecked={false}
+              id={1}
+              name="One time supplier?"
+              value="Mrs"
+            />
+            <span>
+              Mrs
+            </span>
+          </ForwardRef>,
+        ],
+        null,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "One time supplier?",
+          "dark": true,
+          "emphasized": true,
+          "htmlFor": "1",
+        },
+        "ref": null,
+        "rendered": "One time supplier?",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <ForwardRef
+              checked={false}
+              defaultChecked={false}
+              id={1}
+              name="One time supplier?"
+              value="Mr"
+            />,
+            <span>
+              Mr
+            </span>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "checked": false,
+              "defaultChecked": false,
+              "id": 1,
+              "name": "One time supplier?",
+              "value": "Mr",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "displayName": "WithTheme(RadioButton)",
+              "render": [Function],
+              Symbol(Symbol.hasInstance): [Function],
+            },
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Mr",
+            },
+            "ref": null,
+            "rendered": "Mr",
+            "type": "span",
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-dnqmqq",
+            "isStatic": true,
+            "rules": Array [
+              "
+    display: inline-block;
+    width: 30%;
+    > span{
+        line-height: 36px;
+        vertical-align: top;
+        margin-left: 10px;
+    }
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-dnqmqq",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <ForwardRef
+              checked={false}
+              defaultChecked={false}
+              id={1}
+              name="One time supplier?"
+              value="Mrs"
+            />,
+            <span>
+              Mrs
+            </span>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "checked": false,
+              "defaultChecked": false,
+              "id": 1,
+              "name": "One time supplier?",
+              "value": "Mrs",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "displayName": "WithTheme(RadioButton)",
+              "render": [Function],
+              Symbol(Symbol.hasInstance): [Function],
+            },
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Mrs",
+            },
+            "ref": null,
+            "rendered": "Mrs",
+            "type": "span",
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-dnqmqq",
+            "isStatic": true,
+            "rules": Array [
+              "
+    display: inline-block;
+    width: 30%;
+    > span{
+        line-height: 36px;
+        vertical-align: top;
+        margin-left: 10px;
+    }
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-dnqmqq",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      null,
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bZQynM",
+        "isStatic": true,
+        "rules": Array [
+          "
+    margin-bottom: 24px;
+        > label{
+            padding-bottom: 8px;
+        }
+    input:disabled,
+    textarea:disabled,
+    select:disabled{
+        border: 0;
+        padding: 0;
+    }
+    textarea{
+        resize: none;
+    }  
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-bZQynM",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <_default
+            dark={true}
+            emphasized={true}
+            htmlFor="1"
+          >
+            One time supplier?
+          </_default>,
+          Array [
+            <ForwardRef>
+              <ForwardRef
+                checked={false}
+                defaultChecked={false}
+                id={1}
+                name="One time supplier?"
+                value="Mr"
+              />
+              <span>
+                Mr
+              </span>
+            </ForwardRef>,
+            <ForwardRef>
+              <ForwardRef
+                checked={false}
+                defaultChecked={false}
+                id={1}
+                name="One time supplier?"
+                value="Mrs"
+              />
+              <span>
+                Mrs
+              </span>
+            </ForwardRef>,
+          ],
+          null,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "One time supplier?",
+            "dark": true,
+            "emphasized": true,
+            "htmlFor": "1",
+          },
+          "ref": null,
+          "rendered": "One time supplier?",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <ForwardRef
+                checked={false}
+                defaultChecked={false}
+                id={1}
+                name="One time supplier?"
+                value="Mr"
+              />,
+              <span>
+                Mr
+              </span>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "checked": false,
+                "defaultChecked": false,
+                "id": 1,
+                "name": "One time supplier?",
+                "value": "Mr",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "displayName": "WithTheme(RadioButton)",
+                "render": [Function],
+                Symbol(Symbol.hasInstance): [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Mr",
+              },
+              "ref": null,
+              "rendered": "Mr",
+              "type": "span",
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-dnqmqq",
+              "isStatic": true,
+              "rules": Array [
+                "
+    display: inline-block;
+    width: 30%;
+    > span{
+        line-height: 36px;
+        vertical-align: top;
+        margin-left: 10px;
+    }
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-dnqmqq",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <ForwardRef
+                checked={false}
+                defaultChecked={false}
+                id={1}
+                name="One time supplier?"
+                value="Mrs"
+              />,
+              <span>
+                Mrs
+              </span>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "checked": false,
+                "defaultChecked": false,
+                "id": 1,
+                "name": "One time supplier?",
+                "value": "Mrs",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "displayName": "WithTheme(RadioButton)",
+                "render": [Function],
+                Symbol(Symbol.hasInstance): [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Mrs",
+              },
+              "ref": null,
+              "rendered": "Mrs",
+              "type": "span",
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-dnqmqq",
+              "isStatic": true,
+              "rules": Array [
+                "
+    display: inline-block;
+    width: 30%;
+    > span{
+        line-height: 36px;
+        vertical-align: top;
+        margin-left: 10px;
+    }
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-dnqmqq",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+        null,
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bZQynM",
+          "isStatic": true,
+          "rules": Array [
+            "
+    margin-bottom: 24px;
+        > label{
+            padding-bottom: 8px;
+        }
+    input:disabled,
+    textarea:disabled,
+    select:disabled{
+        border: 0;
+        padding: 0;
+    }
+    textarea{
+        resize: none;
+    }  
+",
+          ],
+        },
+        "displayName": "styled.div",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bZQynM",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

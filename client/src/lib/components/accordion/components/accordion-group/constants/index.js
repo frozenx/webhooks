@@ -1,0 +1,10 @@
+export const COMPONENT_NAME = 'beans-accordion';
+export const ALL = 'all';
+export const CLOSE = 'close';
+export const DOWN_ARROW = 40;
+export const END = 35;
+export const HOME = 36;
+export const OPEN = 'open';
+export const PRIMARY = 'primary';
+export const SECONDARY = 'secondary';
+export const UP_ARROW = 38;

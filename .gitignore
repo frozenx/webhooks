@@ -1,0 +1,11 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+*.npmrc
+*.eslintcache
+*package-lock.json
+node_modules/
+logs/
+coverage/
+build/
+*slm-ftp-ui-secrets-local.json
+

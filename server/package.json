@@ -1,0 +1,53 @@
+{
+  "name": "ftp-ui-orchestrator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config=jest.config.json --watchAll",
+    "coverage": "jest --coverage",
+    "lint": "eslint . --ext .js --cache --fix",
+    "start": "node ./fetchSecrets && node ./index.js",
+    "start:local": "node ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "app-root-path": "^2.1.0",
+    "aws-sdk": "^2.493.0",
+    "axios": "^0.18.1",
+    "body-parser": "^1.18.3",
+    "config": "^3.0.1",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "express-graphql": "^0.6.12",
+    "express-http-context": "^1.2.0",
+    "graph-js": "^0.1.11",
+    "graphql": "^14.0.2",
+    "lodash": "^4.17.15",
+    "morgan": "^1.9.1",
+    "rotating-file-stream": "^1.4.0",
+    "swagger-ui-express": "^4.0.2",
+    "uuid": "^3.3.2",
+    "winston": "^3.1.0",
+    "winston-daily-rotate-file": "^3.6.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint && npm run coverage"
+    }
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.15.0",
+    "eslint-plugin-jest": "^22.1.3",
+    "husky": "^1.3.1",
+    "jest": "^23.6.0"
+  }
+}

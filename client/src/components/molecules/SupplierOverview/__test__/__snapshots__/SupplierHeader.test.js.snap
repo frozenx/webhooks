@@ -1,0 +1,1081 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Supplier header overview card component renders the component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SupplierHeader
+    partnerName="Uniliver"
+    supplierHeaderData={
+      Object {
+        "partnerAttributes": Array [
+          Object {
+            "attributeGroup": "partner",
+            "attributes": Array [
+              Object {
+                "name": "partnerName",
+                "values": Array [
+                  Object {
+                    "lang": "en",
+                    "value": "Uniliver",
+                  },
+                ],
+              },
+              Object {
+                "name": "CompanyHouseName",
+                "values": Array [
+                  Object {
+                    "lang": "en",
+                    "value": "uni",
+                  },
+                ],
+              },
+              Object {
+                "name": "CompanyRegistrstionNumber",
+                "values": Array [
+                  Object {
+                    "lang": "en",
+                    "value": "1",
+                  },
+                ],
+              },
+              Object {
+                "name": "VatNumber",
+                "values": Array [
+                  Object {
+                    "lang": "en",
+                    "value": "1",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <ForwardRef>
+          <h1>
+            Uniliver
+          </h1>
+        </ForwardRef>,
+        <ForwardRef>
+          <_default
+            className="supplier-title"
+            dark={true}
+            emphasized={true}
+          >
+             Supplier details
+          </_default>
+          <ul>
+            <li>
+              <_default
+                dark={true}
+                emphasized={true}
+              >
+                partnerName
+              </_default>
+              <_default>
+                Uniliver
+              </_default>
+            </li>
+            <li>
+              <_default
+                dark={true}
+                emphasized={true}
+              >
+                CompanyHouseName
+              </_default>
+              <_default>
+                uni
+              </_default>
+            </li>
+            <li>
+              <_default
+                dark={true}
+                emphasized={true}
+              >
+                CompanyRegistrstionNumber
+              </_default>
+              <_default>
+                1
+              </_default>
+            </li>
+            <li>
+              <_default
+                dark={true}
+                emphasized={true}
+              >
+                VatNumber
+              </_default>
+              <_default>
+                1
+              </_default>
+            </li>
+          </ul>
+        </ForwardRef>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <h1>
+            Uniliver
+          </h1>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Uniliver",
+          },
+          "ref": null,
+          "rendered": "Uniliver",
+          "type": "h1",
+        },
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-ifAKCX",
+            "isStatic": false,
+            "rules": Array [
+              [Function],
+              ";",
+              "-webkit-tap-highlight-color:",
+              [Function],
+              ";border:0;box-sizing:border-box;margin:0;outline:",
+              [Function],
+              ";padding:0;position:relative;",
+              ";",
+              "
+    margin-top: 34px;
+    .input-error {
+        color: #cc3333;
+    }
+",
+            ],
+          },
+          "displayName": "Styled(base-components__RootElement)",
+          "foldedComponentIds": Array [
+            "base-components__RootElement-sc-150tvch-1",
+          ],
+          "render": [Function],
+          "styledComponentId": "sc-ifAKCX",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <_default
+              className="supplier-title"
+              dark={true}
+              emphasized={true}
+            >
+               Supplier details
+            </_default>,
+            <ul>
+              <li>
+                <_default
+                  dark={true}
+                  emphasized={true}
+                >
+                  partnerName
+                </_default>
+                <_default>
+                  Uniliver
+                </_default>
+              </li>
+              <li>
+                <_default
+                  dark={true}
+                  emphasized={true}
+                >
+                  CompanyHouseName
+                </_default>
+                <_default>
+                  uni
+                </_default>
+              </li>
+              <li>
+                <_default
+                  dark={true}
+                  emphasized={true}
+                >
+                  CompanyRegistrstionNumber
+                </_default>
+                <_default>
+                  1
+                </_default>
+              </li>
+              <li>
+                <_default
+                  dark={true}
+                  emphasized={true}
+                >
+                  VatNumber
+                </_default>
+                <_default>
+                  1
+                </_default>
+              </li>
+            </ul>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": " Supplier details",
+              "className": "supplier-title",
+              "dark": true,
+              "emphasized": true,
+            },
+            "ref": null,
+            "rendered": " Supplier details",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                Array [
+                  <li>
+                    <_default
+                      dark={true}
+                      emphasized={true}
+                    >
+                      partnerName
+                    </_default>
+                    <_default>
+                      Uniliver
+                    </_default>
+                  </li>,
+                  <li>
+                    <_default
+                      dark={true}
+                      emphasized={true}
+                    >
+                      CompanyHouseName
+                    </_default>
+                    <_default>
+                      uni
+                    </_default>
+                  </li>,
+                  <li>
+                    <_default
+                      dark={true}
+                      emphasized={true}
+                    >
+                      CompanyRegistrstionNumber
+                    </_default>
+                    <_default>
+                      1
+                    </_default>
+                  </li>,
+                  <li>
+                    <_default
+                      dark={true}
+                      emphasized={true}
+                    >
+                      VatNumber
+                    </_default>
+                    <_default>
+                      1
+                    </_default>
+                  </li>,
+                ],
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <_default
+                      dark={true}
+                      emphasized={true}
+                    >
+                      partnerName
+                    </_default>,
+                    <_default>
+                      Uniliver
+                    </_default>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": "partnerName",
+                      "dark": true,
+                      "emphasized": true,
+                    },
+                    "ref": null,
+                    "rendered": "partnerName",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": "Uniliver",
+                    },
+                    "ref": null,
+                    "rendered": "Uniliver",
+                    "type": [Function],
+                  },
+                ],
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <_default
+                      dark={true}
+                      emphasized={true}
+                    >
+                      CompanyHouseName
+                    </_default>,
+                    <_default>
+                      uni
+                    </_default>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": "CompanyHouseName",
+                      "dark": true,
+                      "emphasized": true,
+                    },
+                    "ref": null,
+                    "rendered": "CompanyHouseName",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": "uni",
+                    },
+                    "ref": null,
+                    "rendered": "uni",
+                    "type": [Function],
+                  },
+                ],
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "2",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <_default
+                      dark={true}
+                      emphasized={true}
+                    >
+                      CompanyRegistrstionNumber
+                    </_default>,
+                    <_default>
+                      1
+                    </_default>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": "CompanyRegistrstionNumber",
+                      "dark": true,
+                      "emphasized": true,
+                    },
+                    "ref": null,
+                    "rendered": "CompanyRegistrstionNumber",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": "1",
+                    },
+                    "ref": null,
+                    "rendered": "1",
+                    "type": [Function],
+                  },
+                ],
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "3",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <_default
+                      dark={true}
+                      emphasized={true}
+                    >
+                      VatNumber
+                    </_default>,
+                    <_default>
+                      1
+                    </_default>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": "VatNumber",
+                      "dark": true,
+                      "emphasized": true,
+                    },
+                    "ref": null,
+                    "rendered": "VatNumber",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": "1",
+                    },
+                    "ref": null,
+                    "rendered": "1",
+                    "type": [Function],
+                  },
+                ],
+                "type": "li",
+              },
+            ],
+            "type": "ul",
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-VigVT",
+            "isStatic": true,
+            "rules": Array [
+              "
+    background-color: #f6f6f6;
+    padding: 28px 12px 16px 12px;
+    border: solid 1px #e5e5e5;
+    label.supplier-title{
+        font-size: 20px;
+        margin-bottom: 20px
+    }
+    ul{
+        margin:0
+        padding:0
+        li {
+            width: 25%;
+            display: inline-block;
+            margin-bottom: 20px;
+            label{
+                width: 100%;
+            }                  
+            @media (max-width: 756px) {
+                width: 50%;
+            }  
+            @media (max-width: 505px) {
+                width: 100%;
+            }       
+        }
+    }
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-VigVT",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <ForwardRef>
+            <h1>
+              Uniliver
+            </h1>
+          </ForwardRef>,
+          <ForwardRef>
+            <_default
+              className="supplier-title"
+              dark={true}
+              emphasized={true}
+            >
+               Supplier details
+            </_default>
+            <ul>
+              <li>
+                <_default
+                  dark={true}
+                  emphasized={true}
+                >
+                  partnerName
+                </_default>
+                <_default>
+                  Uniliver
+                </_default>
+              </li>
+              <li>
+                <_default
+                  dark={true}
+                  emphasized={true}
+                >
+                  CompanyHouseName
+                </_default>
+                <_default>
+                  uni
+                </_default>
+              </li>
+              <li>
+                <_default
+                  dark={true}
+                  emphasized={true}
+                >
+                  CompanyRegistrstionNumber
+                </_default>
+                <_default>
+                  1
+                </_default>
+              </li>
+              <li>
+                <_default
+                  dark={true}
+                  emphasized={true}
+                >
+                  VatNumber
+                </_default>
+                <_default>
+                  1
+                </_default>
+              </li>
+            </ul>
+          </ForwardRef>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <h1>
+              Uniliver
+            </h1>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Uniliver",
+            },
+            "ref": null,
+            "rendered": "Uniliver",
+            "type": "h1",
+          },
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-ifAKCX",
+              "isStatic": false,
+              "rules": Array [
+                [Function],
+                ";",
+                "-webkit-tap-highlight-color:",
+                [Function],
+                ";border:0;box-sizing:border-box;margin:0;outline:",
+                [Function],
+                ";padding:0;position:relative;",
+                ";",
+                "
+    margin-top: 34px;
+    .input-error {
+        color: #cc3333;
+    }
+",
+              ],
+            },
+            "displayName": "Styled(base-components__RootElement)",
+            "foldedComponentIds": Array [
+              "base-components__RootElement-sc-150tvch-1",
+            ],
+            "render": [Function],
+            "styledComponentId": "sc-ifAKCX",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <_default
+                className="supplier-title"
+                dark={true}
+                emphasized={true}
+              >
+                 Supplier details
+              </_default>,
+              <ul>
+                <li>
+                  <_default
+                    dark={true}
+                    emphasized={true}
+                  >
+                    partnerName
+                  </_default>
+                  <_default>
+                    Uniliver
+                  </_default>
+                </li>
+                <li>
+                  <_default
+                    dark={true}
+                    emphasized={true}
+                  >
+                    CompanyHouseName
+                  </_default>
+                  <_default>
+                    uni
+                  </_default>
+                </li>
+                <li>
+                  <_default
+                    dark={true}
+                    emphasized={true}
+                  >
+                    CompanyRegistrstionNumber
+                  </_default>
+                  <_default>
+                    1
+                  </_default>
+                </li>
+                <li>
+                  <_default
+                    dark={true}
+                    emphasized={true}
+                  >
+                    VatNumber
+                  </_default>
+                  <_default>
+                    1
+                  </_default>
+                </li>
+              </ul>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": " Supplier details",
+                "className": "supplier-title",
+                "dark": true,
+                "emphasized": true,
+              },
+              "ref": null,
+              "rendered": " Supplier details",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  Array [
+                    <li>
+                      <_default
+                        dark={true}
+                        emphasized={true}
+                      >
+                        partnerName
+                      </_default>
+                      <_default>
+                        Uniliver
+                      </_default>
+                    </li>,
+                    <li>
+                      <_default
+                        dark={true}
+                        emphasized={true}
+                      >
+                        CompanyHouseName
+                      </_default>
+                      <_default>
+                        uni
+                      </_default>
+                    </li>,
+                    <li>
+                      <_default
+                        dark={true}
+                        emphasized={true}
+                      >
+                        CompanyRegistrstionNumber
+                      </_default>
+                      <_default>
+                        1
+                      </_default>
+                    </li>,
+                    <li>
+                      <_default
+                        dark={true}
+                        emphasized={true}
+                      >
+                        VatNumber
+                      </_default>
+                      <_default>
+                        1
+                      </_default>
+                    </li>,
+                  ],
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <_default
+                        dark={true}
+                        emphasized={true}
+                      >
+                        partnerName
+                      </_default>,
+                      <_default>
+                        Uniliver
+                      </_default>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": "partnerName",
+                        "dark": true,
+                        "emphasized": true,
+                      },
+                      "ref": null,
+                      "rendered": "partnerName",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": "Uniliver",
+                      },
+                      "ref": null,
+                      "rendered": "Uniliver",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <_default
+                        dark={true}
+                        emphasized={true}
+                      >
+                        CompanyHouseName
+                      </_default>,
+                      <_default>
+                        uni
+                      </_default>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": "CompanyHouseName",
+                        "dark": true,
+                        "emphasized": true,
+                      },
+                      "ref": null,
+                      "rendered": "CompanyHouseName",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": "uni",
+                      },
+                      "ref": null,
+                      "rendered": "uni",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "2",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <_default
+                        dark={true}
+                        emphasized={true}
+                      >
+                        CompanyRegistrstionNumber
+                      </_default>,
+                      <_default>
+                        1
+                      </_default>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": "CompanyRegistrstionNumber",
+                        "dark": true,
+                        "emphasized": true,
+                      },
+                      "ref": null,
+                      "rendered": "CompanyRegistrstionNumber",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": "1",
+                      },
+                      "ref": null,
+                      "rendered": "1",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "3",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <_default
+                        dark={true}
+                        emphasized={true}
+                      >
+                        VatNumber
+                      </_default>,
+                      <_default>
+                        1
+                      </_default>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": "VatNumber",
+                        "dark": true,
+                        "emphasized": true,
+                      },
+                      "ref": null,
+                      "rendered": "VatNumber",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": "1",
+                      },
+                      "ref": null,
+                      "rendered": "1",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": "li",
+                },
+              ],
+              "type": "ul",
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-VigVT",
+              "isStatic": true,
+              "rules": Array [
+                "
+    background-color: #f6f6f6;
+    padding: 28px 12px 16px 12px;
+    border: solid 1px #e5e5e5;
+    label.supplier-title{
+        font-size: 20px;
+        margin-bottom: 20px
+    }
+    ul{
+        margin:0
+        padding:0
+        li {
+            width: 25%;
+            display: inline-block;
+            margin-bottom: 20px;
+            label{
+                width: 100%;
+            }                  
+            @media (max-width: 756px) {
+                width: 50%;
+            }  
+            @media (max-width: 505px) {
+                width: 100%;
+            }       
+        }
+    }
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-VigVT",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

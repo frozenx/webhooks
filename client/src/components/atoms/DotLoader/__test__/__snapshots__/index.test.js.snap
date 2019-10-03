@@ -1,0 +1,506 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders without crashing renders DotLoader component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <dotLoader />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <div
+          className="loading-dots"
+        >
+          <span
+            className="dot one"
+          >
+            .
+          </span>
+          <span
+            className="dot two"
+          >
+            .
+          </span>
+          <span
+            className="dot three"
+          >
+            .
+          </span>
+        </div>,
+        <style
+          global="true"
+          jsx="true"
+        >
+          
+                .loading-dots {
+                    text-align: center;
+                    z-index: 5;
+                    line-height: 10px;
+                    margin: 0 auto;
+                    margin-top: -11px;
+                }
+                .loading-dots .dot {
+                    margin: 0px 1px;
+                    position: relative;
+                    font-size: 35px;
+                    opacity: 0;
+                    animation: showHideDot 2.5s ease-in-out infinite;
+                }
+                .loading-dots .dot.one {
+                    animation-delay: 0.2s;
+                }
+                .loading-dots .dot.two {
+                    animation-delay: 0.4s;
+                }
+                .loading-dots .dot.three {
+                    animation-delay: 0.6s;
+                }
+                
+                @keyframes showHideDot {
+                    0% {
+                        opacity: 0;
+                   }
+                    50% {
+                        opacity: 1;
+                   }
+                    60% {
+                        opacity: 1;
+                   }
+                    100% {
+                        opacity: 0;
+                   }
+                }
+            
+        </style>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              className="dot one"
+            >
+              .
+            </span>,
+            <span
+              className="dot two"
+            >
+              .
+            </span>,
+            <span
+              className="dot three"
+            >
+              .
+            </span>,
+          ],
+          "className": "loading-dots",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": ".",
+              "className": "dot one",
+            },
+            "ref": null,
+            "rendered": ".",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": ".",
+              "className": "dot two",
+            },
+            "ref": null,
+            "rendered": ".",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": ".",
+              "className": "dot three",
+            },
+            "ref": null,
+            "rendered": ".",
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "
+                .loading-dots {
+                    text-align: center;
+                    z-index: 5;
+                    line-height: 10px;
+                    margin: 0 auto;
+                    margin-top: -11px;
+                }
+                .loading-dots .dot {
+                    margin: 0px 1px;
+                    position: relative;
+                    font-size: 35px;
+                    opacity: 0;
+                    animation: showHideDot 2.5s ease-in-out infinite;
+                }
+                .loading-dots .dot.one {
+                    animation-delay: 0.2s;
+                }
+                .loading-dots .dot.two {
+                    animation-delay: 0.4s;
+                }
+                .loading-dots .dot.three {
+                    animation-delay: 0.6s;
+                }
+                
+                @keyframes showHideDot {
+                    0% {
+                        opacity: 0;
+                   }
+                    50% {
+                        opacity: 1;
+                   }
+                    60% {
+                        opacity: 1;
+                   }
+                    100% {
+                        opacity: 0;
+                   }
+                }
+            ",
+          "global": "true",
+          "jsx": "true",
+        },
+        "ref": null,
+        "rendered": "
+                .loading-dots {
+                    text-align: center;
+                    z-index: 5;
+                    line-height: 10px;
+                    margin: 0 auto;
+                    margin-top: -11px;
+                }
+                .loading-dots .dot {
+                    margin: 0px 1px;
+                    position: relative;
+                    font-size: 35px;
+                    opacity: 0;
+                    animation: showHideDot 2.5s ease-in-out infinite;
+                }
+                .loading-dots .dot.one {
+                    animation-delay: 0.2s;
+                }
+                .loading-dots .dot.two {
+                    animation-delay: 0.4s;
+                }
+                .loading-dots .dot.three {
+                    animation-delay: 0.6s;
+                }
+                
+                @keyframes showHideDot {
+                    0% {
+                        opacity: 0;
+                   }
+                    50% {
+                        opacity: 1;
+                   }
+                    60% {
+                        opacity: 1;
+                   }
+                    100% {
+                        opacity: 0;
+                   }
+                }
+            ",
+        "type": "style",
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <div
+            className="loading-dots"
+          >
+            <span
+              className="dot one"
+            >
+              .
+            </span>
+            <span
+              className="dot two"
+            >
+              .
+            </span>
+            <span
+              className="dot three"
+            >
+              .
+            </span>
+          </div>,
+          <style
+            global="true"
+            jsx="true"
+          >
+            
+                .loading-dots {
+                    text-align: center;
+                    z-index: 5;
+                    line-height: 10px;
+                    margin: 0 auto;
+                    margin-top: -11px;
+                }
+                .loading-dots .dot {
+                    margin: 0px 1px;
+                    position: relative;
+                    font-size: 35px;
+                    opacity: 0;
+                    animation: showHideDot 2.5s ease-in-out infinite;
+                }
+                .loading-dots .dot.one {
+                    animation-delay: 0.2s;
+                }
+                .loading-dots .dot.two {
+                    animation-delay: 0.4s;
+                }
+                .loading-dots .dot.three {
+                    animation-delay: 0.6s;
+                }
+                
+                @keyframes showHideDot {
+                    0% {
+                        opacity: 0;
+                   }
+                    50% {
+                        opacity: 1;
+                   }
+                    60% {
+                        opacity: 1;
+                   }
+                    100% {
+                        opacity: 0;
+                   }
+                }
+            
+          </style>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span
+                className="dot one"
+              >
+                .
+              </span>,
+              <span
+                className="dot two"
+              >
+                .
+              </span>,
+              <span
+                className="dot three"
+              >
+                .
+              </span>,
+            ],
+            "className": "loading-dots",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": ".",
+                "className": "dot one",
+              },
+              "ref": null,
+              "rendered": ".",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": ".",
+                "className": "dot two",
+              },
+              "ref": null,
+              "rendered": ".",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": ".",
+                "className": "dot three",
+              },
+              "ref": null,
+              "rendered": ".",
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "
+                .loading-dots {
+                    text-align: center;
+                    z-index: 5;
+                    line-height: 10px;
+                    margin: 0 auto;
+                    margin-top: -11px;
+                }
+                .loading-dots .dot {
+                    margin: 0px 1px;
+                    position: relative;
+                    font-size: 35px;
+                    opacity: 0;
+                    animation: showHideDot 2.5s ease-in-out infinite;
+                }
+                .loading-dots .dot.one {
+                    animation-delay: 0.2s;
+                }
+                .loading-dots .dot.two {
+                    animation-delay: 0.4s;
+                }
+                .loading-dots .dot.three {
+                    animation-delay: 0.6s;
+                }
+                
+                @keyframes showHideDot {
+                    0% {
+                        opacity: 0;
+                   }
+                    50% {
+                        opacity: 1;
+                   }
+                    60% {
+                        opacity: 1;
+                   }
+                    100% {
+                        opacity: 0;
+                   }
+                }
+            ",
+            "global": "true",
+            "jsx": "true",
+          },
+          "ref": null,
+          "rendered": "
+                .loading-dots {
+                    text-align: center;
+                    z-index: 5;
+                    line-height: 10px;
+                    margin: 0 auto;
+                    margin-top: -11px;
+                }
+                .loading-dots .dot {
+                    margin: 0px 1px;
+                    position: relative;
+                    font-size: 35px;
+                    opacity: 0;
+                    animation: showHideDot 2.5s ease-in-out infinite;
+                }
+                .loading-dots .dot.one {
+                    animation-delay: 0.2s;
+                }
+                .loading-dots .dot.two {
+                    animation-delay: 0.4s;
+                }
+                .loading-dots .dot.three {
+                    animation-delay: 0.6s;
+                }
+                
+                @keyframes showHideDot {
+                    0% {
+                        opacity: 0;
+                   }
+                    50% {
+                        opacity: 1;
+                   }
+                    60% {
+                        opacity: 1;
+                   }
+                    100% {
+                        opacity: 0;
+                   }
+                }
+            ",
+          "type": "style",
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,45 @@
+{
+    "logLevel": "info",
+    "profile": {
+        "baseUrl": "https://api-ppe.tesco.com/profile",
+        "getName": "/v3/pii/my/name"
+    },
+    "tpsMetaData": {
+        "baseUrl": "https://tps-meta-data-ppe.api.tesco.com",
+        "getData": "/data"
+    },
+    "supplier": {
+        "baseUrl": "http://172.17.0.1:3001/rest/v1/api/supplier",
+        "getData": "/data"
+    },
+    "header": {
+        "baseUrl": "https://header-ppe.api.tesco.com",
+        "getData": "/data"
+    },
+    "search": {
+        "baseUrl": "http://localhost:3001/rest/v1/api/search"
+    },
+    "uamAccessList": {
+        "baseUrl": "https://uam-proxy.ppe.tnedevs.com",
+        "policyByDescEndpoint": "/uam/api/v1/uam/resolvedAccessList",
+        "headerServiceName": "uam-admin-api-ppe.uam-ppe.svc.cluster.local",
+        "headerAuth": "off",
+        "domain": "TPS"
+    },
+    "payment": {
+        "baseUrl": "http: //localhost:3001/rest/v1/api/payments"
+    },
+    "tps": {
+        "baseUrl": "https://api-dev.tesco.com/tradingpartner/",
+        "metadataHeader": "v4/slm/partners/metadata/",
+        "metadataSite": "v4/slm/partners/sites/metadata/",
+        "metaDataTncs": "v4/slm/partners/sites/tncs/metadata/",
+        "saveHeader": "v4/slm/partners",
+        "site": "v4/slm/partners/sites",
+        "payment": "v4/slm/partners/sites/tncs",
+        "headerServiceName": "tps-partner-api-dev.tps-dev.svc.cluster.local"
+    },
+    "searchSupplier": {
+        "baseUrl": "https://api-ppe.tesco.com/tradingpartner/v4/partners/search"
+    }
+}

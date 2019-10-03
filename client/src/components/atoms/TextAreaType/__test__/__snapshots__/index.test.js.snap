@@ -1,0 +1,248 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`atoms/TextAreaType Given the component is mounted then it should render the markup 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TextAreaType
+    attr={
+      Object {
+        "id": 1,
+        "rules": Array [
+          Object {
+            "messages": Array [
+              Object {
+                "message": "some message",
+              },
+            ],
+          },
+        ],
+      }
+    }
+    errors={Object {}}
+    id={1}
+    isDisabled={false}
+    name="name"
+    rules="regex string"
+    type="text"
+    values={Object {}}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <_default
+          dark={true}
+          emphasized={true}
+          htmlFor="1"
+        />,
+        <Textarea
+          disabled={false}
+          error={false}
+          id="1"
+          name=""
+          value=""
+        />,
+        null,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": undefined,
+          "dark": true,
+          "emphasized": true,
+          "htmlFor": "1",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "className": undefined,
+          "disabled": false,
+          "domRef": undefined,
+          "error": false,
+          "id": "1",
+          "name": "",
+          "placeholder": undefined,
+          "theme": undefined,
+          "type": undefined,
+          "value": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      null,
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bZQynM",
+        "isStatic": true,
+        "rules": Array [
+          "
+    margin-bottom: 24px;
+        > label{
+            padding-bottom: 8px;
+        }
+    input:disabled,
+    textarea:disabled,
+    select:disabled{
+        border: 0;
+        padding: 0;
+    }
+    textarea{
+        resize: none;
+    }  
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-bZQynM",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <_default
+            dark={true}
+            emphasized={true}
+            htmlFor="1"
+          />,
+          <Textarea
+            disabled={false}
+            error={false}
+            id="1"
+            name=""
+            value=""
+          />,
+          null,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": undefined,
+            "dark": true,
+            "emphasized": true,
+            "htmlFor": "1",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "className": undefined,
+            "disabled": false,
+            "domRef": undefined,
+            "error": false,
+            "id": "1",
+            "name": "",
+            "placeholder": undefined,
+            "theme": undefined,
+            "type": undefined,
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        null,
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bZQynM",
+          "isStatic": true,
+          "rules": Array [
+            "
+    margin-bottom: 24px;
+        > label{
+            padding-bottom: 8px;
+        }
+    input:disabled,
+    textarea:disabled,
+    select:disabled{
+        border: 0;
+        padding: 0;
+    }
+    textarea{
+        resize: none;
+    }  
+",
+          ],
+        },
+        "displayName": "styled.div",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bZQynM",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

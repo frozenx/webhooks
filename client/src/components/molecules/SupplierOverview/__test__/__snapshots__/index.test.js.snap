@@ -1,0 +1,800 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`supplier overview component test cases render the component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SupplierOverview
+    handleStepThree={[MockFunction]}
+    partnerName="Uni"
+    supplierHeaderData={
+      Object {
+        "uuid": "1234",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <SupplierHeader
+          partnerName="Uni"
+          supplierHeaderData={
+            Object {
+              "uuid": "1234",
+            }
+          }
+        />,
+        <ForwardRef>
+          <ForwardRef>
+            <h1>
+              Uni supplier details
+            </h1>
+            <h4>
+              Create a new supplier by entering the details below
+            </h4>
+          </ForwardRef>
+          <ForwardRef>
+            <DetailList
+              attributeGroups={Array []}
+              handleSupplierForm={[Function]}
+              handleUUID={[Function]}
+              uuid="1234"
+            />
+          </ForwardRef>
+          <ForwardRef>
+            <ForwardRef>
+              <AddDetails />
+            </ForwardRef>
+          </ForwardRef>
+        </ForwardRef>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "partnerName": "Uni",
+          "supplierHeaderData": Object {
+            "uuid": "1234",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <ForwardRef>
+              <h1>
+                Uni supplier details
+              </h1>
+              <h4>
+                Create a new supplier by entering the details below
+              </h4>
+            </ForwardRef>,
+            <ForwardRef>
+              <DetailList
+                attributeGroups={Array []}
+                handleSupplierForm={[Function]}
+                handleUUID={[Function]}
+                uuid="1234"
+              />
+            </ForwardRef>,
+            <ForwardRef>
+              <ForwardRef>
+                <AddDetails />
+              </ForwardRef>
+            </ForwardRef>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <h1>
+                  Uni supplier details
+                </h1>,
+                <h4>
+                  Create a new supplier by entering the details below
+                </h4>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Uni supplier details",
+                },
+                "ref": null,
+                "rendered": "Uni supplier details",
+                "type": "h1",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Create a new supplier by entering the details below",
+                },
+                "ref": null,
+                "rendered": "Create a new supplier by entering the details below",
+                "type": "h4",
+              },
+            ],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-ifAKCX",
+                "isStatic": false,
+                "rules": Array [
+                  [Function],
+                  ";",
+                  "-webkit-tap-highlight-color:",
+                  [Function],
+                  ";border:0;box-sizing:border-box;margin:0;outline:",
+                  [Function],
+                  ";padding:0;position:relative;",
+                  ";",
+                  "
+    margin-top: 34px;
+    .input-error {
+        color: #cc3333;
+    }
+",
+                ],
+              },
+              "displayName": "Styled(base-components__RootElement)",
+              "foldedComponentIds": Array [
+                "base-components__RootElement-sc-150tvch-1",
+              ],
+              "render": [Function],
+              "styledComponentId": "sc-ifAKCX",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                null,
+                <DetailList
+                  attributeGroups={Array []}
+                  handleSupplierForm={[Function]}
+                  handleUUID={[Function]}
+                  uuid="1234"
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              null,
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "attributeGroups": Array [],
+                  "handleSupplierForm": [Function],
+                  "handleUUID": [Function],
+                  "uuid": "1234",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-jzJRlG",
+                "isStatic": true,
+                "rules": Array [
+                  "
+    margin-bottom: 24px;
+    position: relative;
+    .loader{
+        background-color: transparent;
+        position: static;
+        > div{
+            width: 6em;
+            height: 6em;
+        }
+    }
+",
+                ],
+              },
+              "displayName": "styled.div",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "sc-jzJRlG",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <ForwardRef>
+                <AddDetails />
+              </ForwardRef>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <AddDetails />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-kAzzGY",
+                  "isStatic": true,
+                  "rules": Array [
+                    "
+    background-color: #f6f6f6;
+    border: solid 1px #e5e5e5;
+    padding: 32px 105px 40px 105px;
+    margin-bottom: 24px;
+    label.site-title{
+        font-size: 24px;
+        margin-bottom: 20px
+    }
+    @media (max-width: 756px) {
+       padding-left: 63px;
+       padding-right: 63px;
+    }  
+    @media (max-width: 505px) {
+        padding-left: 42px;
+        padding-right: 42px;
+    } 
+    @media (max-width: 320px) {
+        padding-left: 12px;
+        padding-right: 12px;
+    } 
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-kAzzGY",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-cSHVUG",
+                "isStatic": true,
+                "rules": Array [
+                  "
+    
+",
+                ],
+              },
+              "displayName": "styled.div",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "sc-cSHVUG",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bxivhb",
+            "isStatic": false,
+            "rules": Array [
+              [Function],
+              ";",
+              "-webkit-tap-highlight-color:",
+              [Function],
+              ";border:0;box-sizing:border-box;margin:0;outline:",
+              [Function],
+              ";padding:0;position:relative;",
+              ";",
+              "
+    width: 816px;
+    margin: 0 auto;
+    @media (max-width: 816px) {
+        width: 100%;
+    }
+    form{
+        padding-bottom: 24px;
+    }
+",
+            ],
+          },
+          "displayName": "Styled(base-components__RootElement)",
+          "foldedComponentIds": Array [
+            "base-components__RootElement-sc-150tvch-1",
+          ],
+          "render": [Function],
+          "styledComponentId": "sc-bxivhb",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-jTzLTM",
+        "isStatic": true,
+        "rules": Array [
+          "
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-jTzLTM",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <SupplierHeader
+            partnerName="Uni"
+            supplierHeaderData={
+              Object {
+                "uuid": "1234",
+              }
+            }
+          />,
+          <ForwardRef>
+            <ForwardRef>
+              <h1>
+                Uni supplier details
+              </h1>
+              <h4>
+                Create a new supplier by entering the details below
+              </h4>
+            </ForwardRef>
+            <ForwardRef>
+              <DetailList
+                attributeGroups={Array []}
+                handleSupplierForm={[Function]}
+                handleUUID={[Function]}
+                uuid="1234"
+              />
+            </ForwardRef>
+            <ForwardRef>
+              <ForwardRef>
+                <AddDetails />
+              </ForwardRef>
+            </ForwardRef>
+          </ForwardRef>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "partnerName": "Uni",
+            "supplierHeaderData": Object {
+              "uuid": "1234",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <ForwardRef>
+                <h1>
+                  Uni supplier details
+                </h1>
+                <h4>
+                  Create a new supplier by entering the details below
+                </h4>
+              </ForwardRef>,
+              <ForwardRef>
+                <DetailList
+                  attributeGroups={Array []}
+                  handleSupplierForm={[Function]}
+                  handleUUID={[Function]}
+                  uuid="1234"
+                />
+              </ForwardRef>,
+              <ForwardRef>
+                <ForwardRef>
+                  <AddDetails />
+                </ForwardRef>
+              </ForwardRef>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <h1>
+                    Uni supplier details
+                  </h1>,
+                  <h4>
+                    Create a new supplier by entering the details below
+                  </h4>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Uni supplier details",
+                  },
+                  "ref": null,
+                  "rendered": "Uni supplier details",
+                  "type": "h1",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Create a new supplier by entering the details below",
+                  },
+                  "ref": null,
+                  "rendered": "Create a new supplier by entering the details below",
+                  "type": "h4",
+                },
+              ],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-ifAKCX",
+                  "isStatic": false,
+                  "rules": Array [
+                    [Function],
+                    ";",
+                    "-webkit-tap-highlight-color:",
+                    [Function],
+                    ";border:0;box-sizing:border-box;margin:0;outline:",
+                    [Function],
+                    ";padding:0;position:relative;",
+                    ";",
+                    "
+    margin-top: 34px;
+    .input-error {
+        color: #cc3333;
+    }
+",
+                  ],
+                },
+                "displayName": "Styled(base-components__RootElement)",
+                "foldedComponentIds": Array [
+                  "base-components__RootElement-sc-150tvch-1",
+                ],
+                "render": [Function],
+                "styledComponentId": "sc-ifAKCX",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  null,
+                  <DetailList
+                    attributeGroups={Array []}
+                    handleSupplierForm={[Function]}
+                    handleUUID={[Function]}
+                    uuid="1234"
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                null,
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "attributeGroups": Array [],
+                    "handleSupplierForm": [Function],
+                    "handleUUID": [Function],
+                    "uuid": "1234",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-jzJRlG",
+                  "isStatic": true,
+                  "rules": Array [
+                    "
+    margin-bottom: 24px;
+    position: relative;
+    .loader{
+        background-color: transparent;
+        position: static;
+        > div{
+            width: 6em;
+            height: 6em;
+        }
+    }
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-jzJRlG",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <ForwardRef>
+                  <AddDetails />
+                </ForwardRef>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <AddDetails />,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-kAzzGY",
+                    "isStatic": true,
+                    "rules": Array [
+                      "
+    background-color: #f6f6f6;
+    border: solid 1px #e5e5e5;
+    padding: 32px 105px 40px 105px;
+    margin-bottom: 24px;
+    label.site-title{
+        font-size: 24px;
+        margin-bottom: 20px
+    }
+    @media (max-width: 756px) {
+       padding-left: 63px;
+       padding-right: 63px;
+    }  
+    @media (max-width: 505px) {
+        padding-left: 42px;
+        padding-right: 42px;
+    } 
+    @media (max-width: 320px) {
+        padding-left: 12px;
+        padding-right: 12px;
+    } 
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-kAzzGY",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                },
+              },
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-cSHVUG",
+                  "isStatic": true,
+                  "rules": Array [
+                    "
+    
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-cSHVUG",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bxivhb",
+              "isStatic": false,
+              "rules": Array [
+                [Function],
+                ";",
+                "-webkit-tap-highlight-color:",
+                [Function],
+                ";border:0;box-sizing:border-box;margin:0;outline:",
+                [Function],
+                ";padding:0;position:relative;",
+                ";",
+                "
+    width: 816px;
+    margin: 0 auto;
+    @media (max-width: 816px) {
+        width: 100%;
+    }
+    form{
+        padding-bottom: 24px;
+    }
+",
+              ],
+            },
+            "displayName": "Styled(base-components__RootElement)",
+            "foldedComponentIds": Array [
+              "base-components__RootElement-sc-150tvch-1",
+            ],
+            "render": [Function],
+            "styledComponentId": "sc-bxivhb",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-jTzLTM",
+          "isStatic": true,
+          "rules": Array [
+            "
+",
+          ],
+        },
+        "displayName": "styled.div",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-jTzLTM",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
